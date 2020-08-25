@@ -1,0 +1,36 @@
+@import "slides_common";
+
+/* SCSS normalizer from https://github.com/JohnAlbin/normalize-scss -------- */
+@import "includes/normalize/import";
+
+/* Fonts ------------------------------------------------------------------- */
+
+@import "typography/import";
+
+/* Object Imports ---------------------------------------------------------- */
+
+@import "includes/objects/import";
+
+/* Layout Imports ---------------------------------------------------------- */
+
+@import "includes/layouts/import";
+
+/* Component Imports ------------------------------------------------------- */
+
+@import "includes/components/import";
+
+/* Utility Imports --------------------------------------------------------- */
+
+@import "includes/utils/import";
+
+/* Slide Layout Imports ---------------------------------------------------------- */
+
+@import "includes/slide-layouts/import";
+
+/* States Imports ---------------------------------------------------------- */
+
+@import "includes/states/import";
+
+/* External modules -------------------------------------------------------- */
+
+@import "includes/external/import";

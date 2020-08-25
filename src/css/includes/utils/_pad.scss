@@ -1,0 +1,21 @@
+.u-pad {
+  @each $direction in $directions {
+    @for $i from 0 through 60 {
+      $num: $i * 5;
+      &--#{$num} {
+        padding: $num * 1px;
+      }
+
+      &--#{$direction}-#{$num} {
+        padding-#{$direction}: $num * 1px;
+      }
+    }
+
+    &--#{$direction}-pagepad {
+      padding-#{$direction}: $pagepad;
+    }
+  }
+  &--none {
+    padding: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.u-margin {
+  &--auto {
+    margin: auto;
+  }
+  @for $i from 1 through 100 {
+    $num: $i * 5;
+    &-#{$i} {
+      margin: $i * 1px;
+    }
+    &-#{$num} {
+      margin: $num * 1px;
+    }
+    @each $direction in $directions {
+      &--#{$direction}-#{$i} {
+        margin-#{$direction}: $i * 1px;
+      }
+      &--#{$direction}-neg-#{$i} {
+        margin-#{$direction}: $i * -1px;
+      }
+      &--#{$direction}-#{$num} {
+        margin-#{$direction}: $num * 1px;
+      }
+      &--#{$direction}-neg-#{$num} {
+        margin-#{$direction}: $num * -1px;
+      }
+    }
+  }
+  @each $direction in $directions {
+    &--#{$direction}-auto {
+      margin-#{$direction}: auto;
+    }
+    &--#{$direction}-none {
+      margin-#{$direction}: 0;
+    }
+  }
+}

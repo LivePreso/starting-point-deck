@@ -1,0 +1,15 @@
+{
+  "extends": [
+  ],
+  "rules": {
+    "no-undef": "off",
+    "no-use-before-define": "off",
+    "semi": 2,
+    "quotes": [1, "single"],
+    "max-lines": ["warn", 350]
+  },
+  "plugins": [
+    "html"
+  ],
+  "parser": "babel-eslint"
+}

@@ -1,0 +1,31 @@
+.c-removable {
+  position: relative;
+  &--hidden {
+    display: none;
+  }
+  &--button {
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    width: 50px;
+    height: 100%;
+    background-image: url("img/remove.svg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center center;
+    cursor: pointer;
+  }
+  &--reset {
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    background-image: url("img/reset.svg");
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-position: center center;
+    cursor: pointer;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,20 @@
+.c-editable-div {
+  &[contentEditable="true"] {
+    @include cursor(text);
+    outline: none;
+    &:focus {
+      filter: brightness(90%);
+    }
+
+    &:empty:after {
+      content: attr(data-placeholder);
+      opacity: 0.6;
+    }
+  }
+}
+
+[contentEditable] {
+  // Fix for allowing contenteditable to be selected in Safari
+  // https://stackoverflow.com/questions/20435166/contenteditable-not-working-in-safari-but-works-in-chrome
+  user-select: text;
+}

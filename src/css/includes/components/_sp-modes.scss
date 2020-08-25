@@ -1,0 +1,12 @@
+.c-sp-modes {
+  &--not-share-online {
+    .share_online & {
+      display: none;
+    }
+  }
+  &--not-pdf {
+    .screenshot-full & {
+      display: none;
+    }
+  }
+}

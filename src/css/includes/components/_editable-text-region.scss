@@ -1,0 +1,106 @@
+.c-editable-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  &.sp-companywide-empty {
+    .edit-mode &,
+    .screenshot-thumbnail & {
+      background-image: url("../css/img/insert_image.svg");
+    }
+  }
+}
+
+.c-editable-text-region {
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 28px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    @include font-size(50);
+    @include font-weight(demi);
+  }
+
+  h3 {
+    @include font-size(34);
+    @include font-weight(normal);
+  }
+
+  h4 {
+    @include font-size(26);
+    @include font-weight(normal);
+  }
+
+  h6 {
+    @include font-size(20);
+    @include font-weight(light);
+  }
+
+  @for $i from 10 through 50 {
+    @if ($i % 5 == 0) {
+      &--pad-#{$i} {
+        h3,
+        h4,
+        h5,
+        p {
+          margin-bottom: $i * 1px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  %bodyfont {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  p {
+    @extend %bodyfont;
+  }
+
+  ol li,
+  ul li {
+    @extend %bodyfont;
+    color: inherit;
+    padding-bottom: 6px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 20px;
+    li {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        top: 14px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: colour(black);
+      }
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  &--hide-when-empty.sp-companywide-empty {
+    display: none;
+    //        slideshow should be redudnat here, but it seems to be needed
+    .edit-mode & {
+      display: block;
+    }
+  }
+}

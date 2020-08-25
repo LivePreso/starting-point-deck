@@ -1,0 +1,25 @@
+.o-navigation {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  display: flex;
+  z-index: 10;
+  &--next,
+  &--prev {
+    height: 40px;
+    width: 40px;
+    @include cursor();
+    transition: opacity 0.2s ease-out;
+    background-color: colour(black);
+  }
+  &--disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  &--next {
+    mask-image: url("img/navigation/next.svg");
+  }
+  &--prev {
+    mask-image: url("img/navigation/prev.svg");
+  }
+}

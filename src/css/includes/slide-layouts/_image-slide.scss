@@ -1,0 +1,11 @@
+.s-image-slide {
+  &__bg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: var(--slide-img);
+    @include retina-only(var(--slide-img-retina));
+    background-size: cover;
+  }
+}

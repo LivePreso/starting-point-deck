@@ -1,0 +1,174 @@
+// Font family
+$font-main: "Source Sans Pro";
+
+/// Map deep get
+/// @author https://css-tricks.com/snippets/sass/deep-getset-maps/
+/// @param {Map} $map - Map
+/// @param {Arglist} $keys - Key chain
+/// @return {*} - Desired value
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+@mixin font-main() {
+  font-family: $font-main;
+  letter-spacing: 0;
+}
+
+$font-size-list: (
+  66: 66px,
+  50: 50px,
+  40: 40px,
+  34: 34px,
+  26: 26px,
+  20: 20px
+);
+
+$leading: 6px;
+
+@function get-font-size($size) {
+  @if map-has-key($font-size-list, $size) {
+    $font-details: map-get($font-size-list, $size);
+
+    $font-size: if(
+      type_of($font-details) == map,
+      map-get($font-details, font-size),
+      $font-details
+    );
+
+    @return $font-size;
+  } @else {
+    @error "font-size #{$size} does not exist in font-size object";
+  }
+}
+
+@function get-line-height($size) {
+  @if map-has-key($font-size-list, $size) {
+    $font-details: map-get($font-size-list, $size);
+
+    $line-height: if(
+      type_of($font-details) == map,
+      map-get($font-details, line-height),
+      $font-details + $leading
+    );
+
+    @return $line-height;
+  } @else {
+    @error "font-size #{$size} does not exist in font-size object";
+  }
+}
+
+@mixin font-size($size: 20) {
+  font-size: get-font-size($size);
+  line-height: get-line-height($size);
+}
+
+// Font weight
+// https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+$font-weight-list: (
+  thin: 200,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  demi: 600,
+  bold: 700
+);
+
+@function get-font-weight($weight) {
+  @if map-has-key($font-weight-list, $weight) {
+    $font-weight: map-get($font-weight-list, $weight);
+    @return $font-weight;
+  } @else {
+    @error "font-weight #{$weight} has not been included in this deck";
+  }
+}
+
+@mixin font-weight($weight: normal) {
+  font-weight: get-font-weight($weight);
+}
+
+// Colours
+
+$colour-list: (
+  white: #ffffff,
+  black: #000000,
+  // Include customer specific colours here
+    charcoal: #333333,
+  blue: #487ff7
+);
+
+@function colour($colour-name) {
+  @if map-has-key($colour-list, $colour-name) {
+    @return map-get($colour-list, $colour-name);
+  } @else {
+    @error "colour #{$colour-name} does not exist in colour object";
+  }
+}
+
+// Z-indexes
+
+$slideZ: 1;
+$slide-constantZ: 100;
+
+//----------------------------------------------------------------------------//
+// Measurements --------------------------------------------------------------//
+//----------------------------------------------------------------------------//
+// Alter these as necessary
+
+$pagepad: 120px; // left and right padding
+$pagepad-top: 30px; // top padding - space between bottom of header and top of content
+$pagepad-bottom: 60px; // bottom padding - space between bottom of content and footer
+$footer-height: 80px;
+$header-height: 160px;
+
+$dimensions: (
+  width: 1920px,
+  height: 1080px
+);
+
+$slide-width: 1920px;
+$slide-height: 1080px;
+
+$content-width: $slide-width - ($pagepad * 2);
+$content-height: $slide-height -
+  ($pagepad-top + $header-height + $footer-height + $pagepad-bottom);
+
+$header-width: $content-width;
+$footer-width: $slide-width;
+
+// Useful variables
+//------------------------------//
+
+$directions: (top, right, bottom, left);
+$corners: (top-right, bottom-right, top-left, bottom-left);
+$text-primary: colour(black);
+$text-inverse: colour(white);
+
+// Borders
+//------------------------------//
+
+$border-radius: 6px;
+$border-radius-lrg: 12px;
+$border-primary: 2px solid colour(black);
+$border-highlight: 2px solid colour(black);
+
+// debug
+$debug: false;
+
+// Preso Modes
+
+$preso-modes: (
+  prep: "preview",
+  present: "present",
+  review: "review",
+  edit: "edit-mode",
+  online: "share_online",
+  screenshot: "screenshot",
+  screenshot-thumbnail: "screenshot-thumbnail",
+  screenshot-full: "screenshot-full",
+  client: "client",
+  master: "master"
+);

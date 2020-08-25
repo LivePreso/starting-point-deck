@@ -1,0 +1,143 @@
+<article id="slide_state" class="u-bg--blue">
+  <div class="o-content page01 subslide" id="subslide-1">
+    <div class="o-header">
+      <h1
+        class="
+        u-bg--black
+        u-color--white
+        u-display--table
+        u-pad--20
+      "
+      >
+        BridgeState
+      </h1>
+    </div>
+    <div class="o-content__body">
+      <p>
+        BridgeState is used as a wrapper for the Bridge events that write to the
+        Context and communicate with remote clients. It allows for a more
+        state-based approach when creating components and adding interactivity
+        to slides.
+      </p>
+      <hr />
+      <p>
+        At it's simplest, a BridgeState is passed a 'context' (an object to
+        replace 'this' in certain functions), a key, and any number of 'states'
+        that it maintains.
+      </p>
+      <pre><code class="js">let state = new BridgeState(context, key, states);</code></pre>
+      <p>Where 'states' is an object that follows the format:</p>
+      <pre>
+        <code class="js">
+  {
+    // 'state_1' can be anything, it's for you to use when updating
+    state_1: {
+      value: 0, // the initial value. If persistent = true this value will be overridden by the value in the Context
+      persisent: true, // pass 'true' to save this state to the context (defaults to false)
+      onUpdate: function(val) {
+        // called whenever we update this state
+        // In here, 'this' refers to the 'context' we passed when the BridgeState object was created.
+      }
+    },
+    state_2: {
+      ...
+    }
+  }
+        </code>
+      </pre>
+      <p></p>
+    </div>
+    <div class="o-footer"></div>
+  </div>
+
+  <div class="o-content page02 subslide" id="subslide-2">
+    <div class="o-header">
+      <h1
+        class="
+        u-bg--black
+        u-color--white
+        u-display--table
+        u-pad--20
+      "
+      >
+        Slide state
+      </h1>
+    </div>
+    <div class="o-content__body">
+      <p>
+        Slides each have a BridgeState, which is initialised based on a passed
+        'state' object.
+      </p>
+      <pre>
+        <code class="js">
+  new Slide({
+    state: {
+      // 'ref' is whatever you want to refer to this state as in onRendered and onReady
+      ref: {
+        value: 0, // initial value
+        persistent: false, // don't save to the Context
+        onUpdate: function (val) {
+          // update functionality
+          // 'this' refers to the current Slide object
+        }
+      }
+    }
+  });
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="o-content page03 subslide" id="subslide-3">
+    <div class="o-header">
+      <h1
+        class="
+        u-bg--black
+        u-color--white
+        u-display--table
+        u-pad--20
+      "
+      >
+        Component state
+      </h1>
+    </div>
+    <div class="o-content__body">
+      <p>You can add a BridgeState to any components you create.</p>
+      <pre>
+        <code class="js">
+  class Doggo {
+    constructor() {
+      this.state = new BridgeState(this, 'doggo-state', {
+        barking: {
+          value: false,
+          onUpdate: function(val) => {
+            this.barking = val;
+          }
+        }
+      });
+    }
+  }
+        </code>
+      </pre>
+      <p>
+        Note, however, that this won't fully initialise all the required events
+        on it's own. It will need to be added to the slide's 'components' object
+        in onRendered.
+      </p>
+      <pre>
+        <code class="js">
+  new Slide({
+    onRendered: function() {
+      this.components.doggo = new Doggo();
+    }
+  });
+        </code>
+      </pre>
+      <p>
+        This will ensure that all the events are properly set up when the slide
+      </p>
+    </div>
+  </div>
+</article>
+
+<!-- injectRelative:slide.js -->
+<!-- endinject -->

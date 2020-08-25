@@ -1,0 +1,52 @@
+<article id="slide_js" class="u-bg--blue">
+  <div class="o-header l-flex--align-start">
+    <h1
+      class="
+      u-bg--black
+      u-color--white
+      u-display--table
+      u-pad--20
+      l-grid--fixed
+    "
+    >
+      Slide JS
+    </h1>
+  </div>
+  <div class="o-content">
+    <div class="o-content__body">
+      <h2>Basic slide instance</h2>
+      <pre>
+        <code class="js">
+  new Slide();
+        </code>
+      </pre>
+      <p>
+        This will set up all of the needed slide events and animations.
+        <code>{{slide_id}}</code> can be used inside of injections and will
+        inject the key of the slide.
+      </p>
+      <hr />
+      <h3>Slide Events</h3>
+      <pre>
+        <code class="js">
+  new Slide({
+    onRendered: function() {
+      // this will run when the slide is added to the DOM
+    },
+    onReady: function() {
+      // this will run when the slide comes into view
+    }
+  });
+        </code>
+      </pre>
+      <p>
+        The <code>onRendered</code> and <code>onReady</code> functions are
+        called with the <code>Slide</code> as the context. So calling
+        <code>this</code> will reference the <code>Slide</code> object.
+      </p>
+    </div>
+  </div>
+</article>
+
+<!-- injectRelative:slide.js -->
+<!-- endinject -->

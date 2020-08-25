@@ -1,0 +1,13 @@
+.c-cursor {
+  &--pointer {
+    @include cursor();
+  }
+
+  &__client {
+    &--no-events {
+      .client & {
+        pointer-events: none;
+      }
+    }
+  }
+}

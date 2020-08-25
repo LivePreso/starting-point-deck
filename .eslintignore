@@ -1,0 +1,7 @@
+src/config.js
+src/tests/*
+gulpfile.js
+jspm.browser.js
+jspm.config.js
+src/js/utils/amcharts4/*
+src/js/external/*

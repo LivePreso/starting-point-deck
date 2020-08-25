@@ -1,0 +1,92 @@
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+strong,
+ol,
+ul,
+li,
+th,
+td,
+text {
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  margin: 0px;
+  @include font-main();
+  @include font-weight(normal);
+}
+
+article {
+  color: $text-primary;
+}
+
+// Font sizes
+//-----------------------//
+// Replace these with deck-specific font sizes
+h1 {
+  @include font-size(66);
+}
+
+h2 {
+  @include font-size(50);
+}
+
+h3 {
+  @include font-size(40);
+}
+
+h4 {
+  @include font-size(34);
+}
+
+h6 {
+  @include font-size(20);
+}
+
+h5,
+p,
+li {
+  @include font-size(26);
+}
+
+strong {
+  @include font-weight(bold);
+}
+
+// BEMIT Style typography
+//----------------------------//
+// Uncomment and rename as desired if you prefer to use these
+// Class names are an example only
+
+// .t-large-header {
+//   @include font-size(66);
+// }
+
+// .t-slide-title {
+//   @include font-size(50);
+// }
+
+// .t-content-title {
+//   @include font-size(40);
+// }
+
+// .t-content-subtitle {
+//   @include font-size(34);
+// }
+
+// .t-disclaimer {
+//   @include font-size(20);
+// }
+
+// .t-content {
+//   @include font-size(26);
+// }
+
+// font-weight classes are available in css/utils/font.scss

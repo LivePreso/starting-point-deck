@@ -1,0 +1,56 @@
+version: 2
+name: 'Vanguard'
+src: ./src
+dist: ./dist
+key: vanguard
+maintainer: hugh.campbell@salespreso.com
+servers:
+  -
+    title: Production
+    api: 'https://vanguard.salespreso.com'
+  -
+    title: Staging
+    api: 'https://staging-vanguard.salespreso.com'
+screenshotpreferences:
+  backend: chrome
+  vector: true
+contenteditable: true
+companywide_editable: true
+dimensions:
+  width: 1920
+  height: 1080
+feeds: {}
+common:
+  js:
+    - js/deck.js
+  css:
+    - css/core.css
+hooks: js/hooks/hooks.js
+sections:
+  -
+    key: slide_js
+    title: Slide JS
+    slides:
+      - { key: slide_state, title: Slide State }
+content_editors:
+  text:
+    colors:
+      -
+        color: '#000000'
+        title: 'Black'
+    formats:
+      -
+        block: 'p'
+        title: 'Normal'
+      -
+        block: 'h6'
+        title: 'Small'
+      -
+        block: 'h2'
+        title: 'Large heading'
+      -
+        block: 'h3'
+        title: 'Medium heading'
+      -
+        block: 'h4'
+        title: 'Small heading'
