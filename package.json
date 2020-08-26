@@ -1,8 +1,8 @@
 {
-  "name": "vanguard-investments",
+  "name": "starting-point-deck",
   "version": "0.0.0",
-  "description": "Vanguard Investments",
-  "author": "Hugh Campbell <hugh.campbell@salespreso.com>",
+  "description": "Starting point deck",
+  "author": "Peter Brick <peter.brick@salespreso.com>",
   "private": true,
   "scripts": {
     "format": "prettier-eslint --write \"src/**.*.js\" --l info"

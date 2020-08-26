@@ -1,16 +1,16 @@
 version: 2
-name: 'Vanguard'
+name: 'Starting point deck'
 src: ./src
 dist: ./dist
-key: vanguard
-maintainer: hugh.campbell@salespreso.com
+key: starting-point-deck
+maintainer: peter.brick@salespreso.com
 servers:
   -
     title: Production
-    api: 'https://vanguard.salespreso.com'
+    api: 'https://demo.salespreso.com'
   -
     title: Staging
-    api: 'https://staging-vanguard.salespreso.com'
+    api: 'https://staging-demo.salespreso.com'
 screenshotpreferences:
   backend: chrome
   vector: true

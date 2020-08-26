@@ -26,17 +26,18 @@
         that it maintains.
       </p>
       <pre><code class="js">let state = new BridgeState(context, key, states);</code></pre>
-      <p>Where 'states' is an object that follows the format:</p>
+      <p>Where:</p>
       <pre>
         <code class="js">
-  {
+  states = {
     // 'state_1' can be anything, it's for you to use when updating
     state_1: {
       value: 0, // the initial value. If persistent = true this value will be overridden by the value in the Context
       persisent: true, // pass 'true' to save this state to the context (defaults to false)
       onUpdate: function(val) {
-        // called whenever we update this state
+        // called whenever we update this state (e.g. update/redraw DOM)
         // In here, 'this' refers to the 'context' we passed when the BridgeState object was created.
+        // This code runs on the master and client sides of a remote preso
       }
     },
     state_2: {
@@ -45,7 +46,9 @@
   }
         </code>
       </pre>
-      <p></p>
+      <p>To update a state, simply call:</p>
+      <pre><code class="js">state.update({ state_1: 1 });</code></pre>
+      <p>Check out the subslides for a couple of simple examples.</p>
     </div>
     <div class="o-footer"></div>
   </div>
@@ -74,13 +77,16 @@
     state: {
       // 'ref' is whatever you want to refer to this state as in onRendered and onReady
       ref: {
-        value: 0, // initial value
+        value: false, // initial value
         persistent: false, // don't save to the Context
         onUpdate: function (val) {
           // update functionality
-          // 'this' refers to the current Slide object
+          // 'this' refers to the Slide object
         }
       }
+    },
+    onRendered: function() {
+      this.clicker = this.pageContainer.querySelector
     }
   });
         </code>
@@ -105,23 +111,27 @@
       <pre>
         <code class="js">
   class Doggo {
-    constructor() {
+    constructor(el) {
+      this.node = el;
       this.state = new BridgeState(this, 'doggo-state', {
         barking: {
           value: false,
           onUpdate: function(val) => {
-            this.barking = val;
+            // update class based on 'val'
+            this.node.classList.toggle('is-barking', val);
           }
         }
       });
+      // Note: use BridgeState.getValue('key') to get the current state
+      this.node.addEventListener('click', ev => this.state.update({ barking: !this.state.getValue('barking') });
     }
   }
         </code>
       </pre>
       <p>
-        Note, however, that this won't fully initialise all the required events
-        on it's own. It will need to be added to the slide's 'components' object
-        in onRendered.
+        Note: this won't fully initialise all the required events on it's own.
+        It will need to be added to the slide's 'components' object in
+        onRendered.
       </p>
       <pre>
         <code class="js">
@@ -132,9 +142,59 @@
   });
         </code>
       </pre>
+    </div>
+  </div>
+  <div class="o-content page04 subslide" id="subslide-4">
+    <div class="o-header">
+      <h1
+        class="
+        u-bg--black
+        u-color--white
+        u-display--table
+        u-pad--20
+      "
+      >
+        State Events
+      </h1>
+    </div>
+    <div class="o-content__body">
       <p>
-        This will ensure that all the events are properly set up when the slide
+        There are two events (BridgeState.initClient & BridgeState.masterDone)
+        that you need to call if you have a state that <u>isn't</u> part of a
+        Slide or in the Slide.components object.
       </p>
+      <pre>
+        <code class="js">
+  new Slide({
+    onRendered: function() {
+      // grab clicker node
+      this.clicker = this.pageContainer.querySelector('.js-clicker');
+      // initialise state
+      this.clickerState = new BridgeState(this, 'clicker', {
+        numClicks: {
+          value: 0,
+          persistent: false,
+          onUpdate: function(val) {
+            this.clicker.innerText = val;
+          }
+        }
+      });
+      if (this.isMaster) { // only set up click event for 'master'
+        // set up click event
+        this.clicker.addEventListener(
+          'click', 
+          ev => this.clickerState.update({ numClicks: this.clickerState.getValue('numClicks') + 1 })
+        );
+      }
+    },
+    onReady: function () {
+      // these events will set up the necessary communication between master and clients
+      this.clickerState.initClient();
+      this.clickerState.masterDone();
+    }
+  });
+        </code>
+      </pre>
     </div>
   </div>
 </article>
