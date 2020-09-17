@@ -1,0 +1,12 @@
+.c-button {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  cursor: pointer;
+
+  &--active {
+    background-color: green;
+  }
+}

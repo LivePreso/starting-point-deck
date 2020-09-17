@@ -74,23 +74,28 @@
       <pre>
         <code class="js">
   new Slide({
+    onRendered: function() {
+      // simple button that changes colour on click
+      this.clicker = this.pageContainer.querySelector('.js-button');
+      this.clicker.addEventListener('click', ev => this.state.update({ foo: !this.state.getValue('foo')}));
+    },
     state: {
-      // 'ref' is whatever you want to refer to this state as in onRendered and onReady
-      ref: {
+      // 'foo' is whatever you want to refer to this state as in onRendered and onReady
+      foo: {
         value: false, // initial value
-        persistent: false, // don't save to the Context
+        persistent: true, // save this to the Context
         onUpdate: function (val) {
           // update functionality
           // 'this' refers to the Slide object
+          this.clicker.classList.toggle('c-button--active', val);
         }
       }
-    },
-    onRendered: function() {
-      this.clicker = this.pageContainer.querySelector
     }
   });
         </code>
       </pre>
+
+      <div class="c-button js-button">Click me</div>
     </div>
   </div>
   <div class="o-content page03 subslide" id="subslide-3">
@@ -159,9 +164,9 @@
     </div>
     <div class="o-content__body">
       <p>
-        There are two events (BridgeState.initClient & BridgeState.masterDone)
-        that you need to call if you have a state that <u>isn't</u> part of a
-        Slide or in the Slide.components object.
+        There is one method you need to call (BridgeState.initialize()) if you
+        have a state that <u>isn't</u> part of a Slide or in the
+        Slide.components object.
       </p>
       <pre>
         <code class="js">
@@ -188,9 +193,8 @@
       }
     },
     onReady: function () {
-      // these events will set up the necessary communication between master and clients
-      this.clickerState.initClient();
-      this.clickerState.masterDone();
+      // this event will set up the necessary communication between master and clients
+      this.clickerState.initialize();
     }
   });
         </code>
