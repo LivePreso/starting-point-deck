@@ -217,31 +217,33 @@ class Slide {
       );
       this.getFeeds();
       typeof this.onRendered === 'function' && this.onRendered(this);
-      _.each(this.components, (component, key) => {
-        if (component.state) {
-          _.each(component.state.state, (state, key) => {
-            if (state.onUpdate) {
-              state.onUpdate.apply(component.state.context, [state.value]);
-            }
-          });
-        }
-        if (component.extraStates) {
-          _.each(component.extraStates, extraState => {
-            _.each(extraState.state, (state, key) => {
-              if (state.onUpdate) {
-                state.onUpdate.apply(extraState.context, [state.value]);
-              }
-            });
-          });
-        }
-      });
+
+      // _.each(this.components, (component, key) => {
+      //   if (component.state) {
+      //     _.each(component.state.state, (state, key) => {
+      //       if (state.onUpdate) {
+      //         state.onUpdate.apply(component.state.context, [state.value]);
+      //       }
+      //     });
+      //   }
+      //   if (component.extraStates) {
+      //     _.each(component.extraStates, extraState => {
+      //       _.each(extraState.state, (state, key) => {
+      //         if (state.onUpdate) {
+      //           state.onUpdate.apply(extraState.context, [state.value]);
+      //         }
+      //       });
+      //     });
+      //   }
+      // });
       this.animationRenderer.setInitialState();
     });
     this.$pageContainer.on(
       'slideready',
       this.getOnReady((e, done) => {
-        this.state.initClient();
-        this.state.masterDone();
+        this.state.initialize();
+        // this.state.initClient();
+        // this.state.masterDone();
         this.getSubslides();
         if (
           this.subslides.length &&
@@ -253,18 +255,18 @@ class Slide {
             slide: this
           });
         }
-        _.each(this.components, (component, key) => {
-          if (component.state) {
-            component.state.initClient();
-            component.state.masterDone();
-          }
-          if (component.extraStates) {
-            _.each(component.extraStates, extraState => {
-              extraState.initClient();
-              extraState.masterDone();
-            });
-          }
-        });
+        // _.each(this.components, (component, key) => {
+        //   if (component.state) {
+        //     component.state.initClient();
+        //     component.state.masterDone();
+        //   }
+        //   if (component.extraStates) {
+        //     _.each(component.extraStates, extraState => {
+        //       extraState.initClient();
+        //       extraState.masterDone();
+        //     });
+        //   }
+        // });
         typeof this.onReady === 'function' && this.onReady(e, done);
         this.utils.setupCdkFileLink(this.id);
 
