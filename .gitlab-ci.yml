@@ -3,5 +3,5 @@ deploy:
   only:
     - master
   script:
-    - git archive -o startingpoint.zip HEAD
+    - git archive -o starting-point-deck.zip HEAD
     - mv starting-point-deck.zip /artefacts/
