@@ -1,0 +1,7 @@
+deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - git archive -o startingpoint.zip HEAD
+    - mv starting-point-deck.zip /artefacts/
