@@ -1,4 +1,4 @@
-### Starting point deck
+# Starting point deck
 
 This is the default starting point deck, utilising ES6 & class-based Javascript. 
 
