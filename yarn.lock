@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@salespreso/deck-gulp-tasks@^3.0.10":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@salespreso/deck-gulp-tasks/-/deck-gulp-tasks-3.1.0.tgz#f19ce7856dd4d1d4f3facae737034362da371453"
-  integrity sha512-MZXMjuUH/gbgen5SAH4an3N1XvY3YKVYc34HeYSwwLSnogmHNmljW52uPpi0YKL+FLMKuKH66sUS21i1OYZwaA==
+"@salespreso/deck-gulp-tasks@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@salespreso/deck-gulp-tasks/-/deck-gulp-tasks-3.3.1.tgz#6b5f4d5ae1624eec0fb2aaf5fcf28a5327f5bf06"
+  integrity sha512-W2SYjZmGbhKHOn5C1+sHzAqno/vU+KodaRFCu7zDwYL3PPKK5FFrR/MEfHembEjO/x6xm/KQP5rcX/TpCS5qiA==
   dependencies:
     autoprefixer "^9.4.7"
     babel-core "^6.24.0"
@@ -238,6 +238,7 @@
     gulp-postcss "^8.0.0"
     gulp-rename "^1.2.2"
     gulp-sass "^4.0.2"
+    gulp-sass-glob "^1.1.0"
     gulp-sequence "^0.4.6"
     gulp-sourcemaps "^2.6.5"
     gulp-tap "^1.0.1"
@@ -3614,6 +3615,16 @@ gulp-rename@^1.2.2:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.4.0.tgz#de1c718e7c4095ae861f7296ef4f3248648240bd"
   integrity sha512-swzbIGb/arEoFK89tPY58vg3Ok1bw+d35PfUNwWqdo7KM4jkmuGA78JiDNqR+JeZFaeeHnRg9N7aihX3YPmsyg==
+
+gulp-sass-glob@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-sass-glob/-/gulp-sass-glob-1.1.0.tgz#ff4055b8cf20695567d279849fc8c025fd7dd40e"
+  integrity sha512-BYDCjb68iMAxLGt2uuw7jaZ51cnWxAbQ4EtFDOOsMXOc0Ul+SFW1iiMOSI/efpO27ycmX9U8Eb4Clerww5Tf5Q==
+  dependencies:
+    glob "^7.1.4"
+    minimatch "^3.0.4"
+    slash "^3.0.0"
+    through2 "^3.0.1"
 
 gulp-sass@^4.0.2:
   version "4.1.0"
