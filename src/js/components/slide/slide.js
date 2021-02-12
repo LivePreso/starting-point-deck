@@ -73,6 +73,8 @@ class Slide {
     this.isScreenshot = this.modes.is('screenshot');
     /** whether the current mode is 'Screenshot' */
     this.isPDF = this.modes.is('screenshot-full');
+    /** whether the current mode is 'Prep' */
+    this.isPrep = this.modes.is('preview');
 
     /**
      * Dict of feeds in the format {key: feed}
