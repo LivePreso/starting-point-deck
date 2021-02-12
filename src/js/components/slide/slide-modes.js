@@ -2,12 +2,15 @@
  *  Contains a list of classes appended to the <body>
  */
 class SlideModes {
+  get classList() {
+    return _.map(this.body.classList, val => val);
+  }
+
   /**
    * @constructor
    */
   constructor() {
-    let body = document.querySelector('body');
-    this.classList = _.map(body.classList, val => val);
+    this.body = document.querySelector('body');
   }
 
   /**
