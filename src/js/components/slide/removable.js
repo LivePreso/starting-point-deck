@@ -1,107 +1,163 @@
 class Removable {
-  constructor($el, state, parent) {
-    this.parent = parent;
-    this.$el = $el;
-    this.key = this.$el.attr('key');
-    this.visible = state;
-    if (!this.visible) {
-      this.$el.addClass('c-removable--hidden');
-    } else {
-      this.$el.addClass('c-removable--visible');
-    }
-    this.init();
+  set disabled(disabled) {
+    this._disabled = Boolean(disabled);
+    this.el.classList.toggle('is-disabled', this._disabled);
   }
 
-  toggle(toggle) {
-    if (toggle) {
-      this.$el.removeClass('c-removable--hidden');
-      this.$el.addClass('c-removable--visible');
-      this.visible = true;
-    } else {
-      this.$el.addClass('c-removable--hidden');
-      this.$el.removeClass('c-removable--visible');
-      this.visible = false;
+  get disabled() {
+    return this._disabled;
+  }
+
+  set hidden(hidden) {
+    this._hidden = Boolean(hidden);
+    this.el.classList.toggle('is-hidden', this._hidden);
+  }
+
+  get hidden() {
+    return this._hidden;
+  }
+
+  constructor(parent, el, { disabled, hidden } = {}) {
+    if (!(parent instanceof Removables)) {
+      throw new Error(
+        `${this.constructor.name} - parent must be of class Removables.`
+      );
     }
+
+    if (!el.dataset.key) {
+      throw new Error(
+        `${this.constructor.name} - removable el must have a data-key attribute.`
+      );
+    }
+
+    this.parent = parent;
+    this.el = el;
+    this.el.classList.add('c-removable');
+    this.key = this.el.dataset.key;
+    this.disabled = disabled;
+    this.hidden = hidden;
+
+    this.removeButton = document.createElement('div');
+    this.removeButton.classList = 'c-removable__button';
+    this.el.append(this.removeButton);
+
+    this.init();
   }
 
   init() {
-    if (this.parent.state.isPrep) {
-      var $button = $('<div class="c-removable--button" />');
-      $button.on('click', e => {
-        e.stopPropagation();
-        var state = this.parent.state.getBridgeState();
-        state.removables[this.key] = false;
-        this.parent.state.update(state);
-      });
-      this.$el.append($button);
-    }
+    this.removeButton.addEventListener('click', e => {
+      if (!this.parent.editable || this.disabled) return;
+      e.stopPropagation();
+      this.parent.removeItem(this.key);
+    });
   }
 }
 
+/**
+ * A component which handles all removable elements within
+ * a supplied DOM element, it will make any element on the parent
+ * with the class `.js-removable` a removable element
+ */
 class Removables {
+  set disabled(disabled) {
+    this._disabled = disabled;
+
+    _.each(this.removables, removable => {
+      removable.disabled = disabled;
+    });
+
+    this.restoreButton.classList.toggle('is-disabled', disabled);
+  }
+
+  get disabled() {
+    return this._disabled;
+  }
+
   /**
-   * A component which handles all removable elements in a slide,
-   * it will make any element on the slide with the class `.c-removable` a removable element
-   *
-   * @param {Object} options
-   * @param {Object} options.$pageContainer - The slide container
-   * @param {Object} options.$resetContainer - The DOM element to inject the reset button into
+   * @param {Object} key
+   * @param {Boolean} disabled
+   * @param {DOMElement[]} [removableEls] - Collection of removable assets
+   * @param {DOMElement} [restoreEl] - Restore button
+   * @param {Function} [onUpdate]
    */
-  constructor(options) {
-    this.$pageContainer = options.$pageContainer;
-    this.removables = {};
-    this.$resetContainer = options.$resetContainer;
-    this.state = new BridgeState(
-      this,
-      this.$pageContainer.attr('id') + '-removableState',
-      {
-        removables: {
-          value: false,
-          persistent: true,
-          onUpdate: function(removables) {
-            _.each(removables, (val, key) => {
-              this.removables[key].toggle(val);
-            });
-          }
+  constructor(key, { disabled, removableEls, restoreEl, onUpdate } = {}) {
+    this.key = key;
+    this.removables = _.map(removableEls || [], removableEl => {
+      return new Removable(this, removableEl, {
+        disabled
+      });
+    });
+    this.restoreButton = restoreEl || document.createElement('div');
+    this.restoreButton.classList.add('c-removable__restore');
+
+    this.editable = Deck.modes.is('preview');
+    this.disabled = disabled;
+
+    this.onUpdate = onUpdate || _.noop;
+
+    this.state = new BridgeState(this, this.key, {
+      removables: {
+        value: false,
+        persistent: true,
+        onUpdate: function(removableState) {
+          _.each(this.removables, removable => {
+            removable.hidden = !removableState[removable.key] || false;
+          });
+          this.onUpdate();
         }
       }
-    );
+    });
+
+    if (!this.editable) {
+      this.restoreButton.classList.add('is-hidden');
+    }
+
     this.init();
+  }
+
+  removeItem(itemKey) {
+    const state = this.state.getValue('removables');
+    state[itemKey] = false;
+    this.state.update({
+      removables: state
+    });
   }
 
   /** Resets all removables to their initial state (visible) */
   reset() {
     this.state.update({
-      removables: _.mapObject(this.removables, (val, key) => {
-        return true;
-      })
+      removables: _.reduce(
+        this.removables,
+        (state, removable) => {
+          state[removable.key] = true;
+          return state;
+        },
+        {}
+      )
     });
   }
 
   init() {
-    var _this = this;
-    var state = this.state.getValue('removables');
-    this.$pageContainer.find('.c-removable').each(function() {
-      var key = $(this).attr('key');
-      var value = state[key] !== undefined ? state[key] : true;
-      _this.removables[key] = new Removable($(this), value, _this);
-    });
+    const state = this.state.getValue('removables');
+
     if (!state) {
-      var initialState = {};
-      var _this = this;
-      this.$pageContainer.find('.c-removable').each(function() {
-        initialState[$(this).attr('key')] = true;
-      });
+      const initialState = _.reduce(
+        this.removables,
+        (removableState, removable) => {
+          removableState[removable.key] = true;
+          return removableState;
+        },
+        {}
+      );
+
       this.state.update({
         removables: initialState
       });
     }
-    if (this.state.isPrep) {
-      var $reset = $('<div class="c-removable--reset" />');
-      $reset.on('click', () => {
-        this.reset();
-      });
-      this.$resetContainer.append($reset);
-    }
+
+    this.restoreButton.addEventListener('click', () => {
+      if (!this.editable || this.disabled) return;
+      this.reset();
+    });
   }
 }

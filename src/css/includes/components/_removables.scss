@@ -1,9 +1,7 @@
 .c-removable {
   position: relative;
-  &--hidden {
-    display: none;
-  }
-  &--button {
+
+  &__button {
     position: absolute;
     top: 0px;
     left: -50px;
@@ -15,17 +13,42 @@
     background-position: center center;
     cursor: pointer;
   }
-  &--reset {
-    width: 50px;
-    height: 60px;
-    position: absolute;
-    top: -60px;
-    right: 0px;
-    background-image: url("img/reset.svg");
-    background-repeat: no-repeat;
-    background-size: 32px 32px;
-    background-position: center center;
+
+  &__restore {
+    position: relative;
+    padding-left: 50px;
     cursor: pointer;
-    margin-left: auto;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 100%;
+      background-image: url("img/restore.svg");
+      background-repeat: no-repeat;
+      background-size: 32px 32px;
+      background-position: center center;
+    }
+
+    &.is-hidden {
+      display: none;
+    }
+
+    &.is-disabled {
+      opacity: 0.4;
+    }
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+
+  &.is-disabled {
+    .c-removable__button {
+      opacity: 0.4;
+      cursor: default;
+    }
   }
 }
