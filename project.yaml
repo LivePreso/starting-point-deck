@@ -32,6 +32,7 @@ sections:
     title: Slide JS
     slides:
       - { key: slide_state, title: Slide State }
+      - { key: removable_assets, title: Removable Assets }
 content_editors:
   text:
     colors:
