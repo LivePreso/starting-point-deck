@@ -2,18 +2,20 @@ class Source {
   /**
    *
    * @param {Slide} slide
-   * @param {Object} options
-   * @param {Object} options.container - where to inject the source
-   * @param {String} options.sourceText - The text to show when the source is visible
+   * @param {String} key
+   * @param {DOMElement} container - where to inject the source
+   * @param {Object[]} textMap - Array of sources/notes to add
+   * @param {String} textMap[].key - Source label (button to display source)
+   * @param {String} textMap[].text - Source text content
    */
-  constructor(slide, options) {
-    this.container = options.container;
+  constructor(slide, { key, container, textMap } = {}) {
+    this.container = container;
     this.slide = slide;
-    this.textMap = options.textMap;
+    this.textMap = textMap;
     this.open = false;
     this.state = new BridgeState(
       this,
-      this.slide.id + (options.key || '') + '-sourceState',
+      this.slide.id + (key || '') + '-sourceState',
       {
         source: {
           value: this.open,
