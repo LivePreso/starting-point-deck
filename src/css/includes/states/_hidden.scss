@@ -1,6 +1,5 @@
 .is-hidden {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 
   @each $mode, $class in $preso-modes {
     &--#{$mode} {
@@ -9,8 +8,4 @@
       }
     }
   }
-}
-
-.is-none {
-  display: none;
 }
