@@ -1,3 +1,8 @@
+/**
+ * Removable element managed by the Removables class.
+ * Individual items can be removed when interactive.
+ * Interactivity can be toggled and disabled.
+ */
 class Removable {
   set disabled(disabled) {
     this._disabled = Boolean(disabled);
@@ -17,46 +22,58 @@ class Removable {
     return this._hidden;
   }
 
-  constructor(parent, el, { disabled, hidden } = {}) {
-    if (!(parent instanceof Removables)) {
-      throw new Error(
-        `${this.constructor.name} - parent must be of class Removables.`
-      );
-    }
+  set interactive(interactive) {
+    this._interactive = interactive;
+    this.removeButton.classList.toggle('is-hidden', !this._interactive);
+  }
 
+  get interactive() {
+    return this._interactive;
+  }
+
+  /**
+   * @param {Object} el
+   * @param {Boolean} [disabled] - Remove button is visible but disabled
+   * @param {Boolean} [hidden] - Item is removed (hidden) from the list
+   * @param {Boolean} [interactive] - Show/hide remove button
+   * @param {Function} [onRemove]
+   */
+  constructor(el, { disabled, hidden, interactive, onRemove } = {}) {
     if (!el.dataset.key) {
       throw new Error(
         `${this.constructor.name} - removable el must have a data-key attribute.`
       );
     }
 
-    this.parent = parent;
     this.el = el;
     this.el.classList.add('c-removable');
     this.key = this.el.dataset.key;
-    this.disabled = disabled;
-    this.hidden = hidden;
+    this.onRemove = onRemove || _.noop;
 
     this.removeButton = document.createElement('div');
     this.removeButton.classList = 'c-removable__button';
     this.el.append(this.removeButton);
+
+    this.disabled = disabled;
+    this.hidden = hidden;
+    this.interactive = interactive;
 
     this.init();
   }
 
   init() {
     this.removeButton.addEventListener('click', e => {
-      if (!this.parent.editable || this.disabled) return;
+      if (!this.interactive || this.disabled) return;
       e.stopPropagation();
-      this.parent.removeItem(this.key);
+      this.onRemove(this.key);
     });
   }
 }
 
 /**
- * A component which handles all removable elements within
- * a supplied DOM element, it will make any element on the parent
- * with the class `.js-removable` a removable element
+ * A component which handles all removable elements supplied.
+ * A reset button can be supplied to allow for removable items
+ * to be reinstated.
  */
 class Removables {
   set disabled(disabled) {
@@ -73,6 +90,20 @@ class Removables {
     return this._disabled;
   }
 
+  set interactive(interactive) {
+    this._interactive = interactive;
+
+    _.each(this.removables, removable => {
+      removable.interactive = interactive;
+    });
+
+    this.restoreButton.classList.toggle('is-hidden', !interactive);
+  }
+
+  get interactive() {
+    return this._interactive;
+  }
+
   /**
    * @param {Object} key
    * @param {Boolean} disabled
@@ -82,59 +113,31 @@ class Removables {
    */
   constructor(key, { disabled, removableEls, restoreEl, onUpdate } = {}) {
     this.key = key;
+    this.onUpdate = onUpdate || _.noop;
+
     this.removables = _.map(removableEls || [], removableEl => {
-      return new Removable(this, removableEl, {
-        disabled
+      return new Removable(removableEl, {
+        disabled,
+        interactive: this.interactive,
+        onRemove: this.removeItem
       });
     });
+
     this.restoreButton = restoreEl || document.createElement('div');
     this.restoreButton.classList.add('c-removable__restore');
 
-    this.editable = Deck.modes.is('preview');
+    this.interactive = Deck.modes.is('preview');
     this.disabled = disabled;
-
-    this.onUpdate = onUpdate || _.noop;
 
     this.state = new BridgeState(this, this.key, {
       removables: {
         value: false,
         persistent: true,
-        onUpdate: function(removableState) {
-          _.each(this.removables, removable => {
-            removable.hidden = !removableState[removable.key] || false;
-          });
-          this.onUpdate();
-        }
+        onUpdate: this.updateRemovables
       }
     });
 
-    if (!this.editable) {
-      this.restoreButton.classList.add('is-hidden');
-    }
-
     this.init();
-  }
-
-  removeItem(itemKey) {
-    const state = this.state.getValue('removables');
-    state[itemKey] = false;
-    this.state.update({
-      removables: state
-    });
-  }
-
-  /** Resets all removables to their initial state (visible) */
-  reset() {
-    this.state.update({
-      removables: _.reduce(
-        this.removables,
-        (state, removable) => {
-          state[removable.key] = true;
-          return state;
-        },
-        {}
-      )
-    });
   }
 
   init() {
@@ -156,8 +159,37 @@ class Removables {
     }
 
     this.restoreButton.addEventListener('click', () => {
-      if (!this.editable || this.disabled) return;
+      if (!this.interactive || this.disabled) return;
       this.reset();
+    });
+  }
+
+  updateRemovables = removableState => {
+    _.each(this.removables, removable => {
+      removable.hidden = !removableState[removable.key] || false;
+    });
+    this.onUpdate();
+  };
+
+  removeItem = itemKey => {
+    const state = this.state.getValue('removables');
+    state[itemKey] = false;
+    this.state.update({
+      removables: state
+    });
+  };
+
+  /** Resets all removables to their initial state (visible) */
+  reset() {
+    this.state.update({
+      removables: _.reduce(
+        this.removables,
+        (state, removable) => {
+          state[removable.key] = true;
+          return state;
+        },
+        {}
+      )
     });
   }
 }
