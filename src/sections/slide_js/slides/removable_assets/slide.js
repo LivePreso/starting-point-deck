@@ -8,15 +8,11 @@ new Slide({
       restoreEl: this.utils.findEl('.js-reset')
     });
 
-    this.components.source = new Source(this, {
-      container: this.utils.findEl('.c-source__container'),
-      textMap: [
-        {
-          key: 'Source',
-          text: 'Lots of words'
-        }
-      ]
-    });
+    this.components.source = new SourceDOM(
+      `${this.id}-source`,
+      this.utils.findEl('.js-source-toggle'),
+      this.utils.findEl('.js-source-text')
+    );
   },
   onReady: function() {},
   onSubslideChange: function(index) {}
