@@ -2,8 +2,11 @@ class Modal {
   static get defaultTemplate() {
     return _.template(
       `<div class="c-modal <% if (data.isOpen) { %>is-active<% } %>">
-          <div class="c-modal__shroud js-modal-shroud <% if (data.canCloseShroud) { print('js-modal-close c-cursor--pointer'); } %>"></div>
-          <div class="c-modal__contents js-modal-content"></div>
+          <div
+            class="c-modal__shroud js-modal-shroud <% if (data.canCloseShroud) { print('js-modal-close c-cursor--pointer'); } %>"
+            <% if (data.canCloseShroud) { %>data-companywide-interactive<% } %>
+          ></div>
+          <div class="c-modal__contents js-modal-content" <% if (data.canCloseShroud) { %>data-companywide-interactive<% } %>></div>
         </div>`,
       { variable: 'data' }
     );
