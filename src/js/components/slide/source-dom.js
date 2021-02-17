@@ -29,13 +29,19 @@ class SourceDOM {
     this.toggleEl = toggleEL;
     this.textEl = textEl;
 
+    // Source shown by default for PM edit-mode and PDF screenshots
+    const openByDefault =
+      Deck.modes.is('edit-mode') || Deck.modes.is('screenshot-full');
+
     this.state = new BridgeState(this, this.key, {
       open: {
-        value: Boolean(active),
+        value: Boolean(openByDefault || active),
         onUpdate: this.toggleSource
       }
     });
 
+    // Interactivity disabled for client and PM edit-mode
+    this.interactive = !Deck.modes.is('client') && !Deck.modes.is('edit-mode');
     this.disabled = disabled;
 
     this.addEventListeners();
@@ -46,16 +52,18 @@ class SourceDOM {
     this.active = toggle;
   }
 
-  /** Adds event listeners which will update the state of the source */
-  addEventListeners() {
-    if (!Deck.modes.is('client')) {
-      _.each([this.toggleEl, this.textEl], el => {
-        el.addEventListener('click', e => {
-          this.state.update({
-            open: !this.active
-          });
-        });
+  sourceClicked = event => {
+    if (this.interactive && !this.disabled) {
+      this.state.update({
+        open: !this.active
       });
     }
+  };
+
+  /** Adds event listeners which will update the state of the source */
+  addEventListeners() {
+    _.each([this.toggleEl, this.textEl], el => {
+      el.addEventListener('click', this.sourceClicked);
+    });
   }
 }
