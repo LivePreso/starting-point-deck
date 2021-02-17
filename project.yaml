@@ -7,10 +7,10 @@ maintainer: peter.brick@salespreso.com
 servers:
   -
     title: Production
-    api: 'https://demo.salespreso.com'
+    api: 'https://demo.livepreso.com'
   -
     title: Staging
-    api: 'https://staging-demo.salespreso.com'
+    api: 'https://staging-demo.livepreso.com'
 screenshotpreferences:
   backend: chrome
   vector: true
