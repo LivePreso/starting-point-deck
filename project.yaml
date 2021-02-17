@@ -32,6 +32,10 @@ sections:
     title: Slide JS
     slides:
       - { key: slide_state, title: Slide State }
+  -
+    key: components
+    title: Components
+    slides:
       - { key: removable_assets, title: Removable Assets }
       - { key: modal, title: Modal }
 content_editors:
