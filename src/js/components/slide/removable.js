@@ -162,6 +162,11 @@ class Removables {
       if (!this.interactive || this.disabled) return;
       this.reset();
     });
+
+    // Disable when offline
+    $('#slideshow').on('connectionChanged', (e, isOnline) => {
+      this.disabled = !isOnline;
+    });
   }
 
   updateRemovables = removableState => {
