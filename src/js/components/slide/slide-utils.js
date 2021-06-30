@@ -166,31 +166,44 @@ class SlideUtils {
       var slidePath = Bridge.Navigation.getSlidePath().split('/');
 
       /* html, scss, js */
-      var fullSlidePath =
-        [deckPath, 'sections', slidePath[1], 'slides', slidePath[2]].join(del) +
-        del;
+      var fullSlidePath;
+
+      if (slidePath.length == 1) {
+        // title slide
+        fullSlidePath = [deckPath];
+      } else if (slidePath[1] && slidePath[1].indexOf('template-') == 0) {
+        fullSlidePath = [
+          deckPath,
+          'templates',
+          slidePath[1].substr('template-'.length)
+        ];
+      } else {
+        fullSlidePath = [deckPath, 'sections', slidePath[1]];
+        if (slidePath[2]) fullSlidePath.push('slides', slidePath[2]);
+      }
+      fullSlidePath = fullSlidePath.join(del) + del;
       var $fileLinkHTML = $('<a>')
-        .addClass('file-link')
+        .addClass('c-cdk-utils__link')
         .attr('href', fullSlidePath + 'index.html')
         .html('index.html');
       var $fileLinkJS = $('<a>')
-        .addClass('file-link')
+        .addClass('c-cdk-utils__link')
         .attr('href', fullSlidePath + 'slide.js')
         .html('slide.js');
       var $fileLinkSCSS = $('<a>')
-        .addClass('file-link')
+        .addClass('c-cdk-utils__link')
         .attr('href', fullSlidePath + 'slide.scss')
         .html('slide.scss');
+      var $outer = $('<div class="c-cdk-utils"/>');
       var $links = $(
-        '<div class="c-cdk-utils"><span class="c-cdk-utils__title">#' +
+        '<div class="c-cdk-utils__inner"><span class="c-cdk-utils__title">#' +
           this.slide.id +
-          '</span>&nbsp;&nbsp;'
+          '</span>&nbsp;&nbsp;</div>'
       )
         .append($fileLinkHTML)
-        .append(' | ')
         .append($fileLinkJS)
-        .append(' | ')
         .append($fileLinkSCSS);
+      $outer.append($links);
 
       /*  injections */
       var allNodes = $.merge(
@@ -222,7 +235,9 @@ class SlideUtils {
         );
       }
       if (!_.isEmpty(injections)) {
-        $links.append(' injects: ');
+        $links.append(
+          ' <span class="c-cdk-utils__subsection-heading">injects:</span> '
+        );
       }
       _.each(injections, function(injection, index) {
         var pathComponents = injection.path.split('/');
@@ -247,18 +262,20 @@ class SlideUtils {
         }
 
         var $link = $('<a>')
-          .addClass('file-link')
+          .addClass('c-cdk-utils__link')
           .attr('href', fullInjectionPath)
           .html(fileName);
         $links.append($link);
         if (index < injections.length - 1) $links.append(' | ');
       });
 
-      $('#' + pageId).append($links);
+      $('#' + pageId).append($outer);
 
       $('#' + pageId + ' .c-cdk-utils a').on('click', function(e) {
         e.preventDefault();
-        nw.Shell.openItem($(this).attr('href'));
+        const clickedPath = $(this).attr('href');
+        console.log(clickedPath);
+        nw.Shell.openItem(clickedPath);
       });
     }
   }

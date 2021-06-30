@@ -38,6 +38,7 @@ sections:
     slides:
       - { key: removable_assets, title: Removable Assets }
       - { key: modal, title: Modal }
+      - { key: next_steps, title: Next Steps (HtmlComponent) }
 content_editors:
   text:
     colors:

@@ -46,7 +46,7 @@ class ModalContent {
 
   initComponents() {
     _.each(this.components, component => {
-      component.init();
+      component.initialize();
     });
   }
 

@@ -12,10 +12,14 @@ class Source {
     this.container = container;
     this.textMap = textMap;
     this.open = false;
-    this.state = new BridgeState(this, this.key, {
-      open: {
-        value: this.open,
-        onUpdate: this.toggleSource
+    this.state = new BridgeState({
+      context: this,
+      key: this.key,
+      initial: {
+        open: {
+          value: this.open,
+          onUpdate: this.toggleSource
+        }
       }
     });
     this.addSources();

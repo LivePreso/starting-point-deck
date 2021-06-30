@@ -1,25 +1,7 @@
 /**
  * Basic button, can be clicked and disabled.
  */
-class Button {
-  set disabled(disabled) {
-    this._disabled = disabled;
-    this.el.classList.toggle('is-disabled', this._disabled);
-  }
-
-  get disabled() {
-    return this._disabled;
-  }
-
-  set hidden(hidden) {
-    this._hidden = hidden;
-    this.el.classList.toggle('is-hidden', this._hidden);
-  }
-
-  get hidden() {
-    return this._hidden;
-  }
-
+class Button extends Component {
   /**
    * @param  {DOM} [el] // If not supplied, basic div will be created
    * @param  {Function} [disabled=false]
@@ -27,30 +9,32 @@ class Button {
    * @param  {Function} [onClick=()=>{}]
    */
   constructor({ el, disabled, hidden, onClick } = {}) {
-    this.el = el || DOMUtils.createDivElement();
+    super();
+
+    this.el = el || this.el;
     this.onClick = onClick || function() {};
     this.hidden = Boolean(hidden);
     this.disabled = Boolean(disabled);
   }
 
-  init() {
-    if (this.inited) return;
-    this.inited = true;
+  initialize() {
+    if (this.initialized) return;
+    super.initialize();
 
-    if (Deck.modes.is('client')) return;
+    if (!Deck.modes.isEditor) return;
     this.el.addEventListener('click', this.buttonClicked);
   }
 
   buttonClicked = () => {
     if (this.disabled || this.hidden) return;
-    this.onClick(this);
+    this.onClick();
   };
-
-  render() {}
 
   destroy() {
     if (Deck.modes.isEditor) {
       this.el.removeEventListener('click', this.buttonClicked);
     }
+
+    super.destroy();
   }
 }

@@ -93,7 +93,7 @@ class Modal {
     });
 
     _.each(this.buttons, button => {
-      button.init();
+      button.initialize();
     });
 
     this.inited = true;

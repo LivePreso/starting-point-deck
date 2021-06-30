@@ -28,6 +28,9 @@ class SubslideNavigation {
       'subslide-' + (Number(index) - 1)
     );
     if (nextAvailable) {
+      this.$next.html(
+        $(_.findWhere(this.subslides, { index: index + 1 }).el).data('navLabel')
+      );
       this.$next.removeClass('o-navigation--disabled');
     } else {
       this.$next.addClass('o-navigation--disabled');

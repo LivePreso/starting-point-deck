@@ -21,15 +21,15 @@
       </p>
       <hr />
       <p>
-        At it's simplest, a BridgeState is passed a 'context' (an object to
-        replace 'this' in certain functions), a key, and any number of 'states'
-        that it maintains.
+        At it's simplest, a BridgeState is passed an object containing a
+        'context' (an object to replace 'this' in certain functions), a key, and
+        an initialState, which can be any number of 'states' that it maintains.
       </p>
-      <pre><code class="js">let state = new BridgeState(context, key, states);</code></pre>
+      <pre><code class="js">let state = new BridgeState({context, key, initialState});</code></pre>
       <p>Where:</p>
       <pre>
         <code class="js">
-  states = {
+          initialState = {
     // 'state_1' can be anything, it's for you to use when updating
     state_1: {
       value: 0, // the initial value. If persistent = true this value will be overridden by the value in the Context
