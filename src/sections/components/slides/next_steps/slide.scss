@@ -1,6 +1,11 @@
 @import "../../../../css/slides_common";
 
+$draggable-item-height: 122px;
+
 article#next_steps {
+  .c-draggable-container {
+    font-size: 22px;
+  }
   .s {
     &-contact {
       justify-self: flex-end;
@@ -12,6 +17,9 @@ article#next_steps {
     }
     &-table {
       font-size: 22px;
+      &-header-cell {
+        height: 50px;
+      }
     }
   }
 
@@ -39,14 +47,13 @@ article#next_steps {
   }
   .editable-item {
     &[contenteditable] {
-      border: 1px dashed turquoise;
+      border: 1px dashed #222;
       cursor: text;
     }
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    line-height: 62px;
-    margin-left: -10px;
+    line-height: 82px;
     padding-left: 10px;
   }
 
@@ -79,7 +86,7 @@ article#next_steps {
     &:after {
       position: relative;
       top: 2px;
-      left: -15px;
+      left: 0px;
       width: 18px;
       height: 10px;
       background-position: 50%;
@@ -169,7 +176,8 @@ article#next_steps {
   .c-draggable-container {
     position: absolute;
     height: 92px;
-    width: 910px;
+    // this needs to match the width of your list items
+    width: 840px;
     .draggable-item {
       width: 100%;
       height: 100%;
@@ -219,18 +227,18 @@ article#next_steps {
     position: relative;
   }
   .draggable-item {
-    height: 122px;
+    height: $draggable-item-height;
     position: absolute;
     left: 0;
     right: 0;
     transition: top 0.1s ease-in;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     &-inner {
       background-color: white;
       color: #000;
       border-radius: 8px;
-      height: 100%;
+      //   height: 100%;
     }
 
     &.is-hovered {

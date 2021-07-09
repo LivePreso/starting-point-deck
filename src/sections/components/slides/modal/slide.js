@@ -30,7 +30,6 @@ new Slide({
 
     this.modalButton = this.utils.findEl('.js-open-modal');
     this.modalButton.addEventListener('click', e => {
-      debugger;
       this.components.modal.open();
       this.components.modal.activeContent = 'modal-content-1';
     });

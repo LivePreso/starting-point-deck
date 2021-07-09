@@ -5,8 +5,8 @@ class SvgLibrary {
        height="29.9px" viewBox="0 0 29.5 29.9" style="overflow:visible;enable-background:new 0 0 29.5 29.9;" xml:space="preserve">
     <style type="text/css">
       
-        .stz{opacity:0.7;fill:none;stroke:#43F377;stroke-width:1.5022;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
-      .stw{fill:#43F377;}
+        .stz{opacity:0.7;fill:none;stroke:#222;stroke-width:1.5022;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+      .stw{fill:#222;}
     </style>
     <defs>
     </defs>
@@ -61,7 +61,7 @@ class SvgLibrary {
     return /* html */ `
       <svg xmlns="http://www.w3.org/2000/svg" width="30.3" height="30.3" viewBox="0 0 30.3 30.3">
         <defs>
-          <style>.remove-1,.remove-2,.remove-3{fill:none;}.remove-1,.remove-2{stroke:#f54b0a;}.remove-1{stroke-miterlimit:10;}.remove-2{stroke-linecap:round;stroke-linejoin:round;}</style>
+          <style>.remove-1,.remove-2,.remove-3{fill:none;}.remove-1,.remove-2{stroke:#f54b0a; stroke-width:2}.remove-1{stroke-miterlimit:10;}.remove-2{stroke-linecap:round;stroke-linejoin:round;}</style>
         </defs>
         <title>remove</title>
         <g id="Layer_2" data-name="Layer 2">
@@ -111,7 +111,7 @@ class SvgLibrary {
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="6.8px"
       height="33px" viewBox="0 0 6.8 33" style="overflow:visible;enable-background:new 0 0 6.8 33;" xml:space="preserve">
       <style type="text/css">
-      .stx{fill:#43F377;}
+      .stx{fill:#222;}
       </style>
       <defs>
       </defs>

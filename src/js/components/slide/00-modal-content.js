@@ -28,10 +28,14 @@ class ModalContent {
       }
     ];
 
-    this.state = new BridgeState(this, this.key, {
-      active: {
-        value: false,
-        onUpdate: this.toggle
+    this.state = new BridgeState({
+      context: this,
+      key: this.key,
+      initial: {
+        active: {
+          value: false,
+          onUpdate: this.toggle
+        }
       }
     });
 

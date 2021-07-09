@@ -201,7 +201,7 @@ class NextStepsSlide extends HtmlComponent {
     const stepsLength = this.state.steps ? this.state.steps.length : 1;
     const cols = [3, 12, 5];
     const colTotal = _.reduce(cols, (tot, col) => tot + col, 0);
-    const rowHeight = 142;
+    const rowHeight = 122;
     return /* html */ `
       <div
         class="
@@ -222,7 +222,7 @@ class NextStepsSlide extends HtmlComponent {
                   class="o-table--row u-font--demi u-color--white u-pad--bottom-10" 
                 >
                   <div
-                    class="o-table--cell u-w--${
+                    class="o-table--cell s-table-header-cell u-w--${
                       cols[0]
                     }/${colTotal} u-text-align--center sort-header u-pad--left-20"
                     data-key="priority"
@@ -231,13 +231,13 @@ class NextStepsSlide extends HtmlComponent {
                   >
                     Priority
                   </div>
-                  <div class="o-table--cell u-w--${
+                  <div class="o-table--cell s-table-header-cell u-w--${
                     cols[1]
                   }/${colTotal} u-pad--left-40">
                     Action
                   </div>
                   <div
-                    class="o-table--cell u-w--${
+                    class="o-table--cell s-table-header-cell u-w--${
                       cols[2]
                     }/${colTotal} sort-header"
                     data-key="date"
@@ -277,7 +277,9 @@ class NextStepsSlide extends HtmlComponent {
                           u-flex--row
                           u-flex--align-center
                           u-rel
-                          u-pad--right-20
+                          u-pad--right-20 
+                          u-border--right-10
+                          u-border--color-blue 
                         ">
                           ${
                             Deck.modes.isEditor &&
@@ -300,8 +302,8 @@ class NextStepsSlide extends HtmlComponent {
                         <div class="o-table--cell u-w--${
                           cols[1]
                         }/${colTotal} u-pad--left-40 u-pad--right-40 u-pad--top-10 u-pad--bottom-10 u-font--fz-22 
-                        u-border--right-1
-                        u-border--color-mid-grey">
+                        u-border--right-10
+                        u-border--color-blue ">
                           ${
                             Deck.modes.isEditor
                               ? /* html */ `<div contenteditable="true" class="editable-item u-h--1 interactive">${step.text}</div>`

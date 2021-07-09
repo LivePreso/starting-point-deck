@@ -69,14 +69,18 @@ class Modal {
     this.checkContent(content);
     this.content = content || [];
 
-    this.state = new BridgeState(this, this.key, {
-      open: {
-        value: false,
-        onUpdate: this.toggle
-      },
-      activeContent: {
-        value: (this.content[0] && this.content[0].key) || null,
-        onUpdate: this.toggleContent
+    this.state = new BridgeState({
+      context: this,
+      key: this.key,
+      initial: {
+        open: {
+          value: false,
+          onUpdate: this.toggle
+        },
+        activeContent: {
+          value: (this.content[0] && this.content[0].key) || null,
+          onUpdate: this.toggleContent
+        }
       }
     });
 

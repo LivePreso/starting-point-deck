@@ -46,7 +46,8 @@ class DraggableList extends Component {
       hideOriginal: true,
       disabled: this.options.disabled,
       onElementDragging: this.onItemDrag,
-      onElementDropped: this.onItemDrop
+      onElementDropped: this.onItemDrop,
+      onClearDraggingElement: this.onClearDrag
     });
 
     this.disabled = Boolean(options.disabled);
@@ -93,6 +94,12 @@ class DraggableList extends Component {
   onItemDrag = (e, draggable, dragPosition) => {
     var closest = this.calcIndex(dragPosition);
     this.moveDraggableToIndex(draggable, closest);
+  };
+
+  onClearDrag = () => {
+    $('.c-draggable-container')
+      .css({ top: 0, left: 0 })
+      .html('');
   };
 
   onItemDrop = (draggable, mousePosition, objectPosition) => {
