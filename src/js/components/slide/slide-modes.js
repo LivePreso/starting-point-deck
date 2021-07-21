@@ -4,7 +4,11 @@
 class SlideModes {
   get isEditor() {
     // TODO: Confirm definition of "edit mode"
-    return this.is('master') && !this.is('preso-readonly');
+    return (
+      this.is('master') &&
+      (this.is('preview') || this.is('present')) &&
+      !this.is('preso-readonly')
+    );
   }
 
   get canEdit() {

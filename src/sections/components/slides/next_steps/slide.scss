@@ -65,7 +65,10 @@ article#next_steps {
     flex: none;
   }
   .sort-header {
-    cursor: pointer;
+    .preview &,
+    .present & {
+      cursor: pointer;
+    }
     flex-direction: row;
     align-items: center;
     &:hover {
@@ -123,7 +126,10 @@ article#next_steps {
     justify-self: flex-end;
     margin-top: 8px;
     margin-left: auto;
-    cursor: pointer;
+    .preview &,
+    .present & {
+      cursor: pointer;
+    }
     svg {
       width: 31px;
     }
