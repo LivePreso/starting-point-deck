@@ -3,6 +3,16 @@
  */
 class SlideUtils {
   /**
+   * Check if current viewing platform is CDK
+   *
+   * @return {Boolean} - viewing platform is CDK
+   */
+  static isCDK() {
+    var isCDK = $('body > #cdk').length > 0;
+    return isCDK;
+  }
+
+  /**
    * Create SlideUtils
    *
    * @param {Slide} slide - The current slide
@@ -142,22 +152,12 @@ class SlideUtils {
   }
 
   /**
-   * Check if current viewing platform is CDK
-   *
-   * @return {Boolean} - viewing platform is CDK
-   */
-  isCDK() {
-    var isCDK = $('body > #cdk').length > 0;
-    return isCDK;
-  }
-
-  /**
    * sets up links at the bottom of each slide if in CDK
    *
    * @param {String} pageId - id of current slide
    */
   setupCdkFileLink(pageId) {
-    if (this.isCDK()) {
+    if (SlideUtils.isCDK()) {
       var $pageContainer = $('#' + pageId);
       var deckPath = window.controller.getState('cdk.projectFile.src');
       var isMac = deckPath.indexOf('/') > -1;
@@ -300,7 +300,7 @@ class SlideUtils {
         var prettyVal = formattingFunction ? formattingFunction(value) : value;
         $domNode.html(prettyVal);
       } else {
-        if (this.isCDK()) console.error(`node '${selector}' not found`);
+        if (SlideUtils.isCDK()) console.error(`node '${selector}' not found`);
       }
     });
   }
