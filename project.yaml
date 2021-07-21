@@ -5,11 +5,9 @@ dist: ./dist
 key: starting-point-deck
 maintainer: peter.brick@salespreso.com
 servers:
-  -
-    title: Production
+  - title: Production
     api: 'https://demo.livepreso.com'
-  -
-    title: Staging
+  - title: Staging
     api: 'https://staging-demo.livepreso.com'
 screenshotpreferences:
   backend: chrome
@@ -27,37 +25,30 @@ common:
     - css/core.css
 hooks: js/hooks/hooks.js
 sections:
-  -
-    key: slide_js
+  - key: slide_js
     title: Slide JS
     slides:
       - { key: slide_state, title: Slide State }
-  -
-    key: components
+  - key: components
     title: Components
     slides:
       - { key: removable_assets, title: Removable Assets }
       - { key: modal, title: Modal }
       - { key: next_steps, title: Next Steps (HtmlComponent) }
+      - { key: inject_data_values, title: Data injection }
 content_editors:
   text:
     colors:
-      -
-        color: '#000000'
+      - color: '#000000'
         title: 'Black'
     formats:
-      -
-        block: 'p'
+      - block: 'p'
         title: 'Normal'
-      -
-        block: 'h6'
+      - block: 'h6'
         title: 'Small'
-      -
-        block: 'h2'
+      - block: 'h2'
         title: 'Large heading'
-      -
-        block: 'h3'
+      - block: 'h3'
         title: 'Medium heading'
-      -
-        block: 'h4'
+      - block: 'h4'
         title: 'Small heading'
