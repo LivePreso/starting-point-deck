@@ -2,7 +2,8 @@ new Slide({
   onRendered() {
     this.slideApp = new NextStepsSlide(this.id, {
       slide: this,
-      persistent: true
+      persistent: true,
+      maxHeight: '500px'
     });
     ComponentUtils.render(this.slideApp, this.utils.findEl('#next_steps_root'));
   },

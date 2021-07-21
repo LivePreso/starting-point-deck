@@ -214,12 +214,12 @@ class NextStepsSlide extends HtmlComponent {
         data-key="${this.key}"
       >
         <div class="u-flex--1 u-flex u-flex--col u-flex--align-center u-pad--left-60 u-pad--right-20">
-          
+
           <div class="u-flex--1 u-w--1 u-flex u-flex--row">
             <div class="u-flex--1 u-flex u-flex--col">
               <div class="o-table flex--none u-flex">
                 <div
-                  class="o-table--row u-font--demi u-color--white u-pad--bottom-10" 
+                  class="o-table--row u-font--demi u-color--white u-pad--bottom-10"
                 >
                   <div
                     class="o-table--cell s-table-header-cell u-w--${
@@ -247,81 +247,89 @@ class NextStepsSlide extends HtmlComponent {
                     Date
                   </div>
                 </div>
-                <div
-                  class="draggable-list"
-                  style="height: ${rowHeight * stepsLength}px"
-                >
-                  ${_.map(
-                    _.sortBy(this.state.steps, (step, index) => {
-                      if (this.state.sortBy === 'priority') {
-                        return this.state.sortDirection === 'asc'
-                          ? index
-                          : -index;
-                      }
-                      const date = moment(step.date, 'DD/MM/YY').unix();
-                      return this.state.sortDirection == 'asc' ? date : -date;
-                    }),
-                    (step, index) => /* html */ `
-                      <div
-                        class="draggable-item u-pad--top-6 u-pad--bottom-6"
-                        data-uid="item-${index + 1}"
-                        style="top: ${index * 122}px">
-                        <div class="draggable-item-inner o-table--row">
-                        <div class="
-                          o-table--cell
-                          u-w--${cols[0]}/${colTotal}
-                          u-font--demi
-                          u-bg--background
-                          u-text-align--center
-                          u-font--fz-38
-                          u-flex--row
-                          u-flex--align-center
-                          u-rel
-                          u-pad--right-20 
+                <div ${
+                  this.options.maxHeight
+                    ? 'class="o-table--scrollable-body" style="max-height: ' +
+                      this.options.maxHeight +
+                      '"'
+                    : ''
+                }>
+                  <div
+                    class="draggable-list"
+                    style="height: ${rowHeight * stepsLength}px"
+                  >
+                    ${_.map(
+                      _.sortBy(this.state.steps, (step, index) => {
+                        if (this.state.sortBy === 'priority') {
+                          return this.state.sortDirection === 'asc'
+                            ? index
+                            : -index;
+                        }
+                        const date = moment(step.date, 'DD/MM/YY').unix();
+                        return this.state.sortDirection == 'asc' ? date : -date;
+                      }),
+                      (step, index) => /* html */ `
+                        <div
+                          class="draggable-item u-pad--top-6 u-pad--bottom-6"
+                          data-uid="item-${index + 1}"
+                          style="top: ${index * 122}px">
+                          <div class="draggable-item-inner o-table--row">
+                          <div class="
+                            o-table--cell
+                            u-w--${cols[0]}/${colTotal}
+                            u-font--demi
+                            u-bg--background
+                            u-text-align--center
+                            u-font--fz-38
+                            u-flex--row
+                            u-flex--align-center
+                            u-rel
+                            u-pad--right-20
+                            u-border--right-10
+                            u-border--color-blue
+                          ">
+                            ${
+                              Deck.modes.isEditor &&
+                              stepsLength > 1 &&
+                              this.state.sortBy === 'priority'
+                                ? /* html */ `
+                                  <div class="drag-handle">
+                                    ${this.svg.dragIcon}
+                                  </div>
+                                `
+                                : ''
+                            }
+                            ${step.priority}
+                            ${
+                              Deck.modes.isEditor && stepsLength > 1
+                                ? `<span class="remove-step">${this.svg.removeIcon}</span>`
+                                : ''
+                            }
+                          </div>
+                          <div class="o-table--cell u-w--${
+                            cols[1]
+                          }/${colTotal} u-pad--left-40 u-pad--right-40 u-pad--top-10 u-pad--bottom-10 u-font--fz-22
                           u-border--right-10
-                          u-border--color-blue 
-                        ">
-                          ${
-                            Deck.modes.isEditor &&
-                            stepsLength > 1 &&
-                            this.state.sortBy === 'priority'
-                              ? /* html */ `
-                                <div class="drag-handle">
-                                  ${this.svg.dragIcon}
-                                </div>
-                              `
-                              : ''
-                          }
-                          ${step.priority}
-                          ${
-                            Deck.modes.isEditor && stepsLength > 1
-                              ? `<span class="remove-step">${this.svg.removeIcon}</span>`
-                              : ''
-                          }
-                        </div>
-                        <div class="o-table--cell u-w--${
-                          cols[1]
-                        }/${colTotal} u-pad--left-40 u-pad--right-40 u-pad--top-10 u-pad--bottom-10 u-font--fz-22 
-                        u-border--right-10
-                        u-border--color-blue ">
-                          ${
-                            Deck.modes.isEditor
-                              ? /* html */ `<div contenteditable="true" class="editable-item u-h--1 interactive">${step.text}</div>`
-                              : step.text
-                          }
-                        </div>
-                        <div class="u-pad--left-30 o-table--cell u-w--${
-                          cols[2]
-                        }/${colTotal} u-font--fz-22 u-flex--row u-flex--align-center u-flex--justify-between">
-                          ${step.date}
-                          <div class="cal-icon">
-                            ${this.svg.calIcon}
+                          u-border--color-blue ">
+                            ${
+                              Deck.modes.isEditor
+                                ? /* html */ `<div contenteditable="true" class="editable-item u-h--1 interactive">${step.text}</div>`
+                                : step.text
+                            }
+                          </div>
+                          <div class="u-pad--left-30 o-table--cell u-w--${
+                            cols[2]
+                          }/${colTotal} u-font--fz-22 u-flex--row u-flex--align-center u-flex--justify-between">
+                            ${step.date}
+                            <div class="cal-icon">
+                              ${this.svg.calIcon}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      </div>
-                    `
-                  ).join('')}
+                        </div>
+                      `
+                    ).join('')}
+                  </div>
                 </div>
               </div>
               ${
