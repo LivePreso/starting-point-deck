@@ -29,7 +29,7 @@
       <p>Where:</p>
       <pre>
         <code class="js">
-          initialState = {
+  initialState = {
     // 'state_1' can be anything, it's for you to use when updating
     state_1: {
       value: 0, // the initial value. If persistent = true this value will be overridden by the value in the Context
@@ -187,7 +187,7 @@
       if (this.isMaster) { // only set up click event for 'master'
         // set up click event
         this.clicker.addEventListener(
-          'click', 
+          'click',
           ev => this.clickerState.update({ numClicks: this.clickerState.getValue('numClicks') + 1 })
         );
       }
