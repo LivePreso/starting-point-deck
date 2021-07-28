@@ -1,0 +1,28 @@
+{% macro header(title, cwe_key) %}
+<div class="o-header">
+  <h1
+    class="
+      u-bg--black
+      u-color--white
+      u-display--table
+      u-pad--20
+    "
+    data-companywide-editable="{{ cwe_key }}"
+  >
+    {{ title }}
+  </h1>
+</div>
+{% endmacro %}
+
+{% macro footer() %}
+<div class="o-footer">
+  <div class="c-logo"></div>
+  <p class="">This is the footer</p>
+</div>
+{% endmacro %}
+
+{% macro script(sectionKey, slideKey) %}
+<script type="text/javascript">
+  {% include '../sections/' + sectionKey + '/slides/' + slideKey + '/slide.js' %}
+</script>
+{% endmacro %}

@@ -36,6 +36,7 @@ sections:
       - { key: modal, title: Modal }
       - { key: next_steps, title: Next Steps (HtmlComponent) }
       - { key: inject_data_values, title: Data injection }
+      - { key: nunjucks_example, title: Nunjucks example }
 content_editors:
   text:
     colors:
