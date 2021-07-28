@@ -19,7 +19,7 @@ new Slide({
         textMap: [
           {
             key: 'Source',
-            text: 'Lots of words'
+            text: 'Description'
           }
         ]
       }
