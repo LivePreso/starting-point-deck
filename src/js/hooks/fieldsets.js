@@ -2,7 +2,7 @@ import _ from 'lodash';
 import Requests from './requests.js';
 
 export default function(options) {
-  const { Fieldset } = options;
+  const { Fieldset, moment } = options;
 
   return new Fieldset({
     fields: [],
