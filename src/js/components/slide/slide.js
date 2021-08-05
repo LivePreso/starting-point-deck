@@ -73,8 +73,6 @@ class Slide {
     this.isScreenshot = this.modes.is('screenshot');
     /** whether the current mode is 'Screenshot' */
     this.isPDF = this.modes.is('screenshot-full');
-    /** whether the current mode is 'Prep' */
-    this.isPrep = this.modes.is('preview');
 
     /**
      * Dict of feeds in the format {key: feed}
@@ -144,7 +142,7 @@ class Slide {
 
   // force DOM order to match subslide array order
   reorderSubslideElements() {
-    // strip all page0x classes from subs (enaled or not)
+    // strip all page0x classes from subs (enabled or not)
     // note that app strips 'subslide' class from disabled adjuncts,
     // so .subslide is not a useful selector
     var allSubs = this.$pageContainer.find('.subslide-container > *');
@@ -210,43 +208,42 @@ class Slide {
 
   initialize() {
     this.$pageContainer.on('sliderendered', () => {
-      this.state = new BridgeState(
-        this,
-        'slideState-' + this.$pageContainer.attr('id'),
-        typeof this.initialState === 'function'
-          ? this.initialState()
-          : this.initialState
-      );
+      this.state = new BridgeState({
+        context: this,
+        key: `slideState-${this.id}`,
+        initial:
+          typeof this.initialState === 'function'
+            ? this.initialState()
+            : this.initialState
+      });
       this.getFeeds();
       typeof this.onRendered === 'function' && this.onRendered(this);
 
-      _.each(this.components, (component, key) => {
-        if (component.state) {
-          _.each(component.state.state, (state, key) => {
-            if (state.onUpdate) {
-              state.onUpdate.apply(component.state.context, [state.value]);
-            }
-          });
-        }
-        if (component.extraStates) {
-          _.each(component.extraStates, extraState => {
-            _.each(extraState.state, (state, key) => {
-              if (state.onUpdate) {
-                state.onUpdate.apply(extraState.context, [state.value]);
-              }
-            });
-          });
-        }
-      });
-
+      // _.each(this.components, (component, key) => {
+      //   if (component.state) {
+      //     _.each(component.state.state, (state, key) => {
+      //       if (state.onUpdate) {
+      //         state.onUpdate.apply(component.state.context, [state.value]);
+      //       }
+      //     });
+      //   }
+      //   if (component.extraStates) {
+      //     _.each(component.extraStates, extraState => {
+      //       _.each(extraState.state, (state, key) => {
+      //         if (state.onUpdate) {
+      //           state.onUpdate.apply(extraState.context, [state.value]);
+      //         }
+      //       });
+      //     });
+      //   }
+      // });
       this.animationRenderer.setInitialState();
     });
     this.$pageContainer.on(
       'slideready',
       this.getOnReady((e, done) => {
         this.state.initialize();
-        // this.state.initClient();
-        // this.state.masterDone();
+
         this.getSubslides();
         if (
           this.subslides.length &&
@@ -258,20 +255,19 @@ class Slide {
             slide: this
           });
         }
-
-        _.each(this.components, (component, key) => {
-          if (component.state) {
-            component.state.initialize();
-          }
-          if (component.extraStates) {
-            _.each(component.extraStates, extraState => {
-              extraState.initialize();
-            });
-          }
-        });
-
+        // _.each(this.components, (component, key) => {
+        //   if (component.state) {
+        //     component.state.initClient();
+        //     component.state.masterDone();
+        //   }
+        //   if (component.extraStates) {
+        //     _.each(component.extraStates, extraState => {
+        //       extraState.initClient();
+        //       extraState.masterDone();
+        //     });
+        //   }
+        // });
         typeof this.onReady === 'function' && this.onReady(e, done);
-        this.utils.setupCdkFileLink(this.id);
 
         setTimeout(() => {
           this.$pageContainer.addClass('slide-rendered');
@@ -282,6 +278,7 @@ class Slide {
         if (this.modes.is('edit-mode')) {
           this.animationRenderer.end();
         }
+        this.utils.setupCdkFileLink(this.id);
       })
     );
     this.$pageContainer.on('animationcomplete', () => {

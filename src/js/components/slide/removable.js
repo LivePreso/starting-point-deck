@@ -129,11 +129,15 @@ class Removables {
     this.interactive = Deck.modes.is('preview');
     this.disabled = disabled;
 
-    this.state = new BridgeState(this, this.key, {
-      removables: {
-        value: false,
-        persistent: true,
-        onUpdate: this.updateRemovables
+    this.state = new BridgeState({
+      context: this,
+      key: this.key,
+      initial: {
+        removables: {
+          value: false,
+          persistent: true,
+          onUpdate: this.updateRemovables
+        }
       }
     });
 

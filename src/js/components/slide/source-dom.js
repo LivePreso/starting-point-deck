@@ -33,10 +33,14 @@ class SourceDOM {
     const openByDefault =
       Deck.modes.is('edit-mode') || Deck.modes.is('screenshot-full');
 
-    this.state = new BridgeState(this, this.key, {
-      open: {
-        value: Boolean(openByDefault || active),
-        onUpdate: this.toggleSource
+    this.state = new BridgeState({
+      context: this,
+      key: this.key,
+      initial: {
+        open: {
+          value: Boolean(openByDefault || active),
+          onUpdate: this.toggleSource
+        }
       }
     });
 

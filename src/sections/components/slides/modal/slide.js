@@ -19,13 +19,15 @@ new Slide({
         textMap: [
           {
             key: 'Source',
-            text: 'Lots of words'
+            text: 'Description'
           }
         ]
       }
     );
   },
   onReady: function() {
+    this.components.modal.state.initialize();
+
     this.modalButton = this.utils.findEl('.js-open-modal');
     this.modalButton.addEventListener('click', e => {
       this.components.modal.open();

@@ -1,2 +1,18 @@
 article#modal {
+  .s {
+    &-modal-content {
+      padding: 20px;
+      border-radius: 10px;
+      background-color: white;
+      &-button {
+        border-radius: 10px;
+        background-color: #efefef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 20px;
+        cursor: pointer;
+      }
+    }
+  }
 }

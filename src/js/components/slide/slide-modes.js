@@ -2,15 +2,28 @@
  *  Contains a list of classes appended to the <body>
  */
 class SlideModes {
-  get classList() {
-    return _.map(this.body.classList, val => val);
+  get isEditor() {
+    // TODO: Confirm definition of "edit mode"
+    return (
+      this.is('master') &&
+      (this.is('preview') || this.is('present')) &&
+      !this.is('preso-readonly')
+    );
+  }
+
+  get canEdit() {
+    return (
+      this.is('edit-mode', 'review', 'master', 'livepreso') ||
+      this.is('review', 'master', 'livepreso', 'empty-preview')
+    );
   }
 
   /**
    * @constructor
    */
   constructor() {
-    this.body = document.querySelector('body');
+    let body = document.querySelector('body');
+    this.classList = _.map(body.classList, val => val);
   }
 
   /**
@@ -18,7 +31,9 @@ class SlideModes {
    * @param  {String}  className Name of class to check
    * @return {Boolean}           Return value
    */
-  is(className) {
-    return _.contains(this.classList, className);
+  is(...classNames) {
+    return _.every(classNames, className =>
+      _.contains(this.classList, className)
+    );
   }
 }
