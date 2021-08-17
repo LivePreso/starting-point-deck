@@ -38,7 +38,7 @@ Docs: https://developers.salespreso.com/
 1. Install the Developer CDK
    https://developers.salespreso.com/docs/cdk/sections/installation.html
 
-2. Ensure node version >= 10
+2. Ensure node version = 10
 
 3. Install gulp globally: `npm install gulp -g`
 
