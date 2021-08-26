@@ -1,0 +1,22 @@
+{% import "njk/slide_template.njk" as slide_template %}
+
+<article id="nunjucks_example" class="u-bg--blue">
+  <div class="o-content page01">
+
+    {{ slide_template.header('Nunjucks example', 'nunjucks_example_title') }}
+
+    <div class="o-content__body">
+      <p>
+        This is an example of using Nunjucks macros to import reusable chunks of content - perfect for headers and footers.
+      </p>
+      <p>
+        Nunjucks compilation is handled by gulp, ensuring your HTML is ready to go well before runtime. This is imperative when you're working with LivePreso companywide editable fields (used by PresoManager) as it ensures everything is rendered in time for the app to inject the current values.
+      </p>
+    </div>
+
+    {{ slide_template.footer() }}
+
+  </div>
+</article>
+
+{{ slide_template.script('components', 'nunjucks_example') }}

@@ -24,7 +24,8 @@ $font-size-list: (
   40: 40px,
   34: 34px,
   26: 26px,
-  20: 20px
+  20: 20px,
+  14: 14px
 );
 
 $leading: 6px;
@@ -95,8 +96,7 @@ $font-weight-list: (
 $colour-list: (
   white: #ffffff,
   black: #000000,
-  // Include customer specific colours here
-    charcoal: #333333,
+  charcoal: #333333,
   blue: #487ff7
 );
 

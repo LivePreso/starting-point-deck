@@ -11,5 +11,6 @@
       true,
       "ignoreFontFamilyNames": ["monospace"]
     ]
-  }
+  },
+  "ignoreFiles": ["src/css/typography/_fonts.scss"]
 }

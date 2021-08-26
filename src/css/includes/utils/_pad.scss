@@ -1,13 +1,14 @@
+$pad-sizes: 6, 10, 20, 30, 40, 60, 80;
+
 .u-pad {
   @each $direction in $directions {
-    @for $i from 0 through 60 {
-      $num: $i * 5;
-      &--#{$num} {
-        padding: $num * 1px;
+    @each $i in $pad-sizes {
+      &--#{$i} {
+        padding: $i * 1px;
       }
 
-      &--#{$direction}-#{$num} {
-        padding-#{$direction}: $num * 1px;
+      &--#{$direction}-#{$i} {
+        padding-#{$direction}: $i * 1px;
       }
     }
 

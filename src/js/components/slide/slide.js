@@ -142,7 +142,7 @@ class Slide {
 
   // force DOM order to match subslide array order
   reorderSubslideElements() {
-    // strip all page0x classes from subs (enaled or not)
+    // strip all page0x classes from subs (enabled or not)
     // note that app strips 'subslide' class from disabled adjuncts,
     // so .subslide is not a useful selector
     var allSubs = this.$pageContainer.find('.subslide-container > *');
@@ -208,13 +208,14 @@ class Slide {
 
   initialize() {
     this.$pageContainer.on('sliderendered', () => {
-      this.state = new BridgeState(
-        this,
-        'slideState-' + this.$pageContainer.attr('id'),
-        typeof this.initialState === 'function'
-          ? this.initialState()
-          : this.initialState
-      );
+      this.state = new BridgeState({
+        context: this,
+        key: `slideState-${this.id}`,
+        initial:
+          typeof this.initialState === 'function'
+            ? this.initialState()
+            : this.initialState
+      });
       this.getFeeds();
       typeof this.onRendered === 'function' && this.onRendered(this);
 
@@ -242,8 +243,7 @@ class Slide {
       'slideready',
       this.getOnReady((e, done) => {
         this.state.initialize();
-        // this.state.initClient();
-        // this.state.masterDone();
+
         this.getSubslides();
         if (
           this.subslides.length &&
@@ -268,7 +268,6 @@ class Slide {
         //   }
         // });
         typeof this.onReady === 'function' && this.onReady(e, done);
-        this.utils.setupCdkFileLink(this.id);
 
         setTimeout(() => {
           this.$pageContainer.addClass('slide-rendered');
@@ -279,6 +278,7 @@ class Slide {
         if (this.modes.is('edit-mode')) {
           this.animationRenderer.end();
         }
+        this.utils.setupCdkFileLink(this.id);
       })
     );
     this.$pageContainer.on('animationcomplete', () => {

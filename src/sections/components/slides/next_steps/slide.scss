@@ -1,0 +1,281 @@
+@import "../../../../css/slides_common";
+
+$draggable-item-height: 122px;
+
+article#next_steps {
+  .c-draggable-container {
+    font-size: 22px;
+  }
+  .s {
+    &-contact {
+      justify-self: flex-end;
+      &-box {
+        border: 1px solid colour(black);
+        border-radius: 9px;
+        padding: 30px;
+      }
+    }
+    &-table {
+      font-size: 22px;
+      &-header-cell {
+        height: 50px;
+      }
+    }
+  }
+
+  [data-companywide-editable] {
+    h1 {
+      font-size: 82px;
+      line-height: 86px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .client & {
+    * {
+      pointer-events: none;
+    }
+  }
+  #next_steps_root {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  &.slide-rendered {
+    #next_steps_root {
+      opacity: 1;
+    }
+  }
+  .editable-item {
+    &[contenteditable] {
+      border: 1px dashed #222;
+      cursor: text;
+    }
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 82px;
+    padding-left: 10px;
+  }
+
+  .fake-top {
+    width: calc(100% + 2px);
+    height: 45px;
+    position: relative;
+    left: -2px;
+    flex: none;
+  }
+  .sort-header {
+    .preview &,
+    .present & {
+      cursor: pointer;
+    }
+    flex-direction: row;
+    align-items: center;
+    &:hover {
+      opacity: 0.9;
+    }
+    &[data-sorting="true"] {
+      &[data-direction="asc"] {
+        &:after {
+          background-image: url(img/down.svg);
+        }
+      }
+      &[data-direction="desc"] {
+        &:after {
+          background-image: url(img/up.svg);
+        }
+      }
+    }
+    &:after {
+      position: relative;
+      top: 2px;
+      left: 0px;
+      width: 18px;
+      height: 10px;
+      background-position: 50%;
+      background-size: 18px 10px;
+      content: "";
+      display: block;
+      color: #fff;
+      margin-left: auto;
+    }
+  }
+  .add-step {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    > *:first-child {
+      margin-right: 20px;
+    }
+    color: white;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    //background: #f3f3f3;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+      color: #e7e7e7;
+    }
+    &:active {
+      color: #dbdbdb;
+    }
+  }
+  .cal-icon {
+    padding: 10px 20px;
+    justify-self: flex-end;
+    margin-top: 8px;
+    margin-left: auto;
+    .preview &,
+    .present & {
+      cursor: pointer;
+    }
+    svg {
+      width: 31px;
+    }
+  }
+  .remove-step {
+    width: 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 3px;
+  }
+  .flatpickr-wrapper {
+    max-width: 360px;
+    top: -180px;
+  }
+  .date-picker {
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    border: 0;
+    top: -150px;
+    position: relative;
+    z-index: 2;
+  }
+  .calendar-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    &.open {
+      display: flex;
+    }
+    align-items: center;
+    justify-content: center;
+    .shroud {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+  }
+  .c-draggable-container {
+    position: absolute;
+    height: 92px;
+    // this needs to match the width of your list items
+    width: 840px;
+    .draggable-item {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .c-draggable {
+    &-container {
+      position: absolute;
+      cursor: grabbing !important;
+
+      &.is-active {
+        z-index: 200;
+      }
+
+      &__item {
+        top: 0 !important;
+      }
+    }
+
+    &-item__target {
+      @include cursor();
+      &.is-disabled {
+        cursor: default;
+      }
+    }
+  }
+
+  .drag-handle {
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    justify-self: flex-start;
+    svg {
+      width: 7px;
+      height: 33px;
+    }
+    &:active {
+      cursor: grabbing;
+    }
+  }
+  .draggable-list {
+    position: relative;
+  }
+  .draggable-item {
+    height: $draggable-item-height;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: top 0.1s ease-in;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &-inner {
+      background-color: white;
+      color: #000;
+      border-radius: 8px;
+      //   height: 100%;
+    }
+
+    &.is-hovered {
+      .draggable-item-inner {
+        background-color: #222;
+      }
+    }
+  }
+  .sort-icons {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        svg {
+          polygon {
+            stroke: black;
+            stroke-width: 2px;
+          }
+        }
+      }
+      svg {
+        width: 20px;
+      }
+    }
+  }
+}

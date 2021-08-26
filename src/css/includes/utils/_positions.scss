@@ -1,20 +1,23 @@
+$rel-positions: 1;
+$z-indexes: 1;
+$abs-positions: 300, 400;
+
 .u-rel {
   position: relative;
 
-  @for $i from 1 through 80 {
-    $num: $i * 5;
+  @each $pos in $rel-positions {
     @each $direction in $directions {
-      &--#{$direction}-#{$num} {
-        #{$direction}: $num * 1px;
+      &--#{$direction}-#{$pos} {
+        #{$direction}: $pos * 1px;
       }
 
-      &--#{$direction}-neg-#{$num} {
-        #{$direction}: $num * -1px;
+      &--#{$direction}-neg-#{$pos} {
+        #{$direction}: $pos * -1px;
       }
     }
   }
   /* zindex adjustment, useful where you want a column tucked under another */
-  @for $z_index from 1 through 5 {
+  @each $z_index in $z-indexes {
     &__z-#{$z_index} {
       z-index: #{$z_index};
     }
@@ -34,17 +37,16 @@
     }
   }
 
-  @for $i from 1 through 80 {
-    $num: $i * 5;
+  @each $pos in $abs-positions {
     @each $direction in $directions {
-      &--#{$direction}-#{$num} {
+      &--#{$direction}-#{$pos} {
         @extend .u-abs;
-        #{$direction}: $num * 1px;
+        #{$direction}: $pos * 1px;
       }
 
-      &--#{$direction}-neg-#{$num} {
+      &--#{$direction}-neg-#{$pos} {
         @extend .u-abs;
-        #{$direction}: $num * -1px;
+        #{$direction}: $pos * -1px;
       }
     }
   }
