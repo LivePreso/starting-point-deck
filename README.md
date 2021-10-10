@@ -51,12 +51,6 @@ Docs: https://developers.salespreso.com/
 
 **You're now ready to go! :partying_face:**
 
-### Build for upload
-
-```
-gulp build --target=production
-```
-
 ---
 
 ## deck-gulp-tasks
@@ -110,7 +104,7 @@ Underscore.js:
 
 ES6 compilation is run on hooks files (fieldsets, selections etc.) and deck.js, but not slides' slide.js files. For the majority of functionality this isn't a problem as modern browsers support a lot of the functionality we like to use, however, there are a couple that can trip you up.
 
-The app shell provided to Carsales uses Chromium 83.0.4103.116, use this version number when checking the compatibility of ES6 features.
+The app shell provided uses Chromium {{ version number }}, use this version number when checking the compatibility of ES6 features.
 
 If you are unsure, make sure to break components out into js files that will be compiled into deck.js, and keep the bare minimum in your individual slide.js files.
 
