@@ -1,11 +1,23 @@
 name: CI
 on:
   push:
-    branch: master
 
 jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    container:
+      image: node:10.12
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install -g gulp
+      - run: npm install yarn
+      - run: yarn
+      - run: gulp build
+
   release:
     runs-on: ubuntu-latest
+    needs: test-build
+    if: github.ref == 'refs/heads/master'
     steps:
       - uses: actions/checkout@v2
       - run: git archive -o starting-point-deck.zip HEAD
