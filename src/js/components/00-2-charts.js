@@ -31,22 +31,22 @@ am4internal_webpackJsonp(
           return Y;
         }),
         i.d(n, 'RadarChartDataItem', function() {
-          return k;
+          return L;
         }),
         i.d(n, 'RadarChart', function() {
           return S;
         }),
         i.d(n, 'XYChartDataItem', function() {
-          return a.b;
+          return r.b;
         }),
         i.d(n, 'XYChart', function() {
-          return a.a;
+          return r.a;
         }),
         i.d(n, 'SerialChartDataItem', function() {
-          return X.b;
+          return W.b;
         }),
         i.d(n, 'SerialChart', function() {
-          return X.a;
+          return W.a;
         }),
         i.d(n, 'PieChart3DDataItem', function() {
           return E;
@@ -55,10 +55,10 @@ am4internal_webpackJsonp(
           return G;
         }),
         i.d(n, 'PieChartDataItem', function() {
-          return W.b;
+          return X.b;
         }),
         i.d(n, 'PieChart', function() {
-          return W.a;
+          return X.a;
         }),
         i.d(n, 'SlicedChart', function() {
           return U;
@@ -67,22 +67,22 @@ am4internal_webpackJsonp(
           return K;
         }),
         i.d(n, 'FlowDiagramDataItem', function() {
-          return ye;
+          return ge;
         }),
         i.d(n, 'FlowDiagram', function() {
-          return ge;
+          return ye;
         }),
         i.d(n, 'SankeyDiagramDataItem', function() {
           return Ae;
         }),
         i.d(n, 'SankeyDiagram', function() {
-          return De;
+          return Ie;
         }),
         i.d(n, 'ChordDiagramDataItem', function() {
           return _e;
         }),
         i.d(n, 'ChordDiagram', function() {
-          return Le;
+          return ke;
         }),
         i.d(n, 'TreeMapDataItem', function() {
           return Fe;
@@ -103,13 +103,13 @@ am4internal_webpackJsonp(
           return Z.a;
         }),
         i.d(n, 'LegendDataItem', function() {
-          return re.b;
+          return ae.b;
         }),
         i.d(n, 'Legend', function() {
-          return re.a;
+          return ae.a;
         }),
         i.d(n, 'LegendSettings', function() {
-          return re.c;
+          return ae.c;
         }),
         i.d(n, 'HeatLegend', function() {
           return Ue.a;
@@ -145,7 +145,7 @@ am4internal_webpackJsonp(
           return nt;
         }),
         i.d(n, 'OHLCSeries', function() {
-          return rt;
+          return at;
         }),
         i.d(n, 'ColumnSeriesDataItem', function() {
           return Se.b;
@@ -220,7 +220,7 @@ am4internal_webpackJsonp(
           return Ge;
         }),
         i.d(n, 'ConeSeriesDataItem', function() {
-          return It;
+          return Dt;
         }),
         i.d(n, 'ConeSeries', function() {
           return Tt;
@@ -232,16 +232,16 @@ am4internal_webpackJsonp(
           return Vt;
         }),
         i.d(n, 'AxisDataItem', function() {
-          return Lt.b;
+          return kt.b;
         }),
         i.d(n, 'Axis', function() {
-          return Lt.a;
+          return kt.a;
         }),
         i.d(n, 'Grid', function() {
           return x.a;
         }),
         i.d(n, 'AxisTick', function() {
-          return kt.a;
+          return Lt.a;
         }),
         i.d(n, 'AxisLabel', function() {
           return St.a;
@@ -253,7 +253,7 @@ am4internal_webpackJsonp(
           return f.a;
         }),
         i.d(n, 'AxisRenderer', function() {
-          return g.a;
+          return y.a;
         }),
         i.d(n, 'AxisBreak', function() {
           return jt.a;
@@ -262,10 +262,10 @@ am4internal_webpackJsonp(
           return A.a;
         }),
         i.d(n, 'ValueAxisDataItem', function() {
-          return ke.b;
+          return Le.b;
         }),
         i.d(n, 'ValueAxis', function() {
-          return ke.a;
+          return Le.a;
         }),
         i.d(n, 'CategoryAxisDataItem', function() {
           return T.b;
@@ -292,13 +292,13 @@ am4internal_webpackJsonp(
           return Yt.a;
         }),
         i.d(n, 'ValueAxisBreak', function() {
-          return Xt.a;
+          return Wt.a;
         }),
         i.d(n, 'AxisRendererX', function() {
-          return Xe.a;
+          return We.a;
         }),
         i.d(n, 'AxisRendererY', function() {
-          return I.a;
+          return D.a;
         }),
         i.d(n, 'AxisRendererRadial', function() {
           return _;
@@ -307,7 +307,7 @@ am4internal_webpackJsonp(
           return P.a;
         }),
         i.d(n, 'AxisRendererCircular', function() {
-          return D;
+          return I;
         }),
         i.d(n, 'AxisFillCircular', function() {
           return v;
@@ -316,7 +316,7 @@ am4internal_webpackJsonp(
           return b;
         }),
         i.d(n, 'AxisRendererX3D', function() {
-          return We;
+          return Xe;
         }),
         i.d(n, 'AxisRendererY3D', function() {
           return Me;
@@ -331,7 +331,7 @@ am4internal_webpackJsonp(
           return me;
         }),
         i.d(n, 'CircleBullet', function() {
-          return Wt;
+          return Xt;
         }),
         i.d(n, 'ErrorBullet', function() {
           return Mt;
@@ -343,7 +343,7 @@ am4internal_webpackJsonp(
           return N;
         }),
         i.d(n, 'FlowDiagramNode', function() {
-          return ae;
+          return re;
         }),
         i.d(n, 'FlowDiagramLink', function() {
           return ce;
@@ -382,7 +382,7 @@ am4internal_webpackJsonp(
           return ze;
         }),
         i.d(n, 'ConeColumn', function() {
-          return Dt;
+          return It;
         }),
         i.d(n, 'CurvedColumn', function() {
           return Ot;
@@ -396,8 +396,8 @@ am4internal_webpackJsonp(
         i.d(n, 'RadarCursor', function() {
           return Qt;
         });
-      var r = i('m4/l'),
-        a = i('0Mwj'),
+      var a = i('m4/l'),
+        r = i('0Mwj'),
         o = i('tjMS'),
         s = i('v36H'),
         l = i('aCit'),
@@ -416,7 +416,7 @@ am4internal_webpackJsonp(
               t
             );
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(s.b),
         p = (function(e) {
           function t() {
@@ -429,7 +429,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validate = function() {
               this.chart.invalid && this.chart.validate(),
                 e.prototype.validate.call(this);
@@ -437,22 +437,22 @@ am4internal_webpackJsonp(
             (t.prototype.createDataItem = function() {
               return new c();
             }),
-            (t.prototype.getPoint = function(e, t, i, n, r, a, o) {
-              a || (a = 'valueX'), o || (o = 'valueY');
-              var s = this.yAxis.getX(e, i, r, o),
-                l = this.yAxis.getY(e, i, r, o),
+            (t.prototype.getPoint = function(e, t, i, n, a, r, o) {
+              r || (r = 'valueX'), o || (o = 'valueY');
+              var s = this.yAxis.getX(e, i, a, o),
+                l = this.yAxis.getY(e, i, a, o),
                 h = u.getDistance({ x: s, y: l });
               0 == h && (h = 1e-5);
-              var c = this.xAxis.getAngle(e, t, n, a),
+              var c = this.xAxis.getAngle(e, t, n, r),
                 p = this.chart.startAngle,
                 d = this.chart.endAngle;
               return c < p || c > d
                 ? void 0
                 : { x: h * u.cos(c), y: h * u.sin(c) };
             }),
-            (t.prototype.addPoints = function(e, t, i, n, r) {
-              var a = this.getPoint(t, i, n, t.locations[i], t.locations[n]);
-              a && e.push(a);
+            (t.prototype.addPoints = function(e, t, i, n, a) {
+              var r = this.getPoint(t, i, n, t.locations[i], t.locations[n]);
+              r && e.push(r);
             }),
             (t.prototype.getMaskPath = function() {
               var e = this.yAxis.renderer;
@@ -464,9 +464,9 @@ am4internal_webpackJsonp(
               );
             }),
             (t.prototype.drawSegment = function(t, i, n) {
-              var r = this.yAxis.renderer;
+              var a = this.yAxis.renderer;
               this.connectEnds &&
-                360 == Math.abs(r.endAngle - r.startAngle) &&
+                360 == Math.abs(a.endAngle - a.startAngle) &&
                 (this.dataFields[this._xOpenField] ||
                   this.dataFields[this._yOpenField] ||
                   this.stacked) &&
@@ -485,8 +485,8 @@ am4internal_webpackJsonp(
             }),
             (t.prototype.positionBulletReal = function(e, t, i) {
               var n = this.xAxis,
-                r = this.yAxis;
-              (t < n.start || t > n.end || i < r.start || i > r.end) &&
+                a = this.yAxis;
+              (t < n.start || t > n.end || i < a.start || i > a.end) &&
                 (e.visible = !1),
                 e.moveTo(this.xAxis.renderer.positionToPoint(t, i));
             }),
@@ -507,8 +507,8 @@ am4internal_webpackJsonp(
       (l.c.registeredClasses.RadarSeries = p),
         (l.c.registeredClasses.RadarSeriesDataItem = c);
       var d = i('C6dT'),
-        y = i('FzPm'),
-        g = i('Meme'),
+        g = i('FzPm'),
+        y = i('Meme'),
         f = i('8EhG'),
         m = i('Mtpk'),
         v = (function(e) {
@@ -523,7 +523,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.draw = function() {
               if (
                 (e.prototype.draw.call(this),
@@ -588,7 +588,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'innerRadius', {
               get: function() {
                 return this.getPropertyValue('innerRadius');
@@ -616,7 +616,7 @@ am4internal_webpackJsonp(
       var P = i('IbTV'),
         C = i('v9UT'),
         A = i('5xph'),
-        D = (function(e) {
+        I = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
@@ -641,7 +641,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.setAxis = function(t) {
               var i = this;
               e.prototype.setAxis.call(this, t), (t.isMeasured = !1);
@@ -751,19 +751,21 @@ am4internal_webpackJsonp(
                 n =
                   this.startAngle +
                   ((this.endAngle - this.startAngle) * i) / this.axisLength,
-                r = this.pixelRadius,
-                a = this.pixelInnerRadius;
+                a = this.pixelRadius,
+                r = this.pixelInnerRadius;
               if (this.axisRendererY) {
                 var o = u.fitToRange(
                   this.axisRendererY.positionToCoordinate(t),
                   0,
                   1 / 0
                 );
-                return { x: o * u.cos(n), y: o * u.sin(n) };
+                return (
+                  0 == o && (o = 1e-6), { x: o * u.cos(n), y: o * u.sin(n) }
+                );
               }
               return {
-                x: u.cos(n) * a + (r - a) * u.cos(n) * t,
-                y: u.sin(n) * a + (r - a) * u.sin(n) * t
+                x: u.cos(n) * r + (a - r) * u.cos(n) * t,
+                y: u.sin(n) * r + (a - r) * u.sin(n) * t
               };
             }),
             (t.prototype.positionToAngle = function(e) {
@@ -791,17 +793,18 @@ am4internal_webpackJsonp(
             (t.prototype.updateAxisLine = function() {
               var e = this.pixelRadius,
                 t = this.startAngle,
-                i = this.endAngle - t;
+                i = this.endAngle,
+                n = u.min(360, i - t);
               this.line.path =
                 h.moveTo({ x: e * u.cos(t), y: e * u.sin(t) }) +
-                h.arcTo(t, i, e, e);
+                h.arcTo(t, n, e, e);
             }),
             (t.prototype.updateGridElement = function(e, t, i) {
               t += (i - t) * e.location;
               var n = this.positionToPoint(t);
               if (m.isNumber(n.x) && m.isNumber(n.y) && e.element) {
-                var r = u.DEGREES * Math.atan2(n.y, n.x),
-                  a = C.relativeRadiusToValue(
+                var a = u.DEGREES * Math.atan2(n.y, n.x),
+                  r = C.relativeRadiusToValue(
                     m.hasValue(e.radius) ? e.radius : Object(o.c)(100),
                     this.pixelRadius
                   ),
@@ -812,9 +815,10 @@ am4internal_webpackJsonp(
                   this.pixelRadiusReal,
                   !0
                 );
-                e.path =
-                  h.moveTo({ x: l * u.cos(r), y: l * u.sin(r) }) +
-                  h.lineTo({ x: a * u.cos(r), y: a * u.sin(r) });
+                m.isNumber(l) || (l = 0),
+                  (e.path =
+                    h.moveTo({ x: l * u.cos(a), y: l * u.sin(a) }) +
+                    h.lineTo({ x: r * u.cos(a), y: r * u.sin(a) }));
               }
               this.toggleVisibility(e, t, 0, 1);
             }),
@@ -822,25 +826,25 @@ am4internal_webpackJsonp(
               t += (i - t) * e.location;
               var n = this.positionToPoint(t);
               if (e.element) {
-                var r = this.pixelRadius,
-                  a = u.DEGREES * Math.atan2(n.y, n.x),
+                var a = this.pixelRadius,
+                  r = u.DEGREES * Math.atan2(n.y, n.x),
                   o = e.length;
                 e.inside && (o = -o),
                   (e.zIndex = 1),
                   (e.path =
-                    h.moveTo({ x: r * u.cos(a), y: r * u.sin(a) }) +
-                    h.lineTo({ x: (r + o) * u.cos(a), y: (r + o) * u.sin(a) }));
+                    h.moveTo({ x: a * u.cos(r), y: a * u.sin(r) }) +
+                    h.lineTo({ x: (a + o) * u.cos(r), y: (a + o) * u.sin(r) }));
               }
               this.toggleVisibility(e, t, 0, 1);
             }),
             (t.prototype.updateBullet = function(e, t, i) {
               var n = 0.5;
               e instanceof A.a && (n = e.location), (t += (i - t) * n);
-              var r = this.positionToPoint(t),
-                a = this.pixelRadius,
-                o = u.DEGREES * Math.atan2(r.y, r.x);
-              (r = { x: a * u.cos(o), y: a * u.sin(o) }),
-                this.positionItem(e, r),
+              var a = this.positionToPoint(t),
+                r = this.pixelRadius,
+                o = u.DEGREES * Math.atan2(a.y, a.x);
+              (a = { x: r * u.cos(o), y: r * u.sin(o) }),
+                this.positionItem(e, a),
                 this.toggleVisibility(e, t, 0, 1);
             }),
             (t.prototype.updateLabelElement = function(e, t, i, n) {
@@ -882,8 +886,8 @@ am4internal_webpackJsonp(
               enumerable: !0,
               configurable: !0
             }),
-            (t.prototype.getPositionRangePath = function(e, t, i, n, r) {
-              var a = '';
+            (t.prototype.getPositionRangePath = function(e, t, i, n, a) {
+              var r = '';
               if (m.isNumber(e) && m.isNumber(t)) {
                 m.hasValue(i) || (i = this.radius),
                   (e = u.max(e, this.axis.start)),
@@ -892,9 +896,9 @@ am4internal_webpackJsonp(
                   s = C.relativeRadiusToValue(n, this.pixelRadius, !0),
                   l = this.positionToAngle(e),
                   c = this.positionToAngle(t) - l;
-                a = h.arc(l, c, o, s, o, r);
+                r = h.arc(l, c, o, s, o, a);
               }
-              return a;
+              return r;
             }),
             (t.prototype.createGrid = function() {
               return new b();
@@ -917,9 +921,9 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(g.a);
-      l.c.registeredClasses.AxisRendererCircular = D;
-      var I = i('OXm9'),
+        })(y.a);
+      l.c.registeredClasses.AxisRendererCircular = I;
+      var D = i('OXm9'),
         T = i('VB2N'),
         O = i('Vk33'),
         V = i('hD5A'),
@@ -947,7 +951,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validate = function() {
               this.chart && this.chart.invalid && this.chart.validate(),
                 e.prototype.validate.call(this);
@@ -1054,13 +1058,13 @@ am4internal_webpackJsonp(
             (t.prototype.updateGridElement = function(e, t, i) {
               t += (i - t) * e.location;
               var n,
-                r = this.positionToPoint(t),
-                a = u.getDistance(r),
+                a = this.positionToPoint(t),
+                r = u.getDistance(a),
                 o = this.startAngle,
-                s = this.endAngle;
-              if (m.isNumber(a) && e.element) {
-                var l = this.chart,
-                  c = l.xAxes.getIndex(0),
+                s = this.endAngle,
+                l = this.chart;
+              if (m.isNumber(r) && e.element && l) {
+                var c = l.xAxes.getIndex(0),
                   p = 0,
                   d = l.series.getIndex(0);
                 if (
@@ -1071,30 +1075,30 @@ am4internal_webpackJsonp(
                     c &&
                     c instanceof T.a)
                 ) {
-                  var y = c.renderer.grid.template.location,
-                    g = c.getAngle(d.dataItems.getIndex(0), 'categoryX', y);
-                  n = h.moveTo({ x: a * u.cos(g), y: a * u.sin(g) });
+                  var g = c.renderer.grid.template.location,
+                    y = c.getAngle(d.dataItems.getIndex(0), 'categoryX', g);
+                  n = h.moveTo({ x: r * u.cos(y), y: r * u.sin(y) });
                   for (var f = 1; f < p; f++)
-                    (g = c.getAngle(d.dataItems.getIndex(f), 'categoryX', y)),
-                      (n += h.lineTo({ x: a * u.cos(g), y: a * u.sin(g) }));
-                  (g = c.getAngle(
+                    (y = c.getAngle(d.dataItems.getIndex(f), 'categoryX', g)),
+                      (n += h.lineTo({ x: r * u.cos(y), y: r * u.sin(y) }));
+                  (y = c.getAngle(
                     d.dataItems.getIndex(p - 1),
                     'categoryX',
                     c.renderer.cellEndLocation
                   )),
-                    (n += h.lineTo({ x: a * u.cos(g), y: a * u.sin(g) }));
+                    (n += h.lineTo({ x: r * u.cos(y), y: r * u.sin(y) }));
                 } else
                   n =
-                    h.moveTo({ x: a * u.cos(o), y: a * u.sin(o) }) +
-                    h.arcTo(o, s - o, a, a);
+                    h.moveTo({ x: r * u.cos(o), y: r * u.sin(o) }) +
+                    h.arcTo(o, s - o, r, r);
                 e.path = n;
               }
               this.toggleVisibility(e, t, 0, 1);
             }),
             (t.prototype.updateLabelElement = function(e, t, i, n) {
               m.hasValue(n) || (n = e.location), (t += (i - t) * n);
-              var r = this.positionToPoint(t);
-              this.positionItem(e, r),
+              var a = this.positionToPoint(t);
+              this.positionItem(e, a),
                 this.toggleVisibility(
                   e,
                   t,
@@ -1154,52 +1158,52 @@ am4internal_webpackJsonp(
             (t.prototype.getPositionRangePath = function(e, t) {
               var i,
                 n = this.pixelInnerRadius,
-                r = this.axisLength + n,
-                a = u.fitToRange(this.positionToCoordinate(e), n, r),
-                o = u.fitToRange(this.positionToCoordinate(t), n, r),
+                a = this.axisLength + n,
+                r = u.fitToRange(this.positionToCoordinate(e), n, a),
+                o = u.fitToRange(this.positionToCoordinate(t), n, a),
                 s = this.startAngle,
                 l = this.endAngle - s,
                 c = this.chart,
                 p = c.xAxes.getIndex(0),
                 d = c.series.getIndex(0),
-                y = 0;
+                g = 0;
               if (
-                (d && (y = d.dataItems.length),
+                (d && (g = d.dataItems.length),
                 'polygons' == this.gridType &&
-                  y > 0 &&
+                  g > 0 &&
                   d &&
                   p &&
                   p instanceof T.a)
               ) {
-                var g = p.renderer.grid.template.location,
-                  f = p.getAngle(d.dataItems.getIndex(0), 'categoryX', g);
+                var y = p.renderer.grid.template.location,
+                  f = p.getAngle(d.dataItems.getIndex(0), 'categoryX', y);
                 i = h.moveTo({ x: o * u.cos(f), y: o * u.sin(f) });
-                for (var m = 1; m < y; m++)
-                  (f = p.getAngle(d.dataItems.getIndex(m), 'categoryX', g)),
+                for (var m = 1; m < g; m++)
+                  (f = p.getAngle(d.dataItems.getIndex(m), 'categoryX', y)),
                     (i += h.lineTo({ x: o * u.cos(f), y: o * u.sin(f) }));
                 (f = p.getAngle(
-                  d.dataItems.getIndex(y - 1),
+                  d.dataItems.getIndex(g - 1),
                   'categoryX',
                   p.renderer.cellEndLocation
                 )),
                   (i += h.lineTo({ x: o * u.cos(f), y: o * u.sin(f) })),
-                  (i += h.moveTo({ x: a * u.cos(f), y: a * u.sin(f) }));
-                for (m = y - 1; m >= 0; m--)
-                  (f = p.getAngle(d.dataItems.getIndex(m), 'categoryX', g)),
-                    (i += h.lineTo({ x: a * u.cos(f), y: a * u.sin(f) }));
-              } else i = h.arc(s, l, o, a);
+                  (i += h.moveTo({ x: r * u.cos(f), y: r * u.sin(f) }));
+                for (m = g - 1; m >= 0; m--)
+                  (f = p.getAngle(d.dataItems.getIndex(m), 'categoryX', y)),
+                    (i += h.lineTo({ x: r * u.cos(f), y: r * u.sin(f) }));
+              } else i = h.arc(s, l, o, r);
               return i;
             }),
             (t.prototype.updateBreakElement = function(e) {
               var t = e.startLine,
                 i = e.endLine,
                 n = e.fillShape,
-                r = e.startPoint,
-                a = e.endPoint;
-              (t.radius = Math.abs(r.y)),
-                (i.radius = Math.abs(a.y)),
-                (n.radius = Math.abs(a.y)),
-                (n.innerRadius = Math.abs(r.y));
+                a = e.startPoint,
+                r = e.endPoint;
+              (t.radius = Math.abs(a.y)),
+                (i.radius = Math.abs(r.y)),
+                (n.radius = Math.abs(r.y)),
+                (n.innerRadius = Math.abs(a.y));
             }),
             (t.prototype.createBreakSprites = function(e) {
               (e.startLine = new O.a()),
@@ -1225,33 +1229,33 @@ am4internal_webpackJsonp(
               t += (i - t) * e.location;
               var n = this.positionToPoint(t);
               if (e.element) {
-                var r = u.normalizeAngle(this.axisAngle + 90);
-                r / 90 != Math.round(r / 90)
+                var a = u.normalizeAngle(this.axisAngle + 90);
+                a / 90 != Math.round(a / 90)
                   ? (e.pixelPerfect = !1)
                   : (e.pixelPerfect = !0);
-                var a = -e.length;
-                e.inside && (a *= -1),
+                var r = -e.length;
+                e.inside && (r *= -1),
                   (e.path =
                     h.moveTo({ x: 0, y: 0 }) +
-                    h.lineTo({ x: a * u.cos(r), y: a * u.sin(r) }));
+                    h.lineTo({ x: r * u.cos(a), y: r * u.sin(a) }));
               }
               this.positionItem(e, n), this.toggleVisibility(e, t, 0, 1);
             }),
             (t.prototype.updateBullet = function(e, t, i) {
               var n = 0.5;
               e instanceof A.a && (n = e.location), (t += (i - t) * n);
-              var r = this.positionToPoint(t);
-              this.positionItem(e, r), this.toggleVisibility(e, t, 0, 1);
+              var a = this.positionToPoint(t);
+              this.positionItem(e, a), this.toggleVisibility(e, t, 0, 1);
             }),
             (t.prototype.positionToCoordinate = function(e) {
               var t,
                 i = this.axis,
                 n = i.axisFullLength,
-                r = this.pixelInnerRadius;
+                a = this.pixelInnerRadius;
               return (
                 (t = i.renderer.inversed
-                  ? (i.end - e) * n + r
-                  : (e - i.start) * n + r),
+                  ? (i.end - e) * n + a
+                  : (e - i.start) * n + a),
                 u.round(t, 1)
               );
             }),
@@ -1271,20 +1275,20 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(I.a);
+        })(D.a);
       l.c.registeredClasses.AxisRendererRadial = _;
-      var L = i('Wglt'),
-        k = (function(e) {
+      var k = i('Wglt'),
+        L = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (t.className = 'RadarChartDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(a.b),
+          return Object(a.c)(t, e), t;
+        })(r.b),
         S = (function(e) {
           function t() {
             var t = e.call(this) || this;
-            (t._axisRendererX = D),
+            (t._axisRendererX = I),
               (t._axisRendererY = _),
               (t.innerRadiusModifyer = 1),
               (t.mr = 1),
@@ -1305,7 +1309,7 @@ am4internal_webpackJsonp(
               (t.axisBulletsContainer = i),
               (t._cursorContainer = i),
               t.chartContainer.events.on('maxsizechanged', t.invalidate, t, !1),
-              (t._bulletMask = i.createChild(y.a)),
+              (t._bulletMask = i.createChild(g.a)),
               (t._bulletMask.shouldClone = !1),
               (t._bulletMask.element = t.paper.add('path')),
               (t._bulletMask.opacity = 0),
@@ -1314,7 +1318,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -1330,13 +1334,13 @@ am4internal_webpackJsonp(
             }),
             (t.prototype.handleXAxisRangeChange = function() {
               e.prototype.handleXAxisRangeChange.call(this),
-                L.each(this.yAxes.iterator(), function(e) {
+                k.each(this.yAxes.iterator(), function(e) {
                   e.invalidate();
                 });
             }),
             (t.prototype.handleYAxisRangeChange = function() {
               e.prototype.handleYAxisRangeChange.call(this),
-                L.each(this.xAxes.iterator(), function(e) {
+                k.each(this.xAxes.iterator(), function(e) {
                   e.invalidate();
                 });
             }),
@@ -1357,12 +1361,12 @@ am4internal_webpackJsonp(
               var t = this.plotContainer,
                 i = u.getArcRect(this.startAngle, this.endAngle, 1),
                 n = { x: 0, y: 0, width: 0, height: 0 },
-                r = t.innerWidth / i.width,
-                a = t.innerHeight / i.height,
+                a = t.innerWidth / i.width,
+                r = t.innerHeight / i.height,
                 s = this.innerRadius;
               if (s instanceof o.a) {
                 var l = s.value,
-                  c = Math.min(r, a);
+                  c = Math.min(a, r);
                 (this.mr = c),
                   (l =
                     Math.max(c * l, c - Math.min(t.innerHeight, t.innerWidth)) /
@@ -1377,41 +1381,41 @@ am4internal_webpackJsonp(
                   t.innerHeight / i.height
                 ),
                 d = 2 * C.relativeRadiusToValue(this.radius, p) || 0,
-                y = d / 2,
-                g = this.startAngle,
+                g = d / 2,
+                y = this.startAngle,
                 f = this.endAngle;
-              (this._pixelInnerRadius = C.relativeRadiusToValue(s, y)),
+              (this._pixelInnerRadius = C.relativeRadiusToValue(s, g)),
                 (this._bulletMask.path = h.arc(
-                  g,
-                  f - g,
                   y,
+                  f - y,
+                  g,
                   this._pixelInnerRadius
                 )),
-                L.each(this.xAxes.iterator(), function(e) {
+                k.each(this.xAxes.iterator(), function(e) {
                   e.renderer.useChartAngles &&
-                    ((e.renderer.startAngle = g), (e.renderer.endAngle = f)),
+                    ((e.renderer.startAngle = y), (e.renderer.endAngle = f)),
                     (e.width = d),
                     (e.height = d),
-                    (e.renderer.pixelRadiusReal = y);
+                    (e.renderer.pixelRadiusReal = g);
                 }),
-                L.each(this.yAxes.iterator(), function(e) {
-                  (e.renderer.startAngle = g),
+                k.each(this.yAxes.iterator(), function(e) {
+                  (e.renderer.startAngle = y),
                     (e.renderer.endAngle = f),
                     (e.width = d),
                     (e.height = d),
-                    (e.renderer.pixelRadiusReal = y);
+                    (e.renderer.pixelRadiusReal = g);
                 });
               var m = this.cursor;
               m &&
                 ((m.width = d),
                 (m.height = d),
-                (m.startAngle = g),
+                (m.startAngle = y),
                 (m.endAngle = f)),
                 (this.radarContainer.definedBBox = {
-                  x: y * i.x,
-                  y: y * i.y,
-                  width: y * i.width,
-                  height: y * i.height
+                  x: g * i.x,
+                  y: g * i.y,
+                  width: g * i.width,
+                  height: g * i.height
                 }),
                 this.radarContainer.validatePosition();
             }),
@@ -1473,7 +1477,7 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(a.a);
+        })(r.a);
       l.c.registeredClasses.RadarChart = S;
       var R = i('vMqJ'),
         j = i('DziZ'),
@@ -1484,7 +1488,7 @@ am4internal_webpackJsonp(
             (t._axis = new V.d()), (t.className = 'ClockHand');
             var i = new w.a();
             (t.fill = i.getFor('alternativeBackground')), (t.stroke = t.fill);
-            var n = new y.a();
+            var n = new g.a();
             (n.radius = 5),
               (t.pin = n),
               (t.isMeasured = !1),
@@ -1494,11 +1498,11 @@ am4internal_webpackJsonp(
               (t.height = Object(o.c)(100)),
               (t.radius = Object(o.c)(100)),
               (t.innerRadius = Object(o.c)(0));
-            var r = new j.a();
-            return (t.hand = r), t._disposers.push(t._axis), t.applyTheme(), t;
+            var a = new j.a();
+            return (t.hand = a), t._disposers.push(t._axis), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validate = function() {
               e.prototype.validate.call(this);
               var t = this.hand;
@@ -1511,9 +1515,9 @@ am4internal_webpackJsonp(
                 this.axis)
               ) {
                 var n = this.axis.renderer,
-                  r = C.relativeRadiusToValue(this.innerRadius, n.pixelRadius),
-                  a = C.relativeRadiusToValue(this.radius, n.pixelRadius);
-                (t.x = r), (t.y = -i / 2), (t.width = a - r);
+                  a = C.relativeRadiusToValue(this.innerRadius, n.pixelRadius),
+                  r = C.relativeRadiusToValue(this.radius, n.pixelRadius);
+                (t.x = a), (t.y = -i / 2), (t.width = r - a);
               }
             }),
             Object.defineProperty(t.prototype, 'pin', {
@@ -1602,13 +1606,13 @@ am4internal_webpackJsonp(
                 var n = this.axis.renderer.positionToAngle(
                     this.axis.anyToPosition(e)
                   ),
-                  r = this.rotation;
+                  a = this.rotation;
                 'clockWise' == this.rotationDirection &&
-                  n < r &&
-                  (this.rotation = r - 360),
+                  n < a &&
+                  (this.rotation = a - 360),
                   'counterClockWise' == this.rotationDirection &&
-                    n > r &&
-                    (this.rotation = r + 360),
+                    n > a &&
+                    (this.rotation = a + 360),
                   this.animate({ property: 'rotation', to: n }, t, i);
               }
             }),
@@ -1696,8 +1700,8 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'GaugeChartDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(k),
+          return Object(a.c)(t, e), t;
+        })(L),
         Y = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -1714,7 +1718,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -1737,8 +1741,8 @@ am4internal_webpackJsonp(
           );
         })(S);
       l.c.registeredClasses.GaugeChart = Y;
-      var X = i('2I/e'),
-        W = i('quKg'),
+      var W = i('2I/e'),
+        X = i('quKg'),
         M = i('Puh1'),
         H = i('nPzZ'),
         B = (function(e) {
@@ -1752,7 +1756,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'depthValue', {
               get: function() {
                 return this.values.depthValue.value;
@@ -1772,7 +1776,7 @@ am4internal_webpackJsonp(
             return (t.className = 'PieSeries3D'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createDataItem = function() {
               return new B();
             }),
@@ -1783,11 +1787,11 @@ am4internal_webpackJsonp(
               var i = t.slice,
                 n = this.depth;
               m.isNumber(n) || (n = this.chart.depth);
-              var r = t.values.depthValue.percent;
-              m.isNumber(r) || (r = 100), (i.depth = (r * n) / 100);
-              var a = this.angle;
-              m.isNumber(a) || (a = this.chart.angle),
-                (i.angle = a),
+              var a = t.values.depthValue.percent;
+              m.isNumber(a) || (a = 100), (i.depth = (a * n) / 100);
+              var r = this.angle;
+              m.isNumber(r) || (r = this.chart.angle),
+                (i.angle = r),
                 e.prototype.validateDataElement.call(this, t);
             }),
             (t.prototype.validate = function() {
@@ -1837,8 +1841,8 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'PieChart3DDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(W.b),
+          return Object(a.c)(t, e), t;
+        })(X.b),
         G = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -1851,7 +1855,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'depth', {
               get: function() {
                 return this.getPropertyValue('depth');
@@ -1879,7 +1883,7 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(W.a);
+        })(X.a);
       l.c.registeredClasses.PieChart3D = G;
       var q = i('DXFp'),
         K = (function(e) {
@@ -1887,7 +1891,7 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'SlicedChartDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(q.b),
         U = (function(e) {
           function t() {
@@ -1901,7 +1905,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -1923,12 +1927,12 @@ am4internal_webpackJsonp(
         te = i('3Cxr'),
         ie = i('CnhP'),
         ne = i('Qkdp'),
-        re = i('uWmK'),
-        ae = (function(e) {
+        ae = i('uWmK'),
+        re = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
-              (t.legendSettings = new re.c()),
+              (t.legendSettings = new ae.c()),
               (t.className = 'FlowDiagramNode'),
               (t.isMeasured = !1),
               new w.a(),
@@ -1941,7 +1945,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.handleHit = function(e) {
               this.isHidden || this.isHiding ? this.show() : this.hide();
             }),
@@ -1950,11 +1954,13 @@ am4internal_webpackJsonp(
               return (
                 this.outgoingDataItems.each(function(e) {
                   (!e.toNode || (e.toNode && !e.toNode.isHidden)) &&
-                    e.setWorkingValue('value', e.getValue('value'), t);
+                    (e.setWorkingValue('value', e.getValue('value'), t),
+                    e.link.show());
                 }),
                 this.incomingDataItems.each(function(e) {
                   (!e.fromNode || (e.fromNode && !e.fromNode.isHidden)) &&
-                    e.setWorkingValue('value', e.getValue('value'), t);
+                    (e.setWorkingValue('value', e.getValue('value'), t),
+                    e.link.show());
                 }),
                 i
               );
@@ -1963,10 +1969,10 @@ am4internal_webpackJsonp(
               var i = e.prototype.hide.call(this, t);
               return (
                 this.outgoingDataItems.each(function(e) {
-                  e.setWorkingValue('value', 0, t);
+                  e.setWorkingValue('value', 0, t), e.link.hide();
                 }),
                 this.incomingDataItems.each(function(e) {
-                  e.setWorkingValue('value', 0, t);
+                  e.setWorkingValue('value', 0, t), e.link.hide();
                 }),
                 i
               );
@@ -2011,14 +2017,14 @@ am4internal_webpackJsonp(
                     'inserted',
                     function() {
                       'name' == e.chart.sortBy
-                        ? (e._incomingSorted = L.sort(
+                        ? (e._incomingSorted = k.sort(
                             e._incomingDataItems.iterator(),
                             function(e, t) {
                               return $.order(e.fromName, t.fromName);
                             }
                           ))
                         : 'value' == e.chart.sortBy
-                        ? (e._incomingSorted = L.sort(
+                        ? (e._incomingSorted = k.sort(
                             e._incomingDataItems.iterator(),
                             function(e, t) {
                               return ee.b(te.order(e.value, t.value));
@@ -2045,14 +2051,14 @@ am4internal_webpackJsonp(
                     'inserted',
                     function() {
                       'name' == e.chart.sortBy
-                        ? (e._outgoingSorted = L.sort(
+                        ? (e._outgoingSorted = k.sort(
                             e._outgoingDataItems.iterator(),
                             function(e, t) {
                               return $.order(e.fromName, t.fromName);
                             }
                           ))
                         : 'value' == e.chart.sortBy
-                        ? (e._outgoingSorted = L.sort(
+                        ? (e._outgoingSorted = k.sort(
                             e._outgoingDataItems.iterator(),
                             function(e, t) {
                               return ee.b(te.order(e.value, t.value));
@@ -2134,8 +2140,8 @@ am4internal_webpackJsonp(
                 n.padding(0, 0, 0, 0),
                 (n.width = t),
                 (n.height = i);
-              var r = e.dataItem;
-              (r.color = n.fill), (r.colorOrig = n.fill);
+              var a = e.dataItem;
+              (a.color = n.fill), (a.colorOrig = n.fill);
             }),
             Object.defineProperty(t.prototype, 'legendDataItem', {
               get: function() {
@@ -2151,7 +2157,7 @@ am4internal_webpackJsonp(
             t
           );
         })(d.a);
-      l.c.registeredClasses.FlowDiagramNode = ae;
+      l.c.registeredClasses.FlowDiagramNode = re;
       var oe = i('sxA1'),
         se = i('TXRX'),
         le = i('8ZqG'),
@@ -2185,10 +2191,10 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.positionBullets = function() {
               var e = this;
-              L.each(this.bullets.iterator(), function(t) {
+              k.each(this.bullets.iterator(), function(t) {
                 (t.parent = e.bulletsContainer),
                   (t.maxWidth = e.maxWidth),
                   (t.maxHeight = e.maxHeight),
@@ -2228,8 +2234,8 @@ am4internal_webpackJsonp(
               var i = this.middleLine.positionToPoint(t);
               e.moveTo(i);
               var n,
-                r = e.propertyFields.rotation;
-              e.dataItem && (n = e.dataItem.dataContext[r]);
+                a = e.propertyFields.rotation;
+              e.dataItem && (n = e.dataItem.dataContext[a]);
               m.isNumber(n) || (n = i.angle), (e.rotation = n);
             }),
             Object.defineProperty(t.prototype, 'startAngle', {
@@ -2366,7 +2372,7 @@ am4internal_webpackJsonp(
       l.c.registeredClasses.FlowDiagramLink = ce;
       var pe = i('/e9j'),
         de = i('DHte'),
-        ye = (function(e) {
+        ge = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
@@ -2377,7 +2383,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'fromName', {
               get: function() {
                 return this.properties.fromName;
@@ -2439,7 +2445,7 @@ am4internal_webpackJsonp(
             t
           );
         })(Z.b),
-        ge = (function(e) {
+        ye = (function(e) {
           function t() {
             var t = e.call(this) || this;
             (t.colors = new de.a()),
@@ -2467,7 +2473,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.dispose = function() {
               e.prototype.dispose.call(this), this.dataItem.dispose();
             }),
@@ -2479,9 +2485,9 @@ am4internal_webpackJsonp(
                 e.prototype.validateData.call(this);
               var i,
                 n,
-                r = 0,
-                a = 0;
-              L.each(this.dataItems.iterator(), function(e) {
+                a = 0,
+                r = 0;
+              k.each(this.dataItems.iterator(), function(e) {
                 var o = e.fromName;
                 o &&
                   ((s = t.nodes.getKey(o)) ||
@@ -2509,18 +2515,18 @@ am4internal_webpackJsonp(
                 }
                 var c = e.value;
                 m.isNumber(c) &&
-                  ((r += c),
-                  a++,
+                  ((a += c),
+                  r++,
                   (i > c || !m.isNumber(i)) && (i = c),
                   (n < c || !m.isNumber(n)) && (n = c));
               });
               var o = 'value';
               this.dataItem.setCalculatedValue(o, n, 'high'),
                 this.dataItem.setCalculatedValue(o, i, 'low'),
-                this.dataItem.setCalculatedValue(o, r, 'sum'),
-                this.dataItem.setCalculatedValue(o, r / a, 'average'),
-                this.dataItem.setCalculatedValue(o, a, 'count'),
-                L.each(this.nodes.iterator(), function(e) {
+                this.dataItem.setCalculatedValue(o, a, 'sum'),
+                this.dataItem.setCalculatedValue(o, a / r, 'average'),
+                this.dataItem.setCalculatedValue(o, r, 'count'),
+                k.each(this.nodes.iterator(), function(e) {
                   var i = e[1];
                   i.fill instanceof le.a && (i.color = i.fill),
                     void 0 == i.color && (i.color = t.colors.next()),
@@ -2538,7 +2544,7 @@ am4internal_webpackJsonp(
               'name' == this.sortBy
                 ? (this._sorted = this.nodes.sortedIterator())
                 : 'value' == this.sortBy
-                ? (this._sorted = L.sort(this.nodes.iterator(), function(e, t) {
+                ? (this._sorted = k.sort(this.nodes.iterator(), function(e, t) {
                     return ee.b(te.order(e[1].total, t[1].total));
                   }))
                 : (this._sorted = this.nodes.iterator());
@@ -2546,11 +2552,11 @@ am4internal_webpackJsonp(
             (t.prototype.getNodeValue = function(e) {
               var t = 0,
                 i = 0;
-              L.each(e.incomingDataItems.iterator(), function(e) {
+              k.each(e.incomingDataItems.iterator(), function(e) {
                 var i = e.getWorkingValue('value');
                 m.isNumber(i) && (t += i);
               }),
-                L.each(e.outgoingDataItems.iterator(), function(e) {
+                k.each(e.outgoingDataItems.iterator(), function(e) {
                   var t = e.getWorkingValue('value');
                   m.isNumber(t) && (i += t);
                 }),
@@ -2567,7 +2573,7 @@ am4internal_webpackJsonp(
                   (this.readerTitle = this.language.translate('Flow diagram'));
             }),
             (t.prototype.createDataItem = function() {
-              return new ye();
+              return new ge();
             }),
             Object.defineProperty(t.prototype, 'nodePadding', {
               get: function() {
@@ -2615,7 +2621,7 @@ am4internal_webpackJsonp(
               configurable: !0
             }),
             (t.prototype.createNode = function() {
-              var e = new ae();
+              var e = new re();
               return this._disposers.push(e), e;
             }),
             Object.defineProperty(t.prototype, 'links', {
@@ -2651,7 +2657,7 @@ am4internal_webpackJsonp(
             t
           );
         })(Z.a);
-      l.c.registeredClasses.FlowDiagram = ge;
+      l.c.registeredClasses.FlowDiagram = ye;
       var fe = i('p9TX'),
         me = (function(e) {
           function t() {
@@ -2676,7 +2682,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.handleMaxSize = function() {
               (this.label.maxWidth = this.maxWidth),
                 (this.label.maxHeight = this.maxHeight);
@@ -2715,17 +2721,17 @@ am4internal_webpackJsonp(
             (n.height = 150),
             (n.label.horizontalCenter = 'middle'),
             (t.valueLabel = n);
-          var r = t.hiddenState;
+          var a = t.hiddenState;
           return (
-            (r.properties.fill = new w.a().getFor('disabledBackground')),
-            (r.properties.opacity = 0.5),
-            (r.properties.visible = !0),
-            t.background.hiddenState.copyFrom(r),
+            (a.properties.fill = new w.a().getFor('disabledBackground')),
+            (a.properties.opacity = 0.5),
+            (a.properties.visible = !0),
+            t.background.hiddenState.copyFrom(a),
             t
           );
         }
         return (
-          Object(r.c)(t, e),
+          Object(a.c)(t, e),
           (t.prototype.invalidateLinks = function() {
             var t = this;
             e.prototype.invalidateLinks.call(this),
@@ -2735,11 +2741,11 @@ am4internal_webpackJsonp(
             if (i) {
               var n = i.orientation;
               this._incomingSorted &&
-                L.each(this._incomingSorted, function(e) {
-                  var r = e.link,
-                    a = e.getWorkingValue('value');
-                  if (m.isNumber(a)) {
-                    r.parent = t.chart.linksContainer;
+                k.each(this._incomingSorted, function(e) {
+                  var a = e.link,
+                    r = e.getWorkingValue('value');
+                  if (m.isNumber(r)) {
+                    a.parent = t.chart.linksContainer;
                     var o = void 0,
                       s = void 0,
                       l = void 0;
@@ -2751,57 +2757,57 @@ am4internal_webpackJsonp(
                         : ((s = t.pixelY + t.dy),
                           (o = t.nextInCoord + t.pixelX + t.dx),
                           (l = 90)),
-                      (r.endX = o),
-                      (r.endY = s),
-                      (r.startAngle = l),
-                      (r.endAngle = l),
-                      (r.gradient.rotation = l),
-                      (r.linkWidth = a * i.valueHeight),
+                      (a.endX = o),
+                      (a.endY = s),
+                      (a.startAngle = l),
+                      (a.endAngle = l),
+                      (a.gradient.rotation = l),
+                      (a.linkWidth = r * i.valueHeight),
                       !e.fromNode)
                     ) {
                       'horizontal' == n
-                        ? ((r.maxWidth = 200),
-                          (r.startX = t.pixelX + t.dx - r.maxWidth),
-                          (r.startY = r.endY))
-                        : ((r.maxHeight = 200),
-                          (r.startX = r.endX),
-                          (r.startY = t.pixelY + t.dy - r.maxHeight)),
-                        C.used(r.gradient),
-                        (r.fill = e.toNode.color);
-                      var u = r.gradient.stops.getIndex(0);
+                        ? ((a.maxWidth = 200),
+                          (a.startX = t.pixelX + t.dx - a.maxWidth),
+                          (a.startY = a.endY))
+                        : ((a.maxHeight = 200),
+                          (a.startX = a.endX),
+                          (a.startY = t.pixelY + t.dy - a.maxHeight)),
+                        C.used(a.gradient),
+                        (a.fill = e.toNode.color);
+                      var u = a.gradient.stops.getIndex(0);
                       u &&
-                        ('gradient' == r.colorMode && (u.color = t.color),
+                        ('gradient' == a.colorMode && (u.color = t.color),
                         (u.opacity = 0),
-                        (r.fill = r.gradient),
-                        (r.stroke = r.gradient),
-                        r.gradient.validate());
+                        (a.fill = a.gradient),
+                        (a.stroke = a.gradient),
+                        a.gradient.validate());
                     }
-                    t.nextInCoord += r.linkWidth;
+                    t.nextInCoord += a.linkWidth;
                   }
                 }),
                 this._outgoingSorted &&
-                  L.each(this._outgoingSorted, function(e) {
+                  k.each(this._outgoingSorted, function(e) {
                     var i = e.link;
                     i.parent = t.chart.linksContainer;
-                    var r = e.getWorkingValue('value');
-                    if (m.isNumber(r)) {
-                      var a = void 0,
+                    var a = e.getWorkingValue('value');
+                    if (m.isNumber(a)) {
+                      var r = void 0,
                         o = void 0,
                         s = void 0;
                       if (
                         ('horizontal' == n
                           ? ((s = 0),
-                            (a = t.pixelX + t.pixelWidth + t.dx - 1),
+                            (r = t.pixelX + t.pixelWidth + t.dx - 1),
                             (o = t.nextOutCoord + t.pixelY + t.dy))
                           : ((s = 90),
-                            (a = t.nextOutCoord + t.pixelX + t.dx),
+                            (r = t.nextOutCoord + t.pixelX + t.dx),
                             (o = t.pixelY + t.pixelHeight + t.dy - 1)),
-                        (i.startX = a),
+                        (i.startX = r),
                         (i.startY = o),
                         (i.startAngle = s),
                         (i.endAngle = s),
                         (i.gradient.rotation = s),
-                        (i.linkWidth = r * t.chart.valueHeight),
+                        (i.linkWidth = a * t.chart.valueHeight),
                         !e.toNode)
                       ) {
                         'horizontal' == n
@@ -2849,7 +2855,7 @@ am4internal_webpackJsonp(
           }),
           t
         );
-      })(ae);
+      })(re);
       l.c.registeredClasses.SankeyNode = ve;
       var xe = i('xgTw'),
         be = i('aFzC'),
@@ -2876,98 +2882,123 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
+            (t.prototype.makeBackwards = function() {
+              void 0 != this.states.getKey('backwards') &&
+                this.setState('backwards');
+            }),
             (t.prototype.validate = function() {
+              var t, i, n, r;
               if ((e.prototype.validate.call(this), !this.isTemplate)) {
-                var t = this.startX,
-                  i = this.startY,
-                  n = this.endX,
-                  r = this.endY;
-                m.isNumber(n) || (n = t), m.isNumber(r) || (r = i);
-                var a = this.startAngle,
-                  o = this.endAngle,
-                  s = this.linkWidth,
-                  l = '',
-                  c = t,
-                  p = i,
-                  d = n,
-                  y = r,
-                  g = t + s * u.sin(a),
-                  f = n + s * u.sin(o),
-                  v = i + s * u.cos(a),
-                  x = r + s * u.cos(o),
-                  b = t + (s / 2) * u.sin(a),
-                  P = n + (s / 2) * u.sin(o),
-                  C = i + (s / 2) * u.cos(a),
-                  A = r + (s / 2) * u.cos(o);
-                this.zIndex = this.zIndex || this.dataItem.index;
-                var D = this.tension + (1 - this.tension) * u.sin(a),
-                  I = this.tension + (1 - this.tension) * u.cos(a);
+                var o = this.startX,
+                  s = this.startY,
+                  l = this.endX,
+                  c = this.endY;
                 if (
-                  ((this.middleLine.tensionX = D),
-                  (this.middleLine.tensionY = I),
-                  m.isNumber(s) &&
-                    m.isNumber(t) &&
-                    m.isNumber(n) &&
-                    m.isNumber(i) &&
-                    m.isNumber(r))
+                  (this.states.getKey('backwards') && this.setState('default'),
+                  this.dataItem)
                 ) {
-                  u.round(c, 3) == u.round(d, 3) && (d += 0.01),
-                    u.round(p, 3) == u.round(y, 3) && (y += 0.01),
-                    u.round(g, 3) == u.round(f, 3) && (f += 0.01),
-                    u.round(v, 3) == u.round(x, 3) && (x += 0.01);
-                  var T = Math.min(g, f, c, d),
-                    O = Math.min(v, x, p, y),
-                    V = Math.max(g, f, c, d),
-                    _ = Math.max(v, x, p, y);
-                  this._bbox = { x: T, y: O, width: V - T, height: _ - O };
-                  var L = this.controlPointDistance,
-                    k = c + (d - c) * L * u.cos(a),
-                    S = p + (y - p) * L * u.sin(a),
-                    R = d - (d - c) * L * u.cos(o),
-                    j = y - (y - p) * L * u.sin(o),
-                    w = b + (P - b) * L * u.cos(a),
-                    N = C + (A - C) * L * u.sin(a),
-                    F = P - (P - b) * L * u.cos(o),
-                    Y = A - (A - C) * L * u.sin(o),
-                    X = u.getAngle({ x: k, y: S }, { x: R, y: j }),
-                    W = ((s / u.cos(X) - s) / u.tan(X)) * u.cos(a),
-                    M = (s / u.sin(X) - s) * u.tan(X) * u.sin(a),
-                    H = -W / 2 + g + (f - g) * L * u.cos(a),
-                    B = -M / 2 + v + (x - v) * L * u.sin(a),
-                    z = -W / 2 + f - (f - g) * L * u.cos(o),
-                    E = -M / 2 + x - (x - v) * L * u.sin(o);
+                  var p = this.dataItem.component;
+                  p &&
+                    ('horizontal' == p.orientation
+                      ? l < o &&
+                        ((o = (t = Object(a.e)([l, o], 2))[0]),
+                        (l = t[1]),
+                        (s = (i = Object(a.e)([c, s], 2))[0]),
+                        (c = i[1]),
+                        this.makeBackwards())
+                      : c < s &&
+                        ((s = (n = Object(a.e)([c, s], 2))[0]),
+                        (c = n[1]),
+                        (o = (r = Object(a.e)([l, o], 2))[0]),
+                        (l = r[1]),
+                        this.makeBackwards()));
+                }
+                m.isNumber(l) || (l = o), m.isNumber(c) || (c = s);
+                var d = this.startAngle,
+                  g = this.endAngle,
+                  y = this.linkWidth,
+                  f = '',
+                  v = o,
+                  x = s,
+                  b = l,
+                  P = c,
+                  C = o + y * u.sin(d),
+                  A = l + y * u.sin(g),
+                  I = s + y * u.cos(d),
+                  D = c + y * u.cos(g),
+                  T = o + (y / 2) * u.sin(d),
+                  O = l + (y / 2) * u.sin(g),
+                  V = s + (y / 2) * u.cos(d),
+                  _ = c + (y / 2) * u.cos(g);
+                this.zIndex = this.zIndex || this.dataItem.index;
+                var k = this.tension + (1 - this.tension) * u.sin(d),
+                  L = this.tension + (1 - this.tension) * u.cos(d);
+                if (
+                  ((this.middleLine.tensionX = k),
+                  (this.middleLine.tensionY = L),
+                  m.isNumber(y) &&
+                    m.isNumber(o) &&
+                    m.isNumber(l) &&
+                    m.isNumber(s) &&
+                    m.isNumber(c))
+                ) {
+                  u.round(v, 3) == u.round(b, 3) && (b += 0.01),
+                    u.round(x, 3) == u.round(P, 3) && (P += 0.01),
+                    u.round(C, 3) == u.round(A, 3) && (A += 0.01),
+                    u.round(I, 3) == u.round(D, 3) && (D += 0.01);
+                  var S = Math.min(C, A, v, b),
+                    R = Math.min(I, D, x, P),
+                    j = Math.max(C, A, v, b),
+                    w = Math.max(I, D, x, P);
+                  this._bbox = { x: S, y: R, width: j - S, height: w - R };
+                  var N = this.controlPointDistance,
+                    F = v + (b - v) * N * u.cos(d),
+                    Y = x + (P - x) * N * u.sin(d),
+                    W = b - (b - v) * N * u.cos(g),
+                    X = P - (P - x) * N * u.sin(g),
+                    M = T + (O - T) * N * u.cos(d),
+                    H = V + (_ - V) * N * u.sin(d),
+                    B = O - (O - T) * N * u.cos(g),
+                    z = _ - (_ - V) * N * u.sin(g),
+                    E = u.getAngle({ x: F, y: Y }, { x: W, y: X }),
+                    G = ((y / u.cos(E) - y) / u.tan(E)) * u.cos(d),
+                    q = (y / u.sin(E) - y) * u.tan(E) * u.sin(d),
+                    K = -G / 2 + C + (A - C) * N * u.cos(d),
+                    U = -q / 2 + I + (D - I) * N * u.sin(d),
+                    Z = -G / 2 + A - (A - C) * N * u.cos(g),
+                    Q = -q / 2 + D - (D - I) * N * u.sin(g);
                   (this.middleLine.segments = [
                     [
-                      { x: b, y: C },
-                      { x: w, y: N },
-                      { x: F, y: Y },
-                      { x: P, y: A }
+                      { x: T, y: V },
+                      { x: M, y: H },
+                      { x: B, y: z },
+                      { x: O, y: _ }
                     ]
                   ]),
-                    (k += W / 2),
-                    (S += M / 2),
-                    (R += W / 2),
-                    (j += M / 2),
-                    (l += h.moveTo({ x: c, y: p })),
-                    (l += new be.b(D, I).smooth([
-                      { x: c, y: p },
-                      { x: k, y: S },
-                      { x: R, y: j },
-                      { x: d, y: y }
+                    (F += G / 2),
+                    (Y += q / 2),
+                    (W += G / 2),
+                    (X += q / 2),
+                    (f += h.moveTo({ x: v, y: x })),
+                    (f += new be.d(k, L).smooth([
+                      { x: v, y: x },
+                      { x: F, y: Y },
+                      { x: W, y: X },
+                      { x: b, y: P }
                     ])),
-                    (l += h.lineTo({ x: f, y: x })),
-                    (l += new be.b(D, I).smooth([
-                      { x: f, y: x },
-                      { x: z, y: E },
-                      { x: H, y: B },
-                      { x: g, y: v }
+                    (f += h.lineTo({ x: A, y: D })),
+                    (f += new be.d(k, L).smooth([
+                      { x: A, y: D },
+                      { x: Z, y: Q },
+                      { x: K, y: U },
+                      { x: C, y: I }
                     ])),
-                    (l += h.closePath());
+                    (f += h.closePath());
                 }
-                (this.link.path = l),
+                (this.link.path = f),
                   this.maskBullets &&
-                    ((this.bulletsMask.path = l),
+                    ((this.bulletsMask.path = f),
                     (this.bulletsContainer.mask = this.bulletsMask)),
                   this.positionBullets();
               }
@@ -3052,9 +3083,9 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'SankeyDiagramDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(ye),
-        De = (function(e) {
+          return Object(a.c)(t, e), t;
+        })(ge),
+        Ie = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
@@ -3070,10 +3101,11 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validateData = function() {
               var t = this;
-              e.prototype.validateData.call(this),
+              (this._valueHeight = void 0),
+                e.prototype.validateData.call(this),
                 (this._levelCount = 0),
                 this.nodes.each(function(e, t) {
                   t.level = void 0;
@@ -3087,14 +3119,25 @@ am4internal_webpackJsonp(
               var i = this,
                 n = [t];
               return (
-                L.each(e.incomingDataItems.iterator(), function(e) {
+                k.each(e.incomingDataItems.iterator(), function(e) {
                   e.fromNode &&
                     (m.isNumber(e.fromNode.level)
                       ? n.push(e.fromNode.level + 1)
-                      : n.push(i.getNodeLevel(e.fromNode, t + 1)));
+                      : ((i._counter = 0),
+                        i.checkLoop(e.fromNode),
+                        i._counter < i.dataItems.length &&
+                          n.push(i.getNodeLevel(e.fromNode, t + 1))));
                 }),
-                Math.max.apply(Math, Object(r.f)(n))
+                Math.max.apply(Math, Object(a.f)(n))
               );
+            }),
+            (t.prototype.checkLoop = function(e) {
+              var t = this;
+              this._counter++,
+                this._counter > this.dataItems.length ||
+                  k.each(e.incomingDataItems.iterator(), function(e) {
+                    t.checkLoop(e.fromNode);
+                  });
             }),
             (t.prototype.calculateValueHeight = function() {
               var e = this;
@@ -3104,18 +3147,18 @@ am4internal_webpackJsonp(
               var t,
                 i,
                 n,
-                r = this.dataItem.values.value.sum;
-              L.each(this._sorted, function(t) {
+                a = this.dataItem.values.value.sum;
+              k.each(this._sorted, function(t) {
                 var i = t[1];
                 e.getNodeValue(i);
               }),
                 this.nodes.each(function(t, i) {
                   var n = i.level,
-                    a = Math.max(i.totalIncoming, i.totalOutgoing);
-                  a / r < e.minNodeSize && (a = r * e.minNodeSize),
+                    r = Math.max(i.totalIncoming, i.totalOutgoing);
+                  r / a < e.minNodeSize && (r = a * e.minNodeSize),
                     m.isNumber(e._levelSum[n])
-                      ? (e._levelSum[n] += a)
-                      : (e._levelSum[n] = a),
+                      ? (e._levelSum[n] += r)
+                      : (e._levelSum[n] = r),
                     m.isNumber(e._levelNodesCount[n])
                       ? e._levelNodesCount[n]++
                       : (e._levelNodesCount[n] = 1);
@@ -3124,17 +3167,17 @@ am4internal_webpackJsonp(
                   'horizontal' == this.orientation
                     ? this.chartContainer.maxHeight - 1
                     : this.chartContainer.maxWidth - 1),
-                ne.each(this._levelSum, function(r, a) {
-                  var o = a,
-                    s = e._levelNodesCount[r],
+                ne.each(this._levelSum, function(a, r) {
+                  var o = r,
+                    s = e._levelNodesCount[a],
                     l = (t - (s - 1) * e.nodePadding) / o;
                   l == 1 / 0 && (l = 0),
                     (n > l || !m.isNumber(n)) &&
-                      ((n = l), (e.maxSum = o), (i = m.toNumber(r)));
+                      ((n = l), (e.maxSum = o), (i = m.toNumber(a)));
                 }),
                 (this._maxSumLevel = i);
-              var a = this._levelNodesCount[this._maxSumLevel],
-                o = (t - (a - 1) * this.nodePadding) / this.maxSum;
+              var r = this._levelNodesCount[this._maxSumLevel],
+                o = (t - (r - 1) * this.nodePadding) / this.maxSum;
               if ((o == 1 / 0 && (o = 0), m.isNumber(this.valueHeight))) {
                 var s = void 0;
                 try {
@@ -3159,87 +3202,103 @@ am4internal_webpackJsonp(
             (t.prototype.validate = function() {
               var t = this;
               e.prototype.validate.call(this), this.calculateValueHeight();
-              var i = this.nodesContainer,
-                n = {},
+              var i,
+                n = this.nodesContainer,
+                a = {},
                 r = this._levelNodesCount[this._maxSumLevel],
-                a = this.dataItem.values.value.sum;
-              L.each(this._sorted, function(e) {
-                var o,
-                  s,
-                  l,
-                  u = e[1],
-                  h = u.level,
-                  c = 0,
-                  p = t._levelNodesCount[h];
-                switch (t.nodeAlign) {
-                  case 'bottom':
-                    c =
-                      (t.maxSum - t._levelSum[h]) * t.valueHeight -
-                      (p - r) * t.nodePadding;
-                    break;
-                  case 'middle':
-                    c =
-                      ((t.maxSum - t._levelSum[h]) * t.valueHeight) / 2 -
-                      ((p - r) * t.nodePadding) / 2;
-                }
-                u.parent = i;
-                var d = Math.max(u.totalIncoming, u.totalOutgoing);
-                if (
-                  (d / a < t.minNodeSize && (d = a * t.minNodeSize),
-                  'horizontal' == t.orientation)
-                ) {
-                  (s =
-                    (o = (t.innerWidth - u.pixelWidth) / t._levelCount) *
-                    u.level),
-                    (l = n[h] || c);
-                  var y = d * t.valueHeight;
-                  (u.height = y),
-                    (u.minX = s),
-                    (u.maxX = s),
-                    (n[h] = l + y + t.nodePadding);
-                } else {
-                  (o = (t.innerHeight - u.pixelHeight) / t._levelCount),
-                    (s = n[h] || c),
-                    (l = o * u.level);
-                  var g = d * t.valueHeight;
-                  (u.width = g),
-                    (u.minY = l),
-                    (u.maxY = l),
-                    (n[h] = s + g + t.nodePadding);
-                }
-                (u.x = s), (u.y = l);
-              });
+                o = this.dataItem.values.value.sum;
+              (i =
+                'horizontal' == this.orientation
+                  ? this.chartContainer.maxHeight - 1
+                  : this.chartContainer.maxWidth - 1),
+                k.each(this._sorted, function(e) {
+                  var s,
+                    l,
+                    u,
+                    h = e[1],
+                    c = h.level,
+                    p = 0,
+                    d = t._levelNodesCount[c];
+                  switch (t.nodeAlign) {
+                    case 'bottom':
+                      p =
+                        (t.maxSum - t._levelSum[c]) * t.valueHeight -
+                        (d - r) * t.nodePadding;
+                      break;
+                    case 'middle':
+                      p =
+                        ((t.maxSum - t._levelSum[c]) * t.valueHeight) / 2 -
+                        ((d - r) * t.nodePadding) / 2;
+                  }
+                  if (0 == t.maxSum)
+                    switch (t.nodeAlign) {
+                      case 'bottom':
+                        p = i - d * (t.minNodeSize * i + t.nodePadding);
+                        break;
+                      case 'middle':
+                        p =
+                          i / 2 - (d / 2) * (t.minNodeSize * i + t.nodePadding);
+                    }
+                  h.parent = n;
+                  var g = Math.max(h.totalIncoming, h.totalOutgoing);
+                  if (
+                    (g / o < t.minNodeSize && (g = o * t.minNodeSize),
+                    'horizontal' == t.orientation)
+                  ) {
+                    (l =
+                      (s = (t.innerWidth - h.pixelWidth) / t._levelCount) *
+                      h.level),
+                      (u = a[c] || p);
+                    var y = g * t.valueHeight;
+                    0 == o && 0 == y && (y = t.minNodeSize * i),
+                      (h.height = y),
+                      (h.minX = l),
+                      (h.maxX = l),
+                      (a[c] = u + y + t.nodePadding);
+                  } else {
+                    (s = (t.innerHeight - h.pixelHeight) / t._levelCount),
+                      (l = a[c] || p),
+                      (u = s * h.level);
+                    var f = g * t.valueHeight;
+                    0 == o && 0 == f && (f = t.minNodeSize * i),
+                      (h.width = f),
+                      (h.minY = u),
+                      (h.maxY = u),
+                      (a[c] = l + f + t.nodePadding);
+                  }
+                  (h.x = l), (h.y = u);
+                });
             }),
             (t.prototype.showReal = function(t) {
               var i = this;
               if (!this.preventShow) {
                 if (this.interpolationDuration > 0) {
                   var n = this.nodesContainer,
-                    r = 0;
-                  L.each(this.links.iterator(), function(e) {
+                    a = 0;
+                  k.each(this.links.iterator(), function(e) {
                     e.hide(0);
                   }),
-                    L.each(this._sorted, function(e) {
+                    k.each(this._sorted, function(e) {
                       var t,
-                        a = e[1];
+                        r = e[1];
                       'horizontal' == i.orientation
-                        ? ((a.dx =
-                            -(n.pixelWidth - a.pixelWidth) /
+                        ? ((r.dx =
+                            -(n.pixelWidth - r.pixelWidth) /
                             Math.max(i._levelCount, 1)),
                           (t = 'dx'))
-                        : ((a.dy =
-                            -(n.pixelHeight - a.pixelHeight) /
+                        : ((r.dy =
+                            -(n.pixelHeight - r.pixelHeight) /
                             Math.max(i._levelCount, 1)),
                           (t = 'dy'));
                       var o = 0,
                         s = i.interpolationDuration;
                       i.sequencedInterpolation &&
                         (o =
-                          i.sequencedInterpolationDelay * r +
-                          (s * r) / L.length(i.nodes.iterator())),
-                        (a.opacity = 0),
-                        a.invalidateLinks(),
-                        a
+                          i.sequencedInterpolationDelay * a +
+                          (s * a) / k.length(i.nodes.iterator())),
+                        (r.opacity = 0),
+                        r.invalidateLinks(),
+                        r
                           .animate(
                             [
                               { property: 'opacity', from: 0, to: 1 },
@@ -3249,17 +3308,17 @@ am4internal_webpackJsonp(
                             i.interpolationEasing
                           )
                           .delay(o),
-                        L.each(a.outgoingDataItems.iterator(), function(e) {
+                        k.each(r.outgoingDataItems.iterator(), function(e) {
                           var t = e.link.show(i.interpolationDuration);
                           t && !t.isFinished() && t.delay(o);
                         }),
-                        L.each(a.incomingDataItems.iterator(), function(e) {
+                        k.each(r.incomingDataItems.iterator(), function(e) {
                           if (!e.fromNode) {
                             var t = e.link.show(i.interpolationDuration);
                             t && !t.isFinished() && t.delay(o);
                           }
                         }),
-                        r++;
+                        a++;
                     });
                 }
                 return e.prototype.showReal.call(this);
@@ -3269,22 +3328,22 @@ am4internal_webpackJsonp(
               var e = this;
               this.sortNodes();
               var t = {};
-              L.each(this._sorted, function(i) {
+              k.each(this._sorted, function(i) {
                 var n,
-                  r,
-                  a = i[1],
-                  o = a.level,
+                  a,
+                  r = i[1],
+                  o = r.level,
                   s = ((e.maxSum - e._levelSum[o]) * e.valueHeight) / 2;
                 'horizontal' == e.orientation
-                  ? ((n = 'y'), (r = a.pixelHeight))
-                  : ((n = 'x'), (r = a.pixelWidth)),
-                  a.animate(
+                  ? ((n = 'y'), (a = r.pixelHeight))
+                  : ((n = 'x'), (a = r.pixelWidth)),
+                  r.animate(
                     { property: n, to: t[o] || s },
                     e.interpolationDuration,
                     e.interpolationEasing
                   ),
-                  (t[o] = (t[o] || s) + r + e.nodePadding),
-                  a.invalidateLinks();
+                  (t[o] = (t[o] || s) + a + e.nodePadding),
+                  r.invalidateLinks();
               });
             }),
             (t.prototype.applyInternalDefaults = function() {
@@ -3350,9 +3409,9 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(ge);
-      l.c.registeredClasses.SankeyDiagram = De;
-      var Ie = i('Inf5'),
+        })(ye);
+      l.c.registeredClasses.SankeyDiagram = Ie;
+      var De = i('Inf5'),
         Te = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -3367,7 +3426,7 @@ am4internal_webpackJsonp(
               (t.layout = 'none'),
               t.events.on('positionchanged', t.updateRotation, t, !1),
               (t.isMeasured = !1),
-              (t.slice = t.createChild(Ie.a)),
+              (t.slice = t.createChild(De.a)),
               (t.slice.isMeasured = !1);
             var n = t.hiddenState;
             return (
@@ -3394,15 +3453,15 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.invalidateLinks = function() {
               var t = this;
               e.prototype.invalidateLinks.call(this);
               var i = this.label,
                 n = this.slice,
-                r = this.chart;
-              if (r && n) {
-                var a = this.total,
+                a = this.chart;
+              if (a && n) {
+                var r = this.total,
                   o = n.arc,
                   s = n.startAngle;
                 this.children.each(function(e) {
@@ -3411,30 +3470,30 @@ am4internal_webpackJsonp(
                     m.isNumber(t) || (t = 0.5);
                     var i = e.locationY;
                     m.isNumber(i) || (i = 1);
-                    var r = s + o * t,
-                      a = i * n.radius;
-                    (e.x = a * u.cos(r)), (e.y = a * u.sin(r));
+                    var a = s + o * t,
+                      r = i * n.radius;
+                    (e.x = r * u.cos(a)), (e.y = r * u.sin(a));
                   }
                 });
                 var l = s + o * i.location,
-                  h = s + (1 - a / this.adjustedTotal) * o * 0.5;
+                  h = s + (1 - r / this.adjustedTotal) * o * 0.5;
                 m.isNaN(h) && (h = s),
                   i.fixPosition(l, n.radius),
                   (this.nextAngle = h),
                   this._outgoingSorted &&
-                    L.each(this._outgoingSorted, function(e) {
+                    k.each(this._outgoingSorted, function(e) {
                       var i = e.link;
                       i.parent = t.chart.linksContainer;
-                      var a = e.getWorkingValue('value');
-                      if (m.isNumber(a)) {
-                        if (r.nonRibbon) {
+                      var r = e.getWorkingValue('value');
+                      if (m.isNumber(r)) {
+                        if (a.nonRibbon) {
                           var l = i.percentWidth;
                           m.isNumber(l) || (l = 5),
                             (l /= 100),
                             (i.startAngle = s + o / 2 - (o / 2) * l),
                             (i.arc = o * l);
                         } else
-                          (i.arc = a * r.valueAngle),
+                          (i.arc = r * a.valueAngle),
                             (i.startAngle = t.nextAngle),
                             (t.nextAngle += i.arc);
                         e.toNode || (i.endAngle = i.startAngle),
@@ -3442,19 +3501,19 @@ am4internal_webpackJsonp(
                       }
                     }),
                   this._incomingSorted &&
-                    L.each(this._incomingSorted, function(e) {
+                    k.each(this._incomingSorted, function(e) {
                       var i = e.link;
-                      if (((i.radius = n.pixelInnerRadius), r.nonRibbon)) {
-                        var a = i.percentWidth;
-                        m.isNumber(a) || (a = 5),
-                          (a /= 100),
-                          (i.endAngle = s + o / 2 - (o / 2) * a),
-                          (i.arc = o * a);
+                      if (((i.radius = n.pixelInnerRadius), a.nonRibbon)) {
+                        var r = i.percentWidth;
+                        m.isNumber(r) || (r = 5),
+                          (r /= 100),
+                          (i.endAngle = s + o / 2 - (o / 2) * r),
+                          (i.arc = o * r);
                       } else {
                         i.endAngle = t.nextAngle;
                         var l = e.getWorkingValue('value');
                         m.isNumber(l) &&
-                          ((i.arc = l * r.valueAngle), (t.nextAngle += i.arc));
+                          ((i.arc = l * a.valueAngle), (t.nextAngle += i.arc));
                       }
                       e.fromNode || (i.startAngle = i.endAngle);
                     });
@@ -3465,9 +3524,9 @@ am4internal_webpackJsonp(
                 t = this.trueStartAngle + e.arc / 2,
                 i = e.radius,
                 n = i * u.cos(t),
-                r = i * u.sin(t),
-                a = u.getAngle({ x: n + this.pixelX, y: r + this.pixelY });
-              (e.startAngle = this.trueStartAngle + (a - t)),
+                a = i * u.sin(t),
+                r = u.getAngle({ x: n + this.pixelX, y: a + this.pixelY });
+              (e.startAngle = this.trueStartAngle + (r - t)),
                 (this.dx = -this.pixelX),
                 (this.dy = -this.pixelY);
             }),
@@ -3478,7 +3537,7 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(ae);
+        })(re);
       l.c.registeredClasses.ChordNode = Te;
       var Oe = (function(e) {
           function t() {
@@ -3493,7 +3552,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.draw = function() {
               if (
                 m.isNumber(
@@ -3531,9 +3590,9 @@ am4internal_webpackJsonp(
               var t = { x: this.x1, y: this.y1 },
                 i = { x: this.cpx, y: this.cpy },
                 n = { x: this.x2, y: this.y2 },
-                r = u.getPointOnQuadraticCurve(t, n, i, e),
-                a = u.getPointOnQuadraticCurve(t, n, i, e + 0.001);
-              return { x: r.x, y: r.y, angle: u.getAngle(r, a) };
+                a = u.getPointOnQuadraticCurve(t, n, i, e),
+                r = u.getPointOnQuadraticCurve(t, n, i, e + 0.001);
+              return { x: a.x, y: a.y, angle: u.getAngle(a, r) };
             }),
             t
           );
@@ -3551,33 +3610,33 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validate = function() {
               if ((e.prototype.validate.call(this), !this.isTemplate)) {
                 var t = this.startAngle,
                   i = this.endAngle,
                   n = this.arc,
-                  r = this.radius,
-                  a = this.dataItem.fromNode,
+                  a = this.radius,
+                  r = this.dataItem.fromNode,
                   o = this.dataItem.toNode,
                   s = 0,
                   l = 0;
-                a && ((s = a.pixelX + a.dx), (l = a.pixelY + a.dy));
+                r && ((s = r.pixelX + r.dx), (l = r.pixelY + r.dy));
                 var c = 0,
                   p = 0;
                 if (
-                  (o && ((c = o.pixelX + o.dx), (p = o.pixelY + o.dy)), r > 0)
+                  (o && ((c = o.pixelX + o.dx), (p = o.pixelY + o.dy)), a > 0)
                 ) {
-                  var d = r * u.cos(t) + s,
-                    y = r * u.sin(t) + l,
-                    g = r * u.cos(i) + c,
-                    f = r * u.sin(i) + p,
+                  var d = a * u.cos(t) + s,
+                    g = a * u.sin(t) + l,
+                    y = a * u.cos(i) + c,
+                    f = a * u.sin(i) + p,
                     m = { x: 0, y: 0 },
-                    v = h.moveTo({ x: d, y: y });
-                  (v += h.arcTo(t, n, r)),
-                    (v += h.quadraticCurveTo({ x: g, y: f }, m)),
-                    (v += h.arcTo(i, n, r)),
-                    (v += h.quadraticCurveTo({ x: d, y: y }, m)),
+                    v = h.moveTo({ x: d, y: g });
+                  (v += h.arcTo(t, n, a)),
+                    (v += h.quadraticCurveTo({ x: y, y: f }, m)),
+                    (v += h.arcTo(i, n, a)),
+                    (v += h.quadraticCurveTo({ x: d, y: g }, m)),
                     (this.link.path = n > 0 ? v : ''),
                     this.maskBullets &&
                       ((this.bulletsMask.path = v),
@@ -3585,10 +3644,10 @@ am4internal_webpackJsonp(
                   var x = t + n / 2,
                     b = i + n / 2,
                     P = this.middleLine;
-                  (P.x1 = r * u.cos(x) + s),
-                    (P.y1 = r * u.sin(x) + l),
-                    (P.x2 = r * u.cos(b) + c),
-                    (P.y2 = r * u.sin(b) + p),
+                  (P.x1 = a * u.cos(x) + s),
+                    (P.y1 = a * u.sin(x) + l),
+                    (P.x2 = a * u.cos(b) + c),
+                    (P.y2 = a * u.sin(b) + p),
                     (P.cpx = 0),
                     (P.cpy = 0),
                     (P.stroke = this.fill),
@@ -3625,9 +3684,9 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'ChordDiagramDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(ye),
-        Le = (function(e) {
+          return Object(a.c)(t, e), t;
+        })(ge),
+        ke = (function(e) {
           function t() {
             var t = e.call(this) || this;
             (t.valueAngle = 0),
@@ -3652,20 +3711,20 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validate = function() {
               var t = this,
                 i = this.chartContainer,
                 n = this.endAngle,
-                r = this.startAngle + this.nodePadding / 2,
-                a = u.getArcRect(this.startAngle, this.endAngle, 1);
-              a = u.getCommonRectangle([
-                a,
+                a = this.startAngle + this.nodePadding / 2,
+                r = u.getArcRect(this.startAngle, this.endAngle, 1);
+              r = u.getCommonRectangle([
+                r,
                 { x: 0, y: 0, width: 0, height: 0 }
               ]);
               var o = Math.min(
-                i.innerWidth / a.width,
-                i.innerHeight / a.height
+                i.innerWidth / r.width,
+                i.innerHeight / r.height
               );
               m.isNumber(o) || (o = 0);
               var s = C.relativeRadiusToValue(this.radius, o),
@@ -3673,7 +3732,7 @@ am4internal_webpackJsonp(
                 h = this.dataItem.values.value.sum,
                 c = 0,
                 p = 0;
-              L.each(this._sorted, function(e) {
+              k.each(this._sorted, function(e) {
                 var i = e[1];
                 t.getNodeValue(i), c++;
                 var n = i.total;
@@ -3682,10 +3741,10 @@ am4internal_webpackJsonp(
               }),
                 (this.valueAngle =
                   (n - this.startAngle - this.nodePadding * c) / p),
-                L.each(this._sorted, function(e) {
+                k.each(this._sorted, function(e) {
                   var i = e[1],
-                    a = i.slice;
-                  (a.radius = s), (a.innerRadius = l);
+                    r = i.slice;
+                  (r.radius = s), (r.innerRadius = l);
                   var o,
                     u = i.total;
                   i.total / h < t.minNodeSize && (u = h * t.minNodeSize),
@@ -3693,18 +3752,18 @@ am4internal_webpackJsonp(
                     (o = t.nonRibbon
                       ? (n - t.startAngle) / c - t.nodePadding
                       : t.valueAngle * u),
-                    (a.arc = o),
-                    (a.startAngle = r),
-                    (i.trueStartAngle = r),
+                    (r.arc = o),
+                    (r.startAngle = a),
+                    (i.trueStartAngle = a),
                     (i.parent = t.nodesContainer),
                     i.validate(),
-                    (r += o + t.nodePadding);
+                    (a += o + t.nodePadding);
                 }),
                 (this.chordContainer.definedBBox = {
-                  x: s * a.x,
-                  y: s * a.y,
-                  width: s * a.width,
-                  height: s * a.height
+                  x: s * r.x,
+                  y: s * r.y,
+                  width: s * r.width,
+                  height: s * r.height
                 }),
                 this.chordContainer.invalidateLayout(),
                 e.prototype.validate.call(this);
@@ -3779,9 +3838,9 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(ge);
-      l.c.registeredClasses.ChordDiagram = Le;
-      var ke = i('pR7v'),
+        })(ye);
+      l.c.registeredClasses.ChordDiagram = ke;
+      var Le = i('pR7v'),
         Se = i('5vid'),
         Re = (function(e) {
           function t() {
@@ -3789,7 +3848,7 @@ am4internal_webpackJsonp(
             return (t.className = 'TreeMapSeriesDataItem'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'parentName', {
               get: function() {
                 var e = this.treeMapDataItem;
@@ -3813,13 +3872,13 @@ am4internal_webpackJsonp(
               enumerable: !0,
               configurable: !0
             }),
-            (t.prototype.hide = function(t, i, n, r) {
-              var a = this.treeMapDataItem;
-              return a && a.hide(t), e.prototype.hide.call(this, t, i, n, r);
+            (t.prototype.hide = function(t, i, n, a) {
+              var r = this.treeMapDataItem;
+              return r && r.hide(t), e.prototype.hide.call(this, t, i, n, a);
             }),
             (t.prototype.show = function(t, i, n) {
-              var r = this.treeMapDataItem;
-              return r && r.show(t, i, n), e.prototype.show.call(this, t, i, n);
+              var a = this.treeMapDataItem;
+              return a && a.show(t, i, n), e.prototype.show.call(this, t, i, n);
             }),
             t
           );
@@ -3848,7 +3907,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.processDataItem = function(t, i) {
               (i.seriesDataItem = t),
                 e.prototype.processDataItem.call(this, t, i);
@@ -3903,8 +3962,8 @@ am4internal_webpackJsonp(
                 n.padding(0, 0, 0, 0),
                 (n.width = t),
                 (n.height = i);
-              var r = e.dataItem;
-              (r.color = n.fill), (r.colorOrig = n.fill);
+              var a = e.dataItem;
+              (a.color = n.fill), (a.colorOrig = n.fill);
             }),
             (t.prototype.disableUnusedColumns = function(t) {
               e.prototype.disableUnusedColumns.call(this, t),
@@ -3923,7 +3982,7 @@ am4internal_webpackJsonp(
             return (
               (t.rows = []),
               (t.className = 'TreeMapDataItem'),
-              (t.values.value = {}),
+              (t.values.value = { workingValue: 0 }),
               (t.values.x0 = {}),
               (t.values.y0 = {}),
               (t.values.x1 = {}),
@@ -3934,7 +3993,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'legendDataItem', {
               get: function() {
                 return this._legendDataItem;
@@ -3955,7 +4014,7 @@ am4internal_webpackJsonp(
                 var e = 0;
                 return (
                   this.children && 0 != this.children.length
-                    ? L.each(this.children.iterator(), function(t) {
+                    ? k.each(this.children.iterator(), function(t) {
                         var i = t.value;
                         m.isNumber(i) && (e += i);
                       })
@@ -4086,19 +4145,19 @@ am4internal_webpackJsonp(
               enumerable: !0,
               configurable: !0
             }),
-            (t.prototype.hide = function(t, i, n, r) {
+            (t.prototype.hide = function(t, i, n, a) {
               this.setWorkingValue('value', 0),
                 this.children &&
                   this.children.each(function(e) {
-                    e.hide(t, i, n, r);
+                    e.hide(t, i, n, a);
                   });
-              var a = this.seriesDataItem;
+              var r = this.seriesDataItem;
               return (
-                a &&
-                  a.bullets.each(function(e, t) {
+                r &&
+                  r.bullets.each(function(e, t) {
                     t.hide(), (t.preventShow = !0);
                   }),
-                e.prototype.hide.call(this, t, i, n, r)
+                e.prototype.hide.call(this, t, i, n, a)
               );
             }),
             (t.prototype.show = function(t, i, n) {
@@ -4107,10 +4166,10 @@ am4internal_webpackJsonp(
                   this.children.each(function(e) {
                     e.show(t, i, n);
                   });
-              var r = this.seriesDataItem;
+              var a = this.seriesDataItem;
               return (
-                r &&
-                  r.bullets.each(function(e, t) {
+                a &&
+                  a.bullets.each(function(e, t) {
                     t.preventShow = !1;
                   }),
                 e.prototype.show.call(this, t, i, n)
@@ -4118,7 +4177,7 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(a.b),
+        })(r.b),
         Ye = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -4131,7 +4190,7 @@ am4internal_webpackJsonp(
               (t.hideParentColumns = !1),
               (t.colors = new de.a()),
               (t.sorting = 'descending');
-            var i = t.xAxes.push(new ke.a());
+            var i = t.xAxes.push(new Le.a());
             (i.title.disabled = !0), (i.strictMinMax = !0);
             var n = i.renderer;
             (n.inside = !0),
@@ -4142,20 +4201,20 @@ am4internal_webpackJsonp(
               (n.minGridDistance = 100),
               (n.line.disabled = !0),
               (n.baseGrid.disabled = !0);
-            var r = t.yAxes.push(new ke.a());
-            (r.title.disabled = !0), (r.strictMinMax = !0);
-            var a = r.renderer;
-            (a.inside = !0),
-              (a.labels.template.disabled = !0),
-              (a.ticks.template.disabled = !0),
-              (a.grid.template.disabled = !0),
-              (a.axisFills.template.disabled = !0),
-              (a.minGridDistance = 100),
-              (a.line.disabled = !0),
-              (a.baseGrid.disabled = !0),
-              (a.inversed = !0),
+            var a = t.yAxes.push(new Le.a());
+            (a.title.disabled = !0), (a.strictMinMax = !0);
+            var r = a.renderer;
+            (r.inside = !0),
+              (r.labels.template.disabled = !0),
+              (r.ticks.template.disabled = !0),
+              (r.grid.template.disabled = !0),
+              (r.axisFills.template.disabled = !0),
+              (r.minGridDistance = 100),
+              (r.line.disabled = !0),
+              (r.baseGrid.disabled = !0),
+              (r.inversed = !0),
               (t.xAxis = i),
-              (t.yAxis = r);
+              (t.yAxis = a);
             var o = new je();
             return (
               (t.seriesTemplates = new Q.c(o)),
@@ -4183,7 +4242,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'navigationBar', {
               get: function() {
                 return this._navigationBar;
@@ -4216,7 +4275,7 @@ am4internal_webpackJsonp(
                 this._homeDataItem && this._homeDataItem.dispose();
               var t = this.dataItems.template.clone();
               (this._homeDataItem = t),
-                L.each(this.dataItems.iterator(), function(e) {
+                k.each(this.dataItems.iterator(), function(e) {
                   e.parent = t;
                 }),
                 (t.children = this.dataItems),
@@ -4253,9 +4312,9 @@ am4internal_webpackJsonp(
                     }),
                   this._updateDataItemIndexes(0),
                   this.layoutAlgorithm(e);
-                for (var n = 0, r = i.length; n < r; n++) {
-                  var a = i.getIndex(n);
-                  a.children && this.layoutItems(a);
+                for (var n = 0, a = i.length; n < a; n++) {
+                  var r = i.getIndex(n);
+                  r.children && this.layoutItems(r);
                 }
               }
             }),
@@ -4304,10 +4363,10 @@ am4internal_webpackJsonp(
                   (i.name = e.name),
                   (i.parentDataItem = e),
                   (e.series = i);
-                var r = e.level;
-                i.level = r;
-                var a = e.dataContext;
-                a && (i.config = a.config),
+                var a = e.level;
+                i.level = a;
+                var r = e.dataContext;
+                r && (i.config = r.config),
                   this.dataUsers.removeValue(i),
                   (i.data = e.children.values),
                   (i.fill = e.color),
@@ -4344,7 +4403,7 @@ am4internal_webpackJsonp(
             }),
             (t.prototype.toggleBullets = function(e) {
               var t = this;
-              L.each(this.series.iterator(), function(i) {
+              k.each(this.series.iterator(), function(i) {
                 -1 == t._tempSeries.indexOf(i)
                   ? (i.columnsContainer.hide(), i.bulletsContainer.hide(e))
                   : (i.columnsContainer.show(),
@@ -4495,7 +4554,7 @@ am4internal_webpackJsonp(
             (t.prototype.validateDataItems = function() {
               e.prototype.validateDataItems.call(this),
                 this.layoutItems(this._homeDataItem),
-                L.each(this.series.iterator(), function(e) {
+                k.each(this.series.iterator(), function(e) {
                   e.validateRawData();
                 }),
                 this.zoomToChartDataItem(this._homeDataItem);
@@ -4504,62 +4563,67 @@ am4internal_webpackJsonp(
               var t,
                 i,
                 n = e.children,
-                r = n.length,
-                a = new Array(r + 1);
-              for (a[0] = i = t = 0; t < r; ++t)
-                a[t + 1] = i += n.getIndex(t).value;
-              !(function e(t, i, r, o, s, l, u) {
-                if (t >= i - 1) {
-                  var h = n.getIndex(t);
-                  return (h.x0 = o), (h.y0 = s), (h.x1 = l), void (h.y1 = u);
-                }
-                var c = a[t],
-                  p = r / 2 + c,
-                  d = t + 1,
-                  y = i - 1;
-                for (; d < y; ) {
-                  var g = (d + y) >>> 1;
-                  a[g] < p ? (d = g + 1) : (y = g);
-                }
-                p - a[d - 1] < a[d] - p && t + 1 < d && --d;
-                var f = a[d] - c,
-                  m = r - f;
-                if (l - o > u - s) {
-                  var v = (o * m + l * f) / r;
-                  e(t, d, f, o, s, v, u), e(d, i, m, v, s, l, u);
-                } else {
-                  var x = (s * m + u * f) / r;
-                  e(t, d, f, o, s, l, x), e(d, i, m, o, x, l, u);
-                }
-              })(0, r, e.value, e.x0, e.y0, e.x1, e.y1);
+                a = n.length,
+                r = new Array(a + 1);
+              for (r[0] = i = t = 0; t < a; ++t)
+                r[t + 1] = i += n.getIndex(t).value;
+              a > 0 &&
+                (function e(t, i, a, o, s, l, u) {
+                  if (t >= i - 1) {
+                    var h = n.getIndex(t);
+                    return (h.x0 = o), (h.y0 = s), (h.x1 = l), void (h.y1 = u);
+                  }
+                  var c = r[t],
+                    p = a / 2 + c,
+                    d = t + 1,
+                    g = i - 1;
+                  for (; d < g; ) {
+                    var y = (d + g) >>> 1;
+                    r[y] < p ? (d = y + 1) : (g = y);
+                  }
+                  p - r[d - 1] < r[d] - p && t + 1 < d && --d;
+                  var f = r[d] - c,
+                    m = a - f;
+                  if (0 == a) {
+                    var h = n.getIndex(t);
+                    return (h.x0 = o), (h.y0 = s), (h.x1 = l), void (h.y1 = u);
+                  }
+                  if (l - o > u - s) {
+                    var v = (o * m + l * f) / a;
+                    e(t, d, f, o, s, v, u), e(d, i, m, v, s, l, u);
+                  } else {
+                    var x = (s * m + u * f) / a;
+                    e(t, d, f, o, s, l, x), e(d, i, m, o, x, l, u);
+                  }
+                })(0, a, e.value, e.x0, e.y0, e.x1, e.y1);
             }),
             (t.prototype.slice = function(e) {
               for (
                 var t,
                   i = e.x0,
                   n = e.x1,
-                  r = e.y0,
-                  a = e.y1,
+                  a = e.y0,
+                  r = e.y1,
                   o = e.children,
                   s = -1,
                   l = o.length,
-                  u = e.value && (a - r) / e.value;
+                  u = e.value && (r - a) / e.value;
                 ++s < l;
 
               )
                 ((t = o.getIndex(s)).x0 = i),
                   (t.x1 = n),
-                  (t.y0 = r),
-                  (r += t.value * u),
-                  (t.y1 = r);
+                  (t.y0 = a),
+                  (a += t.value * u),
+                  (t.y1 = a);
             }),
             (t.prototype.dice = function(e) {
               for (
                 var t,
                   i = e.x0,
                   n = e.x1,
-                  r = e.y0,
-                  a = e.y1,
+                  a = e.y0,
+                  r = e.y1,
                   o = e.children,
                   s = -1,
                   l = o.length,
@@ -4567,8 +4631,8 @@ am4internal_webpackJsonp(
                 ++s < l;
 
               )
-                ((t = o.getIndex(s)).y0 = r),
-                  (t.y1 = a),
+                ((t = o.getIndex(s)).y0 = a),
+                  (t.y1 = r),
                   (t.x0 = i),
                   (i += t.value * u),
                   (t.x1 = i);
@@ -4581,8 +4645,8 @@ am4internal_webpackJsonp(
                 var t,
                   i,
                   n,
-                  r,
                   a,
+                  r,
                   o,
                   s,
                   l,
@@ -4591,8 +4655,8 @@ am4internal_webpackJsonp(
                   c = (1 + Math.sqrt(5)) / 2,
                   p = e.x0,
                   d = e.x1,
-                  y = e.y0,
-                  g = e.y1,
+                  g = e.y0,
+                  y = e.y1,
                   f = e.children,
                   m = 0,
                   v = 0,
@@ -4601,41 +4665,41 @@ am4internal_webpackJsonp(
                 m < x;
 
               ) {
-                (i = d - p), (n = g - y);
+                (i = d - p), (n = y - g);
                 do {
-                  r = f.getIndex(v++).value;
-                } while (!r && v < x);
+                  a = f.getIndex(v++).value;
+                } while (!a && v < x);
                 for (
-                  a = o = r,
-                    h = r * r * (u = Math.max(n / i, i / n) / (b * c)),
-                    l = Math.max(o / h, h / a);
+                  r = o = a,
+                    h = a * a * (u = Math.max(n / i, i / n) / (b * c)),
+                    l = Math.max(o / h, h / r);
                   v < x;
                   ++v
                 ) {
                   if (
-                    ((r += t = f.getIndex(v).value),
-                    t < a && (a = t),
+                    ((a += t = f.getIndex(v).value),
+                    t < r && (r = t),
                     t > o && (o = t),
-                    (h = r * r * u),
-                    (s = Math.max(o / h, h / a)) > l)
+                    (h = a * a * u),
+                    (s = Math.max(o / h, h / r)) > l)
                   ) {
-                    r -= t;
+                    a -= t;
                     break;
                   }
                   l = s;
                 }
                 var P = this.dataItems.template.clone();
-                (P.value = r),
+                (P.value = a),
                   (P.dice = i < n),
                   (P.children = f.slice(m, v)),
                   (P.x0 = p),
-                  (P.y0 = y),
+                  (P.y0 = g),
                   (P.x1 = d),
-                  (P.y1 = g),
+                  (P.y1 = y),
                   P.dice
-                    ? ((P.y1 = b ? (y += (n * r) / b) : g), this.dice(P))
-                    : ((P.x1 = b ? (p += (i * r) / b) : d), this.slice(P)),
-                  (b -= r),
+                    ? ((P.y1 = b ? (g += (n * a) / b) : y), this.dice(P))
+                    : ((P.x1 = b ? (p += (i * a) / b) : d), this.slice(P)),
+                  (b -= a),
                   (m = v);
               }
             }),
@@ -4656,6 +4720,7 @@ am4internal_webpackJsonp(
                 return e;
               }
             }),
+            (t.prototype.handleLegendSeriesAdded = function(e) {}),
             Object.defineProperty(t.prototype, 'homeDataItem', {
               get: function() {
                 return this._homeDataItem;
@@ -4702,10 +4767,10 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(a.a);
+        })(r.a);
       l.c.registeredClasses.TreeMap = Ye;
-      var Xe = i('k6kv'),
-        We = (function(e) {
+      var We = i('k6kv'),
+        Xe = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
@@ -4717,17 +4782,17 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.updateGridElement = function(e, t, i) {
               t += (i - t) * e.location;
               var n = this.positionToPoint(t);
               if (e.element) {
-                var r = this.chart.dx3D || 0,
-                  a = this.chart.dy3D || 0,
+                var a = this.chart.dx3D || 0,
+                  r = this.chart.dy3D || 0,
                   o = this.getHeight();
                 e.path =
-                  h.moveTo({ x: r, y: a }) +
-                  h.lineTo({ x: r, y: o + a }) +
+                  h.moveTo({ x: a, y: r }) +
+                  h.lineTo({ x: a, y: o + r }) +
                   h.lineTo({ x: 0, y: o });
               }
               this.positionItem(e, n), this.toggleVisibility(e, t, 0, 1);
@@ -4767,8 +4832,8 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(Xe.a);
-      l.c.registeredClasses.AxisRendererX3D = We;
+        })(We.a);
+      l.c.registeredClasses.AxisRendererX3D = Xe;
       var Me = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -4781,18 +4846,18 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.updateGridElement = function(e, t, i) {
               t += (i - t) * e.location;
               var n = this.positionToPoint(t);
               if (e.element) {
-                var r = this.chart.dx3D || 0,
-                  a = this.chart.dy3D || 0,
+                var a = this.chart.dx3D || 0,
+                  r = this.chart.dy3D || 0,
                   o = this.getWidth();
                 e.path =
                   h.moveTo({ x: 0, y: 0 }) +
-                  h.lineTo({ x: r, y: a }) +
-                  h.lineTo({ x: o + r, y: a });
+                  h.lineTo({ x: a, y: r }) +
+                  h.lineTo({ x: o + a, y: r });
               }
               this.positionItem(e, n), this.toggleVisibility(e, t, 0, 1);
             }),
@@ -4831,7 +4896,7 @@ am4internal_webpackJsonp(
             }),
             t
           );
-        })(I.a),
+        })(D.a),
         He = i('DG6Q'),
         Be = i('Mr4Y'),
         ze = (function(e) {
@@ -4840,7 +4905,7 @@ am4internal_webpackJsonp(
             return (t.className = 'Column3D'), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createAssets = function() {
               (this.column3D = this.createChild(Be.a)),
                 (this.column3D.shouldClone = !1),
@@ -4870,7 +4935,7 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'ColumnSeries3DDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(Se.b),
         Ge = (function(e) {
           function t() {
@@ -4884,7 +4949,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'columnsContainer', {
               get: function() {
                 var e = this.chart;
@@ -4902,7 +4967,10 @@ am4internal_webpackJsonp(
             }),
             (t.prototype.validateDataElementReal = function(t) {
               e.prototype.validateDataElementReal.call(this, t),
-                t.column && ((t.column.dx = this.dx), (t.column.dy = this.dy));
+                t.column &&
+                  ((t.column.dx = this.dx),
+                  (t.column.dy = this.dy),
+                  (t.column.visible = this.visible));
             }),
             (t.prototype.validateDataElements = function() {
               e.prototype.validateDataElements.call(this),
@@ -4943,12 +5011,12 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'XYChart3DDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
-        })(a.b),
+          return Object(a.c)(t, e), t;
+        })(r.b),
         Ke = (function(e) {
           function t() {
             var t = e.call(this) || this;
-            (t._axisRendererX = We),
+            (t._axisRendererX = Xe),
               (t._axisRendererY = Me),
               (t.className = 'XYChart3D'),
               (t.depth = 30),
@@ -4965,7 +5033,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.updateSeriesMasks = function() {
               if ((e.prototype.updateSeriesMasks.call(this), C.isIE())) {
                 var t = this.columnsContainer,
@@ -5015,7 +5083,7 @@ am4internal_webpackJsonp(
               e.prototype.validateLayout.call(this), this.fixColumns();
             }),
             (t.prototype.fixLayout = function() {
-              (this.chartContainer.marginTop = -this.dy3D),
+              (this.chartContainer.paddingTop = -this.dy3D),
                 (this.chartContainer.paddingRight = this.dx3D),
                 this.scrollbarX &&
                   ((this.scrollbarX.dy = this.dy3D),
@@ -5030,32 +5098,32 @@ am4internal_webpackJsonp(
               var e = this,
                 t = 1,
                 i = 0;
-              L.each(this.series.iterator(), function(e) {
+              k.each(this.series.iterator(), function(e) {
                 e instanceof Ge &&
                   (!e.clustered && i > 0 && t++, (e.depthIndex = t - 1), i++);
               });
               var n = 0;
-              L.each(this.series.iterator(), function(i) {
+              k.each(this.series.iterator(), function(i) {
                 if (i instanceof Ge) {
                   (i.depth = e.depth / t),
                     (i.angle = e.angle),
                     i.columnsContainer == e.columnsContainer &&
                       ((i.dx = (e.depth / t) * u.cos(e.angle) * i.depthIndex),
                       (i.dy = (-e.depth / t) * u.sin(e.angle) * i.depthIndex));
-                  var r = !1;
+                  var a = !1;
                   ((i.baseAxis == i.xAxis && i.xAxis.renderer.inversed) ||
                     (i.baseAxis == i.yAxis && i.yAxis.renderer.inversed)) &&
-                    (r = !0);
-                  var a = 1;
+                    (a = !0);
+                  var r = 1;
                   i.dataItems.each(function(e) {
                     var t = e.column;
                     t &&
-                      (t.zIndex = r
-                        ? 1e3 * (1e3 - a) + n - 100 * i.depthIndex
-                        : 1e3 * a + n - 100 * i.depthIndex),
-                      a++;
+                      (t.zIndex = a
+                        ? 1e3 * (1e3 - r) + n - 100 * i.depthIndex
+                        : 1e3 * r + n - 100 * i.depthIndex),
+                      r++;
                   }),
-                    r ? n-- : n++;
+                    a ? n-- : n++;
                 }
               }),
                 this.maskColumns();
@@ -5071,7 +5139,7 @@ am4internal_webpackJsonp(
                 t = this.plotContainer.pixelHeight,
                 i = this.dx3D,
                 n = this.dy3D,
-                r =
+                a =
                   h.moveTo({ x: 0, y: 0 }) +
                   h.lineTo({ x: i, y: n }) +
                   h.lineTo({ x: e + i, y: n }) +
@@ -5080,12 +5148,12 @@ am4internal_webpackJsonp(
                   h.lineTo({ x: e, y: t }) +
                   h.lineTo({ x: 0, y: t }) +
                   h.closePath(),
-                a = this.columnsContainer;
-              a && a.mask && (a.mask.path = r);
+                r = this.columnsContainer;
+              r && r.mask && (r.mask.path = a);
             }),
             t
           );
-        })(a.a);
+        })(r.a);
       l.c.registeredClasses.XYChart3D = Ke;
       var Ue = i('2OXf'),
         Ze = i('aM7D'),
@@ -5097,7 +5165,7 @@ am4internal_webpackJsonp(
             return (t.className = 'Candlestick'), (t.layout = 'none'), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createAssets = function() {
               e.prototype.createAssets.call(this),
                 (this.lowLine = this.createChild(he.a)),
@@ -5128,7 +5196,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'lowValueX', {
               get: function() {
                 return this.values.lowValueX.value;
@@ -5203,10 +5271,10 @@ am4internal_webpackJsonp(
               (t.strokeOpacity = 1);
             var i = new w.a(),
               n = i.getFor('positive'),
-              r = i.getFor('negative');
+              a = i.getFor('negative');
             return (
-              (t.dropFromOpenState.properties.fill = r),
-              (t.dropFromOpenState.properties.stroke = r),
+              (t.dropFromOpenState.properties.fill = a),
+              (t.dropFromOpenState.properties.stroke = a),
               (t.riseFromOpenState.properties.fill = n),
               (t.riseFromOpenState.properties.stroke = n),
               t.applyTheme(),
@@ -5214,7 +5282,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -5235,9 +5303,9 @@ am4internal_webpackJsonp(
                 var i = t.lowLine,
                   n = t.highLine;
                 if (this.baseAxis == this.xAxis) {
-                  var r = t.pixelWidth / 2;
-                  (i.x = r), (n.x = r);
-                  var a = e.getWorkingValue(this.yOpenField),
+                  var a = t.pixelWidth / 2;
+                  (i.x = a), (n.x = a);
+                  var r = e.getWorkingValue(this.yOpenField),
                     o = e.getWorkingValue(this.yField),
                     s = this.yAxis.getY(e, this.yOpenField),
                     l = this.yAxis.getY(e, this.yField),
@@ -5246,7 +5314,7 @@ am4internal_webpackJsonp(
                     c = t.pixelY;
                   (i.y1 = u - c),
                     (n.y1 = h - c),
-                    a < o
+                    r < o
                       ? ((i.y2 = s - c), (n.y2 = l - c))
                       : ((i.y2 = l - c), (n.y2 = s - c));
                 }
@@ -5254,29 +5322,29 @@ am4internal_webpackJsonp(
                   var p = t.pixelHeight / 2;
                   (i.y = p), (n.y = p);
                   var d = e.getWorkingValue(this.xOpenField),
-                    y = e.getWorkingValue(this.xField),
-                    g = this.xAxis.getX(e, this.xOpenField),
+                    g = e.getWorkingValue(this.xField),
+                    y = this.xAxis.getX(e, this.xOpenField),
                     f = this.xAxis.getX(e, this.xField),
                     m = this.xAxis.getX(e, this.xLowField),
                     v = this.xAxis.getX(e, this.xHighField),
                     x = t.pixelX;
                   (i.x1 = m - x),
                     (n.x1 = v - x),
-                    d < y
-                      ? ((i.x2 = g - x), (n.x2 = f - x))
-                      : ((i.x2 = f - x), (n.x2 = g - x));
+                    d < g
+                      ? ((i.x2 = y - x), (n.x2 = f - x))
+                      : ((i.x2 = f - x), (n.x2 = y - x));
                 }
-                L.each(this.axisRanges.iterator(), function(t) {
-                  var r = e.rangesColumns.getKey(t.uid);
-                  if (r) {
-                    var a = r.lowLine;
-                    (a.x = i.x),
-                      (a.y = i.y),
-                      (a.x1 = i.x1),
-                      (a.x2 = i.x2),
-                      (a.y1 = i.y1),
-                      (a.y2 = i.y2);
-                    var o = r.highLine;
+                k.each(this.axisRanges.iterator(), function(t) {
+                  var a = e.rangesColumns.getKey(t.uid);
+                  if (a) {
+                    var r = a.lowLine;
+                    (r.x = i.x),
+                      (r.y = i.y),
+                      (r.x1 = i.x1),
+                      (r.x2 = i.x2),
+                      (r.y1 = i.y1),
+                      (r.y2 = i.y2);
+                    var o = a.highLine;
                     (o.x = n.x),
                       (o.y = n.y),
                       (o.x1 = n.x1),
@@ -5326,9 +5394,9 @@ am4internal_webpackJsonp(
                     (this._yHighField = 'high' + n + 'Y');
                 }
                 if (this.baseAxis == i) {
-                  var r = C.capitalize(t.axisFieldName);
-                  (this._xLowField = 'low' + r + 'X'),
-                    (this._xHighField = 'high' + r + 'X');
+                  var a = C.capitalize(t.axisFieldName);
+                  (this._xLowField = 'low' + a + 'X'),
+                    (this._xHighField = 'high' + a + 'X');
                 }
                 this.addValueField(t, this._xValueFields, this._xLowField),
                   this.addValueField(t, this._xValueFields, this._xHighField),
@@ -5341,36 +5409,36 @@ am4internal_webpackJsonp(
                 i = e.pixelHeight;
               e.removeChildren();
               var n,
-                r,
-                a = e.createChild($e);
-              (a.shouldClone = !1), a.copyFrom(this.columns.template);
-              var o = a.lowLine,
-                s = a.highLine;
+                a,
+                r = e.createChild($e);
+              (r.shouldClone = !1), r.copyFrom(this.columns.template);
+              var o = r.lowLine,
+                s = r.highLine;
               this.baseAxis == this.yAxis
                 ? ((n = t / 3),
-                  (r = i),
+                  (a = i),
                   (o.y = i / 2),
                   (s.y = i / 2),
                   (o.x2 = t / 3),
                   (s.x2 = t / 3),
                   (s.x = (t / 3) * 2),
-                  (a.column.x = t / 3))
+                  (r.column.x = t / 3))
                 : ((n = t),
-                  (r = i / 3),
+                  (a = i / 3),
                   (o.x = t / 2),
                   (s.x = t / 2),
                   (o.y2 = i / 3),
                   (s.y2 = i / 3),
                   (s.y = (i / 3) * 2),
-                  (a.column.y = i / 3)),
-                (a.width = n),
-                (a.height = r),
+                  (r.column.y = i / 3)),
+                (r.width = n),
+                (r.height = a),
                 ne.copyProperties(this, e, J.b),
-                ne.copyProperties(this.columns.template, a, J.b),
-                (a.stroke = this.riseFromOpenState.properties.stroke),
-                (a.fill = a.stroke);
+                ne.copyProperties(this.columns.template, r, J.b),
+                (r.stroke = this.riseFromOpenState.properties.stroke),
+                (r.fill = r.stroke);
               var l = e.dataItem;
-              (l.color = a.fill), (l.colorOrig = a.fill);
+              (l.color = r.fill), (l.colorOrig = r.fill);
             }),
             (t.prototype.createColumnTemplate = function() {
               return new $e();
@@ -5386,7 +5454,7 @@ am4internal_webpackJsonp(
           return (t.className = 'OHLC'), (t.layout = 'none'), t;
         }
         return (
-          Object(r.c)(t, e),
+          Object(a.c)(t, e),
           (t.prototype.createAssets = function() {
             (this.openLine = this.createChild(he.a)),
               (this.openLine.shouldClone = !1),
@@ -5410,15 +5478,15 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'OHLCSeriesDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(et),
-        rt = (function(e) {
+        at = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (t.className = 'OHLCSeries'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -5432,10 +5500,10 @@ am4internal_webpackJsonp(
               if (t) {
                 var i = t.openLine,
                   n = t.highLowLine,
-                  r = t.closeLine;
+                  a = t.closeLine;
                 if (this.baseAxis == this.xAxis) {
-                  var a = t.pixelWidth / 2;
-                  (n.x = a),
+                  var r = t.pixelWidth / 2;
+                  (n.x = r),
                     e.getWorkingValue(this.yOpenField),
                     e.getWorkingValue(this.yField);
                   var o = this.yAxis.getY(e, this.yOpenField),
@@ -5446,11 +5514,11 @@ am4internal_webpackJsonp(
                   (i.y1 = o - h),
                     (i.y2 = o - h),
                     (i.x1 = 0),
-                    (i.x2 = a),
-                    (r.y1 = s - h),
-                    (r.y2 = s - h),
-                    (r.x1 = a),
-                    (r.x2 = 2 * a),
+                    (i.x2 = r),
+                    (a.y1 = s - h),
+                    (a.y2 = s - h),
+                    (a.x1 = r),
+                    (a.x2 = 2 * r),
                     (n.y1 = u - h),
                     (n.y2 = l - h);
                 }
@@ -5461,38 +5529,38 @@ am4internal_webpackJsonp(
                     e.getWorkingValue(this.xField);
                   var p = this.xAxis.getX(e, this.xOpenField),
                     d = this.xAxis.getX(e, this.xField),
-                    y = this.xAxis.getX(e, this.xLowField),
-                    g = this.xAxis.getX(e, this.xHighField),
+                    g = this.xAxis.getX(e, this.xLowField),
+                    y = this.xAxis.getX(e, this.xHighField),
                     f = t.pixelX;
                   (i.x1 = p - f),
                     (i.x2 = p - f),
                     (i.y1 = c),
                     (i.y2 = 2 * c),
-                    (r.x1 = d - f),
-                    (r.x2 = d - f),
-                    (r.y1 = 0),
-                    (r.y2 = c),
-                    (n.x1 = g - f),
-                    (n.x2 = y - f);
+                    (a.x1 = d - f),
+                    (a.x2 = d - f),
+                    (a.y1 = 0),
+                    (a.y2 = c),
+                    (n.x1 = y - f),
+                    (n.x2 = g - f);
                 }
-                L.each(this.axisRanges.iterator(), function(t) {
-                  var a = e.rangesColumns.getKey(t.uid);
-                  if (a) {
-                    var o = a.openLine;
+                k.each(this.axisRanges.iterator(), function(t) {
+                  var r = e.rangesColumns.getKey(t.uid);
+                  if (r) {
+                    var o = r.openLine;
                     (o.x = i.x),
                       (o.y = i.y),
                       (o.x1 = i.x1),
                       (o.x2 = i.x2),
                       (o.y1 = i.y1),
                       (o.y2 = i.y2);
-                    var s = a.closeLine;
-                    (s.x = r.x),
-                      (s.y = r.y),
-                      (s.x1 = r.x1),
-                      (s.x2 = r.x2),
-                      (s.y1 = r.y1),
-                      (s.y2 = r.y2);
-                    var l = a.highLowLine;
+                    var s = r.closeLine;
+                    (s.x = a.x),
+                      (s.y = a.y),
+                      (s.x1 = a.x1),
+                      (s.x2 = a.x2),
+                      (s.y1 = a.y1),
+                      (s.y2 = a.y2);
+                    var l = r.highLowLine;
                     (l.x = n.x),
                       (l.y = n.y),
                       (l.x1 = n.x1),
@@ -5508,15 +5576,15 @@ am4internal_webpackJsonp(
                 i = e.pixelHeight;
               e.removeChildren();
               var n,
-                r,
-                a = e.createChild(it);
-              (a.shouldClone = !1), a.copyFrom(this.columns.template);
-              var o = a.openLine,
-                s = a.closeLine,
-                l = a.highLowLine;
+                a,
+                r = e.createChild(it);
+              (r.shouldClone = !1), r.copyFrom(this.columns.template);
+              var o = r.openLine,
+                s = r.closeLine,
+                l = r.highLowLine;
               this.baseAxis == this.yAxis
                 ? ((n = t / 3),
-                  (r = i),
+                  (a = i),
                   (l.y = i / 2),
                   (l.x2 = t),
                   (o.x = (t / 3) * 2),
@@ -5525,7 +5593,7 @@ am4internal_webpackJsonp(
                   (s.y2 = i),
                   (s.y1 = i / 2))
                 : ((n = t),
-                  (r = i / 3),
+                  (a = i / 3),
                   (l.x = t / 2),
                   (l.y2 = i),
                   (o.y = (i / 3) * 2),
@@ -5533,13 +5601,13 @@ am4internal_webpackJsonp(
                   (s.y = i / 3),
                   (s.x2 = t),
                   (s.x1 = t / 2)),
-                (a.width = n),
-                (a.height = r),
+                (r.width = n),
+                (r.height = a),
                 ne.copyProperties(this, e, J.b),
-                ne.copyProperties(this.columns.template, a, J.b),
-                (a.stroke = this.riseFromOpenState.properties.stroke);
+                ne.copyProperties(this.columns.template, r, J.b),
+                (r.stroke = this.riseFromOpenState.properties.stroke);
               var u = e.dataItem;
-              (u.color = a.stroke), (u.colorOrig = a.stroke);
+              (u.color = r.stroke), (u.colorOrig = r.stroke);
             }),
             (t.prototype.createColumnTemplate = function() {
               return new it();
@@ -5547,18 +5615,18 @@ am4internal_webpackJsonp(
             t
           );
         })(tt);
-      (l.c.registeredClasses.OHLCSeries = rt),
+      (l.c.registeredClasses.OHLCSeries = at),
         (l.c.registeredClasses.OHLCSeriesDataItem = nt);
-      var at = (function(e) {
+      var rt = (function(e) {
         function t() {
           var t = e.call(this) || this;
           return (t.className = 'StepLineSeriesSegment'), t;
         }
         return (
-          Object(r.c)(t, e),
-          (t.prototype.drawSegment = function(e, t, i, n, r, a) {
+          Object(a.c)(t, e),
+          (t.prototype.drawSegment = function(e, t, i, n, a, r) {
             if (e.length > 0 && t.length > 0)
-              if (r) {
+              if (a) {
                 var o = h.moveTo(e[0]);
                 if (e.length > 0)
                   for (var s = 1; s < e.length; s++) {
@@ -5583,17 +5651,18 @@ am4internal_webpackJsonp(
                     (o += h.closePath()),
                     (this.fillSprite.path = o));
               }
+            else (this.strokeSprite.path = ''), (this.fillSprite.path = '');
           }),
           t
         );
       })(Je.a);
-      l.c.registeredClasses.StepLineSeriesSegment = at;
+      l.c.registeredClasses.StepLineSeriesSegment = rt;
       var ot = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (t.className = 'StepLineSeriesDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(s.b),
         st = (function(e) {
           function t() {
@@ -5607,23 +5676,23 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createDataItem = function() {
               return new ot();
             }),
-            (t.prototype.addPoints = function(e, t, i, n, r) {
-              var a, o, s, l;
+            (t.prototype.addPoints = function(e, t, i, n, a) {
+              var r, o, s, l;
               this.baseAxis == this.xAxis &&
-                ((a = this.startLocation),
+                ((r = this.startLocation),
                 (o = this.endLocation),
                 (s = this.getAdjustedXLocation(t, this.yOpenField)),
                 (l = this.getAdjustedXLocation(t, this.yField))),
                 this.baseAxis == this.yAxis &&
                   ((s = this.startLocation),
                   (l = this.endLocation),
-                  (a = this.getAdjustedXLocation(t, this.xOpenField)),
+                  (r = this.getAdjustedXLocation(t, this.xOpenField)),
                   (o = this.getAdjustedXLocation(t, this.xField)));
-              var h = this.xAxis.getX(t, i, a),
+              var h = this.xAxis.getX(t, i, r),
                 c = this.yAxis.getY(t, n, s),
                 p = this.xAxis.getX(t, i, o),
                 d = this.yAxis.getY(t, n, l);
@@ -5634,15 +5703,15 @@ am4internal_webpackJsonp(
                 (d = u.fitToRange(d, -1e5, 1e5)),
                 !this.noRisers && e.length > 1)
               ) {
-                var y = e[e.length - 1];
+                var g = e[e.length - 1];
                 this.baseAxis == this.xAxis &&
-                  (r ? e.push({ x: y.x, y: d }) : e.push({ x: h, y: y.y })),
+                  (a ? e.push({ x: g.x, y: d }) : e.push({ x: h, y: g.y })),
                   this.baseAxis == this.yAxis &&
-                    (r ? e.push({ x: p, y: y.y }) : e.push({ x: y.x, y: c }));
+                    (a ? e.push({ x: p, y: g.y }) : e.push({ x: g.x, y: c }));
               }
-              var g = { x: h, y: c },
+              var y = { x: h, y: c },
                 f = { x: p, y: d };
-              r ? e.push(f, g) : e.push(g, f);
+              a ? e.push(f, y) : e.push(y, f);
             }),
             (t.prototype.drawSegment = function(e, t, i) {
               var n = !1;
@@ -5657,7 +5726,7 @@ am4internal_webpackJsonp(
                 );
             }),
             (t.prototype.createSegment = function() {
-              return new at();
+              return new rt();
             }),
             Object.defineProperty(t.prototype, 'noRisers', {
               get: function() {
@@ -5700,9 +5769,9 @@ am4internal_webpackJsonp(
           return (t.className = 'RadarColumn'), t;
         }
         return (
-          Object(r.c)(t, e),
+          Object(a.c)(t, e),
           (t.prototype.createAssets = function() {
-            (this.radarColumn = this.createChild(Ie.a)),
+            (this.radarColumn = this.createChild(De.a)),
               (this.radarColumn.shouldClone = !1),
               (this.radarColumn.strokeOpacity = void 0),
               (this.column = this.radarColumn);
@@ -5728,7 +5797,7 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'ColumnSeriesDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(Se.b),
         ht = (function(e) {
           function t() {
@@ -5736,7 +5805,7 @@ am4internal_webpackJsonp(
             return (t.className = 'RadarColumnSeries'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createColumnTemplate = function() {
               return new lt();
             }),
@@ -5747,7 +5816,7 @@ am4internal_webpackJsonp(
             (t.prototype.disableUnusedColumns = function(e) {
               e &&
                 (e.column && (e.column.__disabled = !0),
-                L.each(this.axisRanges.iterator(), function(t) {
+                k.each(this.axisRanges.iterator(), function(t) {
                   var i = e.rangesColumns.getKey(t.uid);
                   i && (i.__disabled = !0);
                 }));
@@ -5756,113 +5825,124 @@ am4internal_webpackJsonp(
               var t,
                 i,
                 n,
-                r,
-                a = this,
+                a,
+                r = this,
                 s = this.chart.startAngle,
                 l = this.chart.endAngle,
                 h = this.yField,
                 c = this.yOpenField,
                 p = this.xField,
                 d = this.xOpenField,
-                y = this.getStartLocation(e),
-                g = this.getEndLocation(e),
+                g = this.getStartLocation(e),
+                y = this.getEndLocation(e),
                 f = (l - s) / (this.dataItems.length * (this.end - this.start)),
-                m = e.column;
-              m ||
-                ((m = this.columns.create()),
-                (e.column = m),
-                ne.copyProperties(this, m, J.b),
-                ne.copyProperties(this.columns.template, m, J.b),
-                e.addSprite(m),
-                (m.paper = this.paper),
-                this.setColumnStates(m));
-              var v = m.width,
-                x = 100;
-              v instanceof o.a && (x = v.percent);
-              var b = u.round(((g - y) * (1 - x / 100)) / 2, 5);
+                v = e.column;
+              v ||
+                ((v = this.columns.create()),
+                (e.column = v),
+                ne.copyProperties(this, v, J.b),
+                ne.copyProperties(this.columns.template, v, J.b),
+                e.addSprite(v),
+                (v.paper = this.paper),
+                this.setColumnStates(v));
+              var x = v.width,
+                b = 100;
+              x instanceof o.a && (b = x.percent);
+              var P = u.round(((y - g) * (1 - b / 100)) / 2, 5);
               if (
-                ((y += b),
-                (g -= b),
-                this.xAxis instanceof T.a && this.yAxis instanceof T.a
-                  ? ((n = u.getDistance({
-                      x: this.yAxis.getX(e, h, 0, 'valueY'),
-                      y: this.yAxis.getY(e, h, 0, 'valueY')
-                    })),
-                    (r = u.getDistance({
-                      x: this.yAxis.getX(e, c, 1, 'valueY'),
-                      y: this.yAxis.getY(e, c, 1, 'valueY')
-                    })),
-                    (t = this.xAxis.getAngle(e, d, 0, 'valueX')),
-                    (i = this.xAxis.getAngle(e, p, 1, 'valueX')),
-                    (s += y * f),
-                    (l -= (1 - g) * f))
-                  : this.baseAxis == this.xAxis
-                  ? ((n = u.getDistance({
-                      x: this.yAxis.getX(e, h, e.locations[h], 'valueY'),
-                      y: this.yAxis.getY(e, h, e.locations[h], 'valueY')
-                    })),
-                    (r = u.getDistance({
-                      x: this.yAxis.getX(e, c, e.locations[c], 'valueY'),
-                      y: this.yAxis.getY(e, c, e.locations[c], 'valueY')
-                    })),
-                    (t = this.xAxis.getAngle(e, d, y, 'valueX')),
-                    (i = this.xAxis.getAngle(e, p, g, 'valueX')),
-                    (s += y * f),
-                    (l -= (1 - g) * f))
-                  : ((n = u.getDistance({
-                      x: this.yAxis.getX(e, h, y, 'valueY'),
-                      y: this.yAxis.getY(e, h, y, 'valueY')
-                    })),
-                    (r = u.getDistance({
-                      x: this.yAxis.getX(e, c, g, 'valueY'),
-                      y: this.yAxis.getY(e, c, g, 'valueY')
-                    })),
-                    (t = this.xAxis.getAngle(e, p, e.locations[p], 'valueX')),
-                    (i = this.xAxis.getAngle(e, d, e.locations[d], 'valueX'))),
-                i < t)
-              ) {
-                var P = i;
-                (i = t), (t = P);
+                ((g += P),
+                (y -= P),
+                this.xAxis instanceof T.a && this.yAxis instanceof T.a)
+              )
+                (n = u.getDistance({
+                  x: this.yAxis.getX(e, h, 0, 'valueY'),
+                  y: this.yAxis.getY(e, h, 0, 'valueY')
+                })),
+                  (a = u.getDistance({
+                    x: this.yAxis.getX(e, c, 1, 'valueY'),
+                    y: this.yAxis.getY(e, c, 1, 'valueY')
+                  })),
+                  (t = this.xAxis.getAngle(e, d, 0, 'valueX')),
+                  (i = this.xAxis.getAngle(e, p, 1, 'valueX')),
+                  (s += g * f),
+                  (l -= (1 - y) * f);
+              else if (this.baseAxis == this.xAxis)
+                (n = u.getDistance({
+                  x: this.yAxis.getX(e, h, e.locations[h], 'valueY'),
+                  y: this.yAxis.getY(e, h, e.locations[h], 'valueY')
+                })),
+                  (a = u.getDistance({
+                    x: this.yAxis.getX(e, c, e.locations[c], 'valueY'),
+                    y: this.yAxis.getY(e, c, e.locations[c], 'valueY')
+                  })),
+                  (t = this.xAxis.getAngle(e, d, g, 'valueX')),
+                  (i = this.xAxis.getAngle(e, p, y, 'valueX')),
+                  (s += g * f),
+                  (l -= (1 - y) * f);
+              else {
+                if (
+                  ((n = u.getDistance({
+                    x: this.yAxis.getX(e, h, g, 'valueY'),
+                    y: this.yAxis.getY(e, h, g, 'valueY')
+                  })),
+                  (a = u.getDistance({
+                    x: this.yAxis.getX(e, c, y, 'valueY'),
+                    y: this.yAxis.getY(e, c, y, 'valueY')
+                  })),
+                  m.isNumber(x))
+                ) {
+                  var C = Math.abs(n - a);
+                  if (C > x) {
+                    var A = (C - x) / 2;
+                    (n += A), (a -= A);
+                  }
+                }
+                (t = this.xAxis.getAngle(e, p, e.locations[p], 'valueX')),
+                  (i = this.xAxis.getAngle(e, d, e.locations[d], 'valueX'));
+              }
+              if (i < t) {
+                var I = i;
+                (i = t), (t = I);
               }
               (t = u.fitToRange(t, s, l)), (i = u.fitToRange(i, s, l));
-              var C = m.radarColumn;
-              C.startAngle = t;
-              var A = i - t;
-              A > 0
-                ? ((C.arc = A),
-                  (C.radius = n),
-                  (C.innerRadius = r),
-                  (m.__disabled = !1),
-                  (m.parent = this.columnsContainer),
-                  L.each(this.axisRanges.iterator(), function(i) {
+              var D = v.radarColumn;
+              D.startAngle = t;
+              var O = i - t;
+              O > 0
+                ? ((D.arc = O),
+                  (D.radius = n),
+                  (D.innerRadius = a),
+                  (v.__disabled = !1),
+                  (v.parent = this.columnsContainer),
+                  k.each(this.axisRanges.iterator(), function(i) {
                     var o = e.rangesColumns.getKey(i.uid);
                     o ||
-                      ((o = a.columns.create()),
-                      ne.forceCopyProperties(a.columns.template, o, J.b),
+                      ((o = r.columns.create()),
+                      ne.forceCopyProperties(r.columns.template, o, J.b),
                       ne.copyProperties(i.contents, o, J.b),
                       o.dataItem && Ne.remove(o.dataItem.sprites, o),
                       e.addSprite(o),
-                      (o.paper = a.paper),
-                      a.setColumnStates(o),
+                      (o.paper = r.paper),
+                      r.setColumnStates(o),
                       e.rangesColumns.setKey(i.uid, o));
                     var s = o.radarColumn;
                     (s.startAngle = t),
-                      (s.arc = A),
+                      (s.arc = O),
                       (s.radius = n),
-                      (s.innerRadius = r),
-                      s.invalid && ((s.paper = a.paper), s.validate()),
+                      (s.innerRadius = a),
+                      s.invalid && ((s.paper = r.paper), s.validate()),
                       (o.__disabled = !1),
                       (o.parent = i.contents);
                   }))
                 : this.disableUnusedColumns(e);
             }),
-            (t.prototype.getPoint = function(e, t, i, n, r, a, o) {
-              a || (a = 'valueX'), o || (o = 'valueY');
-              var s = this.yAxis.getX(e, i, r, o),
-                l = this.yAxis.getY(e, i, r, o),
+            (t.prototype.getPoint = function(e, t, i, n, a, r, o) {
+              r || (r = 'valueX'), o || (o = 'valueY');
+              var s = this.yAxis.getX(e, i, a, o),
+                l = this.yAxis.getY(e, i, a, o),
                 h = u.getDistance({ x: s, y: l });
               0 == h && (h = 1e-5);
-              var c = this.xAxis.getAngle(e, t, n, a);
+              var c = this.xAxis.getAngle(e, t, n, r);
               return { x: h * u.cos(c), y: h * u.sin(c) };
             }),
             (t.prototype.getMaskPath = function() {
@@ -5876,8 +5956,8 @@ am4internal_webpackJsonp(
             }),
             (t.prototype.positionBulletReal = function(e, t, i) {
               var n = this.xAxis,
-                r = this.yAxis;
-              (t < n.start || t > n.end || i < r.start || i > r.end) &&
+                a = this.yAxis;
+              (t < n.start || t > n.end || i < a.start || i > a.end) &&
                 (e.visible = !1),
                 e.moveTo(this.xAxis.renderer.positionToPoint(t, i));
             }),
@@ -5919,37 +5999,37 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.draw = function() {
               e.prototype.draw.call(this);
               var t = this.pixelPaddingTop,
                 i = this.pixelPaddingBottom,
                 n = this.pixelPaddingRight,
-                r = this.pixelPaddingLeft,
-                a = this.pixelWidth - n - r,
+                a = this.pixelPaddingLeft,
+                r = this.pixelWidth - n - a,
                 o = this.pixelHeight - t - i,
                 s = this.expandDistance,
                 l = '';
               if ('vertical' == this.orientation) {
                 var u = {
-                    x: (a - (v = C.relativeToValue(this.topWidth, a))) / 2 + r,
+                    x: (r - (v = C.relativeToValue(this.topWidth, r))) / 2 + a,
                     y: t
                   },
-                  c = { x: (a + v) / 2 + r, y: t },
+                  c = { x: (r + v) / 2 + a, y: t },
                   p = {
                     x:
-                      (a + (x = C.relativeToValue(this.bottomWidth, a))) / 2 +
-                      r,
+                      (r + (x = C.relativeToValue(this.bottomWidth, r))) / 2 +
+                      a,
                     y: t + o
                   },
-                  d = { x: (a - x) / 2 + r, y: t + o },
-                  y = { x: c.x + (p.x - c.x) / 2 + s * o, y: c.y + 0.5 * o },
-                  g = { x: u.x + (d.x - u.x) / 2 - s * o, y: u.y + 0.5 * o },
+                  d = { x: (r - x) / 2 + a, y: t + o },
+                  g = { x: c.x + (p.x - c.x) / 2 + s * o, y: c.y + 0.5 * o },
+                  y = { x: u.x + (d.x - u.x) / 2 - s * o, y: u.y + 0.5 * o },
                   f = h.lineTo(p),
-                  m = '';
+                  m = h.lineTo(u);
                 0 != s &&
-                  ((f = h.quadraticCurveTo(p, y)),
-                  (m = h.quadraticCurveTo(u, g))),
+                  ((f = h.quadraticCurveTo(p, g)),
+                  (m = h.quadraticCurveTo(u, y))),
                   (l = h.moveTo(u) + h.lineTo(c) + f + h.lineTo(d) + m),
                   (this.tickPoint = {
                     x: c.x + (p.x - c.x) / 2,
@@ -5959,27 +6039,27 @@ am4internal_webpackJsonp(
                 var v,
                   x,
                   b = {
-                    x: r,
+                    x: a,
                     y: (o - (v = C.relativeToValue(this.topWidth, o))) / 2 + t
                   },
-                  P = { x: r, y: (o + v) / 2 + t },
+                  P = { x: a, y: (o + v) / 2 + t },
                   A = {
-                    x: r + a,
+                    x: a + r,
                     y:
                       (o - (x = C.relativeToValue(this.bottomWidth, o))) / 2 + t
                   },
-                  D = { x: r + a, y: (o + x) / 2 + t };
-                (y = { y: b.y + (A.y - b.y) / 2 - s * a, x: b.x + 0.5 * a }),
-                  (g = { y: P.y + (D.y - P.y) / 2 + s * a, x: P.x + 0.5 * a }),
+                  I = { x: a + r, y: (o + x) / 2 + t };
+                (g = { y: b.y + (A.y - b.y) / 2 - s * r, x: b.x + 0.5 * r }),
+                  (y = { y: P.y + (I.y - P.y) / 2 + s * r, x: P.x + 0.5 * r }),
                   (f = h.lineTo(A)),
-                  (m = '');
+                  (m = h.lineTo(P));
                 0 != s &&
-                  ((f = h.quadraticCurveTo(A, y)),
-                  (m = h.quadraticCurveTo(P, g))),
-                  (l = h.moveTo(P) + h.lineTo(b) + f + h.lineTo(D) + m),
+                  ((f = h.quadraticCurveTo(A, g)),
+                  (m = h.quadraticCurveTo(P, y))),
+                  (l = h.moveTo(P) + h.lineTo(b) + f + h.lineTo(I) + m),
                   (this.tickPoint = {
-                    y: P.y + (D.y - P.y) / 2,
-                    x: P.x + (D.x - P.x) / 2
+                    y: P.y + (I.y - P.y) / 2,
+                    x: P.x + (I.x - P.x) / 2
                   });
               }
               (this.slice.path = l), this.invalidateLayout();
@@ -5987,23 +6067,23 @@ am4internal_webpackJsonp(
             (t.prototype.getPoint = function(e, t) {
               var i = this.pixelPaddingTop,
                 n = this.pixelPaddingBottom,
-                r = this.pixelPaddingRight,
-                a = this.pixelPaddingLeft,
-                o = this.pixelWidth - r - a,
+                a = this.pixelPaddingRight,
+                r = this.pixelPaddingLeft,
+                o = this.pixelWidth - a - r,
                 s = this.pixelHeight - i - n;
               if ('vertical' == this.orientation) {
                 var l = {
-                    x: (o - (p = C.relativeToValue(this.topWidth, o))) / 2 + a,
+                    x: (o - (p = C.relativeToValue(this.topWidth, o))) / 2 + r,
                     y: i
                   },
-                  u = { x: (o + p) / 2 + a, y: i },
+                  u = { x: (o + p) / 2 + r, y: i },
                   h = {
                     x:
                       (o + (d = C.relativeToValue(this.bottomWidth, o))) / 2 +
-                      a,
+                      r,
                     y: i + s
                   },
-                  c = l.x + ({ x: (o - d) / 2 + a, y: i + s }.x - l.x) * t;
+                  c = l.x + ({ x: (o - d) / 2 + r, y: i + s }.x - l.x) * t;
                 return {
                   x: c + (u.x + (h.x - u.x) * t - c) * e,
                   y: u.y + (h.y - u.y) * t
@@ -6011,22 +6091,22 @@ am4internal_webpackJsonp(
               }
               var p,
                 d,
-                y = {
-                  x: a,
+                g = {
+                  x: r,
                   y: (s - (p = C.relativeToValue(this.topWidth, s))) / 2 + i
                 },
-                g = { x: a, y: (s + p) / 2 + i },
+                y = { x: r, y: (s + p) / 2 + i },
                 f = {
-                  x: a + o,
+                  x: r + o,
                   y: (s - (d = C.relativeToValue(this.bottomWidth, s))) / 2 + i
                 },
-                m = y.y + (f.y - y.y) * e;
+                m = g.y + (f.y - g.y) * e;
               return {
                 y:
                   m +
-                  (g.y + ({ x: a + o, y: (s + d) / 2 + i }.y - g.y) * e - m) *
+                  (y.y + ({ x: r + o, y: (s + d) / 2 + i }.y - y.y) * e - m) *
                     t,
-                x: y.x + (f.x - y.x) * e
+                x: g.x + (f.x - g.x) * e
               };
             }),
             Object.defineProperty(t.prototype, 'bottomWidth', {
@@ -6078,7 +6158,7 @@ am4internal_webpackJsonp(
         })(d.a);
       l.c.registeredClasses.FunnelSlice = pt;
       var dt = i('qzbU'),
-        yt = (function(e) {
+        gt = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (
@@ -6095,34 +6175,34 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.draw = function() {
               e.prototype.draw.call(this);
               var t = this.slice,
                 i = t.getPoint(this.locationX, this.locationY);
               if (i) {
                 var n = this.label,
-                  r = t.dataItem.component,
-                  a = void 0,
+                  a = t.dataItem.component,
+                  r = void 0,
                   o = void 0,
                   s = void 0;
-                if ('vertical' == r.orientation) {
+                if ('vertical' == a.orientation) {
                   var l = n.pixelX,
                     u = n.pixelY;
-                  r.labelsOpposite || (l += n.maxRight),
-                    (a = C.spritePointToSprite(i, t, this.parent)),
+                  a.labelsOpposite || (l += n.maxRight),
+                    (r = C.spritePointToSprite(i, t, this.parent)),
                     (s = C.spritePointToSprite(
                       { x: l, y: u },
                       n.parent,
                       this.parent
                     )),
                     (o = { x: n.parent.pixelX - this.length, y: s.y }),
-                    r.labelsOpposite ||
+                    a.labelsOpposite ||
                       (o.x = n.parent.measuredWidth + this.length);
                 } else {
                   (l = n.pixelX), (u = n.pixelY);
-                  r.labelsOpposite || (u += n.maxBottom),
-                    (a = C.spritePointToSprite(i, t, this.parent)),
+                  a.labelsOpposite || (u += n.maxBottom),
+                    (r = C.spritePointToSprite(i, t, this.parent)),
                     (o = {
                       x: (s = C.spritePointToSprite(
                         { x: l, y: u },
@@ -6131,10 +6211,10 @@ am4internal_webpackJsonp(
                       )).x,
                       y: n.parent.pixelY - this.length
                     }),
-                    r.labelsOpposite ||
+                    a.labelsOpposite ||
                       (o.y = n.parent.measuredHeight + this.length);
                 }
-                this.path = h.moveTo(a) + h.lineTo(o) + h.lineTo(s);
+                this.path = h.moveTo(r) + h.lineTo(o) + h.lineTo(s);
               }
             }),
             Object.defineProperty(t.prototype, 'slice', {
@@ -6189,8 +6269,8 @@ am4internal_webpackJsonp(
             t
           );
         })(dt.a);
-      l.c.registeredClasses.FunnelTick = yt;
-      var gt = i('Q4nc'),
+      l.c.registeredClasses.FunnelTick = gt;
+      var yt = i('Q4nc'),
         ft = (function(e) {
           function t() {
             var t = e.call(this) || this;
@@ -6209,7 +6289,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'sliceLink', {
               get: function() {
                 var e = this;
@@ -6261,12 +6341,12 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createSlice = function() {
               return new pt();
             }),
             (t.prototype.createTick = function() {
-              return new yt();
+              return new gt();
             }),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
@@ -6299,28 +6379,28 @@ am4internal_webpackJsonp(
               var t = this,
                 i = this.slicesContainer,
                 n = this.labelsContainer,
-                r = this.labels.template;
+                a = this.labels.template;
               this.alignLabels
-                ? ((r.interactionsEnabled = !0),
+                ? ((a.interactionsEnabled = !0),
                   (i.isMeasured = !0),
                   (n.isMeasured = !0))
-                : ((r.interactionsEnabled = !1),
+                : ((a.interactionsEnabled = !1),
                   (i.isMeasured = !1),
                   (n.isMeasured = !1));
-              var a = 0,
+              var r = 0,
                 o = 0;
               this.dataItems.each(function(e) {
                 m.hasValue(e.value) &&
                   (o++,
                   e.value > 0
-                    ? (a += Math.abs(e.getWorkingValue('value') / e.value))
+                    ? (r += Math.abs(e.getWorkingValue('value') / e.value))
                     : t.ignoreZeroValues
                     ? o--
                     : !e.visible || e.__disabled || e.isHiding
                     ? o--
-                    : (a += 1));
+                    : (r += 1));
               }),
-                (this._total = (1 / o) * a),
+                (this._total = (1 / o) * r),
                 (this._count = o),
                 e.prototype.validateDataElements.call(this),
                 this.arrangeLabels();
@@ -6346,12 +6426,12 @@ am4internal_webpackJsonp(
               var i = this,
                 n = t.slice;
               n.orientation = this.orientation;
-              var r = t.sliceLink;
-              r.orientation = this.orientation;
-              var a = t.tick,
+              var a = t.sliceLink;
+              a.orientation = this.orientation;
+              var r = t.tick,
                 o = t.label;
-              (a.slice = n),
-                (a.label = o),
+              (r.slice = n),
+                (r.label = o),
                 m.hasValue(t.value)
                   ? (this.decorateSlice(t),
                     Ne.each(t.sprites, function(e) {
@@ -6362,16 +6442,16 @@ am4internal_webpackJsonp(
                   : Ne.each(t.sprites, function(e) {
                       e.__disabled = !0;
                     }),
-                t.index == this.dataItems.length - 1 && (r.disabled = !0),
+                t.index == this.dataItems.length - 1 && (a.disabled = !0),
                 e.prototype.validateDataElement.call(this, t),
-                (r.fill = n.fill);
+                (a.fill = n.fill);
             }),
             (t.prototype.decorateSlice = function(e) {
               var t = e.slice,
                 i = e.sliceLink,
                 n = e.label,
-                r = e.tick,
-                a = this.slicesContainer.innerWidth,
+                a = e.tick,
+                r = this.slicesContainer.innerWidth,
                 o = this.slicesContainer.innerHeight,
                 s = this.getNextValue(e),
                 l = Math.abs(e.getWorkingValue('value')),
@@ -6391,26 +6471,26 @@ am4internal_webpackJsonp(
               ) {
                 var p = i.pixelHeight * c;
                 (o += p),
-                  (t.topWidth = (l / this.dataItem.values.value.high) * a),
+                  (t.topWidth = (l / this.dataItem.values.value.high) * r),
                   (t.bottomWidth =
-                    ((l - (l - s) * h) / this.dataItem.values.value.high) * a),
+                    ((l - (l - s) * h) / this.dataItem.values.value.high) * r),
                   (i.topWidth = t.bottomWidth),
                   (i.bottomWidth =
-                    ((l - (l - s)) / this.dataItem.values.value.high) * a),
+                    ((l - (l - s)) / this.dataItem.values.value.high) * r),
                   (t.y = this._nextY),
                   (t.height = Math.min(
                     1e5,
                     u.max(0, ((o / this._count) * c) / this._total - p)
                   )),
-                  (t.x = a / 2),
+                  (t.x = r / 2),
                   this.alignLabels ? (n.x = void 0) : (n.x = t.x),
-                  (n.y = t.pixelY + t.pixelHeight * r.locationY),
+                  (n.y = t.pixelY + t.pixelHeight * a.locationY),
                   (this._nextY += t.pixelHeight + p),
                   (i.y = this._nextY - p),
                   (i.x = t.x);
               } else {
                 var d = i.pixelWidth * c;
-                (a += d),
+                (r += d),
                   (t.topWidth = (l / this.dataItem.values.value.high) * o),
                   (t.bottomWidth =
                     ((l - (l - s) * h) / this.dataItem.values.value.high) * o),
@@ -6420,13 +6500,13 @@ am4internal_webpackJsonp(
                   (t.x = this._nextY),
                   (t.width = Math.min(
                     1e5,
-                    ((a / this._count) * c * 1) / this._total - d
+                    ((r / this._count) * c * 1) / this._total - d
                   )),
                   (t.y = o / 2),
                   this.alignLabels
                     ? (n.y = this.labelsContainer.measuredHeight)
                     : (n.y = t.y),
-                  (n.x = t.pixelX + t.pixelWidth * r.locationX),
+                  (n.x = t.pixelX + t.pixelWidth * a.locationX),
                   (this._nextY += t.pixelWidth + d),
                   (i.x = this._nextY - d),
                   (i.y = t.y);
@@ -6449,29 +6529,29 @@ am4internal_webpackJsonp(
                     var i = t.pixelY,
                       n = t.pixelX;
                     if (e > 1) {
-                      for (var r = e - 2; r >= 0; r--) {
-                        (a = this.labels.getIndex(r)).visible &&
-                          !a.__disabled &&
-                          (a.invalid && a.validate(),
+                      for (var a = e - 2; a >= 0; a--) {
+                        (r = this.labels.getIndex(a)).visible &&
+                          !r.__disabled &&
+                          (r.invalid && r.validate(),
                           'vertical' == this.orientation
-                            ? a.pixelY + a.measuredHeight > i &&
-                              (a.y = Math.min(1e6, i - a.measuredHeight))
-                            : a.pixelX + a.measuredWidth > n &&
-                              (a.x = Math.min(1e6, n - a.measuredWidth)),
-                          (i = a.pixelY),
-                          (n = a.pixelX));
+                            ? r.pixelY + r.measuredHeight > i &&
+                              (r.y = Math.min(1e6, i - r.measuredHeight))
+                            : r.pixelX + r.measuredWidth > n &&
+                              (r.x = Math.min(1e6, n - r.measuredWidth)),
+                          (i = r.pixelY),
+                          (n = r.pixelX));
                       }
                       (i = 0), (n = 0);
-                      for (r = 0; r < e; r++) {
-                        var a;
-                        (a = this.labels.getIndex(r)).visible &&
-                          !a.__disabled &&
-                          (a.invalid && a.validate(),
+                      for (a = 0; a < e; a++) {
+                        var r;
+                        (r = this.labels.getIndex(a)).visible &&
+                          !r.__disabled &&
+                          (r.invalid && r.validate(),
                           'vertical' == this.orientation
-                            ? a.pixelY < i && (a.y = Math.min(1e6, i))
-                            : a.pixelX < n && (a.x = Math.min(1e6, n)),
-                          (i += a.measuredHeight),
-                          (n += a.measuredWidth));
+                            ? r.pixelY < i && (r.y = Math.min(1e6, i))
+                            : r.pixelX < n && (r.x = Math.min(1e6, n)),
+                          (i += r.measuredHeight),
+                          (n += r.measuredWidth));
                       }
                     }
                   }
@@ -6483,10 +6563,10 @@ am4internal_webpackJsonp(
               var i = t.dataItem.slice,
                 n = t.locationX;
               m.isNumber(n) || (n = 0.5);
-              var r = t.locationY;
-              m.isNumber(r) || (r = 1),
+              var a = t.locationY;
+              m.isNumber(a) || (a = 1),
                 (t.x = i.pixelX + i.measuredWidth * n),
-                (t.y = i.pixelY + i.measuredHeight * r);
+                (t.y = i.pixelY + i.measuredHeight * a);
             }),
             Object.defineProperty(t.prototype, 'orientation', {
               get: function() {
@@ -6539,19 +6619,19 @@ am4internal_webpackJsonp(
             (t.prototype.show = function(t) {
               var i = this,
                 n = this.startIndex,
-                r = this.endIndex,
-                a = this.defaultState.transitionDuration;
-              m.isNumber(t) && (a = t), gt.a.animationsEnabled || (a = 0);
+                a = this.endIndex,
+                r = this.defaultState.transitionDuration;
+              m.isNumber(t) && (r = t), yt.a.animationsEnabled || (r = 0);
               var o = 0;
               return (
-                L.each(L.indexed(this.dataItems.iterator()), function(e) {
+                k.each(k.indexed(this.dataItems.iterator()), function(e) {
                   var t = e[0],
                     s = e[1];
                   i.sequencedInterpolation &&
                     (o =
                       i.sequencedInterpolationDelay * t +
-                      (a * (t - n)) / (r - n)),
-                    s.show(a, o, ['value']);
+                      (r * (t - n)) / (a - n)),
+                    s.show(r, o, ['value']);
                 }),
                 e.prototype.show.call(this, t)
               );
@@ -6559,19 +6639,19 @@ am4internal_webpackJsonp(
             (t.prototype.hide = function(t) {
               var i = this,
                 n = ['value'],
-                r = this.startIndex,
-                a = this.endIndex,
+                a = this.startIndex,
+                r = this.endIndex,
                 o = 0,
                 s = this.hiddenState.transitionDuration;
               m.isNumber(t) && (s = t),
-                gt.a.animationsEnabled || (s = 0),
-                L.each(L.indexed(this.dataItems.iterator()), function(e) {
+                yt.a.animationsEnabled || (s = 0),
+                k.each(k.indexed(this.dataItems.iterator()), function(e) {
                   var t = e[0],
                     l = e[1];
                   i.sequencedInterpolation &&
                     (o =
                       i.sequencedInterpolationDelay * t +
-                      (s * (t - r)) / (a - r)),
+                      (s * (t - a)) / (r - a)),
                     l.hide(s, o, 0, n);
                 });
               var l = e.prototype.hide.call(this, t);
@@ -6637,7 +6717,7 @@ am4internal_webpackJsonp(
             var t = e.call(this) || this;
             return (t.className = 'PyramidSeriesDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(ft),
         xt = (function(e) {
           function t() {
@@ -6655,7 +6735,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.applyInternalDefaults = function() {
               e.prototype.applyInternalDefaults.call(this),
                 m.hasValue(this.readerTitle) ||
@@ -6683,11 +6763,11 @@ am4internal_webpackJsonp(
               if (
                 (this.dataItems.each(function(e) {
                   if (e.value > 0) {
-                    var r = e.getWorkingValue('value') / e.value,
-                      a = e.sliceLink;
+                    var a = e.getWorkingValue('value') / e.value,
+                      r = e.sliceLink;
                     'vertical' == t.orientation
-                      ? (n -= a.pixelHeight * r)
-                      : (i -= a.pixelWidth * r);
+                      ? (n -= r.pixelHeight * a)
+                      : (i -= r.pixelWidth * a);
                   }
                 }),
                 (this._pyramidHeight = C.relativeToValue(
@@ -6697,15 +6777,15 @@ am4internal_webpackJsonp(
                 (this._pyramidWidth = C.relativeToValue(this.pyramidHeight, i)),
                 'vertical' == this.orientation)
               ) {
-                var r = (n - this._pyramidHeight) / 2;
-                (this.slicesContainer.y = r),
-                  (this.labelsContainer.y = r),
-                  (this.ticksContainer.y = r);
+                var a = (n - this._pyramidHeight) / 2;
+                (this.slicesContainer.y = a),
+                  (this.labelsContainer.y = a),
+                  (this.ticksContainer.y = a);
               } else {
-                var a = (i - this._pyramidWidth) / 2;
-                (this.slicesContainer.x = a),
-                  (this.labelsContainer.x = a),
-                  (this.ticksContainer.x = a);
+                var r = (i - this._pyramidWidth) / 2;
+                (this.slicesContainer.x = r),
+                  (this.labelsContainer.x = r),
+                  (this.ticksContainer.x = r);
               }
               e.prototype.validateDataElements.call(this);
             }),
@@ -6714,8 +6794,8 @@ am4internal_webpackJsonp(
               if (0 != t) {
                 var i = e.slice,
                   n = e.sliceLink,
-                  r = e.label,
-                  a = e.tick;
+                  a = e.label,
+                  r = e.tick;
                 this.getNextValue(e);
                 var o = Math.abs(e.getWorkingValue('value')),
                   s = this._pyramidWidth,
@@ -6725,36 +6805,36 @@ am4internal_webpackJsonp(
                   c = n.pixelWidth,
                   p = n.pixelHeight;
                 if (
-                  (0 == e.value && this.ignoreZeroValues
-                    ? (e.__disabled = !0)
-                    : (e.__disabled = !1),
+                  ((0 != e.value && null != e.value) || !this.ignoreZeroValues
+                    ? (e.__disabled = !1)
+                    : (e.__disabled = !0),
                   'vertical' == this.orientation)
                 ) {
                   var d = C.relativeToValue(this.topWidth, u);
                   m.isNumber(this._nextWidth) || (this._nextWidth = d);
-                  var y = C.relativeToValue(this.bottomWidth, u),
-                    g = this._nextWidth,
-                    f = Math.atan2(l, d - y);
+                  var g = C.relativeToValue(this.bottomWidth, u),
+                    y = this._nextWidth,
+                    f = Math.atan2(l, d - g);
                   0 == (A = Math.tan(Math.PI / 2 - f)) && (A = 1e-8);
                   var v = void 0,
                     x = void 0;
                   if ('area' == this.valueIs) {
-                    var b = (((d + y) / 2) * l * o) / t,
-                      P = Math.abs(g * g - 2 * b * A);
+                    var b = (((d + g) / 2) * l * o) / t,
+                      P = Math.abs(y * y - 2 * b * A);
                     x =
-                      (v = (g - Math.sqrt(P)) / A) > 0
-                        ? (2 * b - v * g) / v
-                        : g;
-                  } else x = g - (v = (l * o) / t) * A;
+                      (v = (y - Math.sqrt(P)) / A) > 0
+                        ? (2 * b - v * y) / v
+                        : y;
+                  } else x = y - (v = (l * o) / t) * A;
                   (i.height = v),
                     (i.width = u),
                     (i.bottomWidth = x),
-                    (i.topWidth = g),
+                    (i.topWidth = y),
                     (n.topWidth = i.bottomWidth),
                     (n.bottomWidth = i.bottomWidth),
                     (i.y = this._nextY),
-                    this.alignLabels ? (r.x = 0) : (r.x = u / 2),
-                    (r.y = i.pixelY + i.pixelHeight * a.locationY + i.dy),
+                    this.alignLabels ? (a.x = 0) : (a.x = u / 2),
+                    (a.y = i.pixelY + i.pixelHeight * r.locationY + i.dy),
                     (this._nextY +=
                       i.pixelHeight +
                       (p * o) / Math.max(Math.abs(e.value), 1e-8)),
@@ -6764,29 +6844,29 @@ am4internal_webpackJsonp(
                   d = C.relativeToValue(this.topWidth, h);
                   m.isNumber(this._nextWidth) || (this._nextWidth = d);
                   var A;
-                  (y = C.relativeToValue(this.bottomWidth, h)),
-                    (g = this._nextWidth),
-                    (f = Math.atan2(s, d - y));
+                  (g = C.relativeToValue(this.bottomWidth, h)),
+                    (y = this._nextWidth),
+                    (f = Math.atan2(s, d - g));
                   0 == (A = Math.tan(Math.PI / 2 - f)) && (A = 1e-8);
-                  var D = void 0;
+                  var I = void 0;
                   x = void 0;
                   if ('area' == this.valueIs)
                     x =
-                      (2 * (b = (((d + y) / 2) * s * o) / t) -
-                        (D = (g - Math.sqrt(g * g - 2 * b * A)) / A) * g) /
-                      D;
-                  else x = g - (D = (s * o) / t) * A;
-                  (i.width = D),
+                      (2 * (b = (((d + g) / 2) * s * o) / t) -
+                        (I = (y - Math.sqrt(y * y - 2 * b * A)) / A) * y) /
+                      I;
+                  else x = y - (I = (s * o) / t) * A;
+                  (i.width = I),
                     (i.height = h),
                     (i.bottomWidth = x),
-                    (i.topWidth = g),
+                    (i.topWidth = y),
                     (n.topWidth = i.bottomWidth),
                     (n.bottomWidth = i.bottomWidth),
                     (i.x = this._nextY),
                     this.alignLabels
-                      ? (r.y = this.labelsContainer.measuredHeight)
-                      : (r.y = h / 2),
-                    (r.x = i.pixelX + i.pixelWidth * a.locationX + i.dx),
+                      ? (a.y = this.labelsContainer.measuredHeight)
+                      : (a.y = h / 2),
+                    (a.x = i.pixelX + i.pixelWidth * r.locationX + i.dx),
                     (this._nextY +=
                       i.pixelWidth +
                       (c * o) / Math.max(Math.abs(e.value), 1e-8)),
@@ -6853,7 +6933,7 @@ am4internal_webpackJsonp(
               t
             );
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(vt),
         Pt = (function(e) {
           function t() {
@@ -6876,21 +6956,21 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validateDataElements = function() {
               var t = this.slicesContainer.maxWidth,
                 i = this.slicesContainer.maxHeight,
                 n = this._maskSprite,
-                r = n.measuredWidth / n.scale,
-                a = n.measuredHeight / n.scale,
-                o = u.min(i / a, t / r);
+                a = n.measuredWidth / n.scale,
+                r = n.measuredHeight / n.scale,
+                o = u.min(i / r, t / a);
               o == 1 / 0 && (o = 1), (o = u.max(0.001, o));
               var s,
                 l,
                 h = this.startLocation,
                 c = this.endLocation,
-                p = u.min(t, r * o),
-                d = u.min(i, a * o);
+                p = u.min(t, a * o),
+                d = u.min(i, r * o);
               (n.scale = o),
                 'vertical' == this.orientation
                   ? ((this.topWidth = p + 4),
@@ -6983,13 +7063,13 @@ am4internal_webpackJsonp(
         (l.c.registeredClasses.PictorialStackedSeriesDataItem = bt);
       var Ct = i('BmDP'),
         At = i('ncT3'),
-        Dt = (function(e) {
+        It = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (t.className = 'ConeColumn'), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createAssets = function() {
               (this.coneColumn = this.createChild(At.a)),
                 (this.coneColumn.shouldClone = !1),
@@ -7002,13 +7082,13 @@ am4internal_webpackJsonp(
             t
           );
         })(He.a);
-      l.c.registeredClasses.ConeColumn = Dt;
-      var It = (function(e) {
+      l.c.registeredClasses.ConeColumn = It;
+      var Dt = (function(e) {
           function t() {
             var t = e.call(this) || this;
             return (t.className = 'ConeSeriesDataItem'), t.applyTheme(), t;
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(Se.b),
         Tt = (function(e) {
           function t() {
@@ -7016,9 +7096,9 @@ am4internal_webpackJsonp(
             return (t.className = 'ConeSeries'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createColumnTemplate = function() {
-              return new Dt();
+              return new It();
             }),
             (t.prototype.getMaskPath = function() {
               var e = 0,
@@ -7052,14 +7132,14 @@ am4internal_webpackJsonp(
           );
         })(Se.a);
       (l.c.registeredClasses.ConeSeries = Tt),
-        (l.c.registeredClasses.ConeSeriesDataItem = It);
+        (l.c.registeredClasses.ConeSeriesDataItem = Dt);
       var Ot = (function(e) {
         function t() {
           var t = e.call(this) || this;
           return (t.className = 'CurvedColumn'), t;
         }
         return (
-          Object(r.c)(t, e),
+          Object(a.c)(t, e),
           (t.prototype.createAssets = function() {
             (this.curvedColumn = this.createChild(J.a)),
               (this.curvedColumn.shouldClone = !1),
@@ -7073,25 +7153,25 @@ am4internal_webpackJsonp(
             var t,
               i = this.realWidth,
               n = this.realHeight,
-              r = this.realX - this.pixelX,
-              a = this.realY - this.pixelY;
+              a = this.realX - this.pixelX,
+              r = this.realY - this.pixelY;
             C.used(this.width);
             var o = 1,
               s = 1;
             'vertical' == this.orientation
               ? ((o = this.tension),
                 (t = [
-                  { x: 0, y: n + a },
-                  { x: i / 2, y: a },
-                  { x: i, y: n + a }
+                  { x: 0, y: n + r },
+                  { x: i / 2, y: r },
+                  { x: i, y: n + r }
                 ]))
               : ((s = this.tension),
                 (t = [
-                  { x: r, y: 0 },
-                  { x: r + i, y: n / 2 },
-                  { x: r, y: n }
+                  { x: a, y: (n = Math.abs(n)) },
+                  { x: a + i, y: n / 2 },
+                  { x: a, y: 0 }
                 ]));
-            var l = h.moveTo(t[0]) + new be.b(o, s).smooth(t);
+            var l = h.moveTo(t[0]) + new be.d(o, s).smooth(t);
             this.column.path = l;
           }),
           (t.prototype.copyFrom = function(t) {
@@ -7129,7 +7209,7 @@ am4internal_webpackJsonp(
               (t.className = 'CurvedColumnSeriesDataItem'), t.applyTheme(), t
             );
           }
-          return Object(r.c)(t, e), t;
+          return Object(a.c)(t, e), t;
         })(Se.b),
         _t = (function(e) {
           function t() {
@@ -7137,7 +7217,7 @@ am4internal_webpackJsonp(
             return (t.className = 'CurvedColumnSeries'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.createColumnTemplate = function() {
               return new Ot();
             }),
@@ -7155,8 +7235,8 @@ am4internal_webpackJsonp(
         })(Se.a);
       (l.c.registeredClasses.CurvedColumnSeries = _t),
         (l.c.registeredClasses.CurvedColumnSeriesDataItem = Vt);
-      var Lt = i('AAkI'),
-        kt = i('eN1s'),
+      var kt = i('AAkI'),
+        Lt = i('eN1s'),
         St = i('TDx+'),
         Rt = i('eAid'),
         jt = i('Uslz'),
@@ -7164,12 +7244,12 @@ am4internal_webpackJsonp(
         Nt = i('KknQ'),
         Ft = i('ncgu'),
         Yt = i('9ZsQ'),
-        Xt = i('ZoDA'),
-        Wt = (function(e) {
+        Wt = i('ZoDA'),
+        Xt = (function(e) {
           function t() {
             var t = e.call(this) || this;
             t.className = 'CircleBullet';
-            var i = t.createChild(y.a);
+            var i = t.createChild(g.a);
             return (
               (i.shouldClone = !1),
               (i.radius = 5),
@@ -7180,7 +7260,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.copyFrom = function(t) {
               e.prototype.copyFrom.call(this, t),
                 this.circle.copyFrom(t.circle);
@@ -7188,7 +7268,7 @@ am4internal_webpackJsonp(
             t
           );
         })(se.a);
-      l.c.registeredClasses.CircleBullet = Wt;
+      l.c.registeredClasses.CircleBullet = Xt;
       var Mt = (function(e) {
         function t() {
           var t = e.call(this) || this;
@@ -7204,7 +7284,7 @@ am4internal_webpackJsonp(
           );
         }
         return (
-          Object(r.c)(t, e),
+          Object(a.c)(t, e),
           (t.prototype.validatePosition = function() {
             e.prototype.validatePosition.call(this);
             var t = this.pixelWidth / 2,
@@ -7236,7 +7316,7 @@ am4internal_webpackJsonp(
             return (t.className = 'NavigationBarDataItem'), t.applyTheme(), t;
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             Object.defineProperty(t.prototype, 'name', {
               get: function() {
                 return this.properties.name;
@@ -7263,28 +7343,28 @@ am4internal_webpackJsonp(
               (t.links = new R.e(n)),
               t._disposers.push(new R.c(t.links)),
               t._disposers.push(n),
-              (t._linksIterator = new L.ListIterator(t.links, function() {
+              (t._linksIterator = new k.ListIterator(t.links, function() {
                 return t.links.create();
               })),
               (t._linksIterator.createNewItems = !0);
-            var r = new Gt.a();
-            (r.direction = 'right'),
-              (r.width = 8),
-              (r.height = 12),
-              (r.fill = i.getFor('alternativeBackground')),
-              (r.fillOpacity = 0.5),
-              (r.valign = 'middle'),
-              (r.marginLeft = 10),
-              (r.marginRight = 10),
-              (t.separators = new R.e(r)),
-              t._disposers.push(new R.c(t.separators)),
-              t._disposers.push(r);
-            var a = new Et.a();
-            return (
-              (t.activeLink = a),
-              a.copyFrom(n),
+            var a = new Gt.a();
+            (a.direction = 'right'),
+              (a.width = 8),
+              (a.height = 12),
+              (a.fill = i.getFor('alternativeBackground')),
+              (a.fillOpacity = 0.5),
               (a.valign = 'middle'),
-              (a.fontWeight = 'bold'),
+              (a.marginLeft = 10),
+              (a.marginRight = 10),
+              (t.separators = new R.e(a)),
+              t._disposers.push(new R.c(t.separators)),
+              t._disposers.push(a);
+            var r = new Et.a();
+            return (
+              (t.activeLink = r),
+              r.copyFrom(n),
+              (r.valign = 'middle'),
+              (r.fontWeight = 'bold'),
               (t.width = Object(o.c)(100)),
               (t.layout = 'grid'),
               (t.dataFields.name = 'name'),
@@ -7293,7 +7373,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.validateDataElements = function() {
               this.removeChildren(),
                 this._linksIterator.reset(),
@@ -7337,7 +7417,7 @@ am4internal_webpackJsonp(
             );
           }
           return (
-            Object(r.c)(t, e),
+            Object(a.c)(t, e),
             (t.prototype.fitsToBounds = function(e) {
               var t = u.getDistance(e);
               return (
@@ -7382,9 +7462,9 @@ am4internal_webpackJsonp(
               var t = this.pixelRadius,
                 i = this.startAngle,
                 n = this.endAngle,
-                r = this.pixelInnerRadius;
-              if (t > 0 && m.isNumber(i) && m.isNumber(n) && m.isNumber(r)) {
-                var a = u.fitAngleToRange(u.getAngle(e), i, n),
+                a = this.pixelInnerRadius;
+              if (t > 0 && m.isNumber(i) && m.isNumber(n) && m.isNumber(a)) {
+                var r = u.fitAngleToRange(u.getAngle(e), i, n),
                   o = void 0;
                 if (this.lineX && this.lineX.visible) {
                   if (
@@ -7397,22 +7477,22 @@ am4internal_webpackJsonp(
                       var c = u.fitAngleToRange(u.getAngle(s), i, n),
                         p = u.fitAngleToRange(u.getAngle(l), i, n) - c;
                       i < n ? p < 0 && (p += 360) : p > 0 && (p -= 360),
-                        (a -= p / 2),
+                        (r -= p / 2),
                         (o =
-                          h.moveTo({ x: r * u.cos(a), y: r * u.sin(a) }) +
-                          h.lineTo({ x: t * u.cos(a), y: t * u.sin(a) }) +
-                          h.arcTo(a, p, t) +
+                          h.moveTo({ x: a * u.cos(r), y: a * u.sin(r) }) +
+                          h.lineTo({ x: t * u.cos(r), y: t * u.sin(r) }) +
+                          h.arcTo(r, p, t) +
                           h.lineTo({
-                            x: r * u.cos(a + p),
-                            y: r * u.sin(a + p)
+                            x: a * u.cos(r + p),
+                            y: a * u.sin(r + p)
                           }) +
-                          h.arcTo(a + p, -p, r));
+                          h.arcTo(r + p, -p, a));
                     }
                   }
                   o ||
                     (o =
-                      h.moveTo({ x: r * u.cos(a), y: r * u.sin(a) }) +
-                      h.lineTo({ x: t * u.cos(a), y: t * u.sin(a) })),
+                      h.moveTo({ x: a * u.cos(r), y: a * u.sin(r) }) +
+                      h.lineTo({ x: t * u.cos(r), y: t * u.sin(r) })),
                     (this.lineX.path = o);
                 }
               }
@@ -7422,30 +7502,30 @@ am4internal_webpackJsonp(
                 var t = this.startAngle,
                   i = this.endAngle,
                   n = this.truePixelRadius,
-                  r = u.fitToRange(u.getDistance(e), 0, this.truePixelRadius);
-                if (m.isNumber(r) && m.isNumber(t)) {
+                  a = u.fitToRange(u.getDistance(e), 0, this.truePixelRadius);
+                if (m.isNumber(a) && m.isNumber(t)) {
                   this.lineY.moveTo({ x: 0, y: 0 });
-                  var a = void 0,
+                  var r = void 0,
                     o = i - t;
                   if (this.yAxis && this.fullWidthLineY) {
                     var s = this.yAxis.currentItemStartPoint,
                       l = this.yAxis.currentItemEndPoint;
                     if (s && l) {
                       var c = u.fitToRange(u.getDistance(s), 0, n);
-                      (r = u.fitToRange(u.getDistance(l), 0, n)),
-                        (a =
-                          h.moveTo({ x: r * u.cos(t), y: r * u.sin(t) }) +
-                          h.arcTo(t, o, r)),
-                        (a +=
+                      (a = u.fitToRange(u.getDistance(l), 0, n)),
+                        (r =
+                          h.moveTo({ x: a * u.cos(t), y: a * u.sin(t) }) +
+                          h.arcTo(t, o, a)),
+                        (r +=
                           h.moveTo({ x: c * u.cos(i), y: c * u.sin(i) }) +
                           h.arcTo(i, -o, c));
                     }
                   }
-                  a ||
-                    (a =
-                      h.moveTo({ x: r * u.cos(t), y: r * u.sin(t) }) +
-                      h.arcTo(t, i - t, r)),
-                    (this.lineY.path = a);
+                  r ||
+                    (r =
+                      h.moveTo({ x: a * u.cos(t), y: a * u.sin(t) }) +
+                      h.arcTo(t, i - t, a)),
+                    (this.lineY.path = r);
                 }
               }
             }),
@@ -7456,33 +7536,33 @@ am4internal_webpackJsonp(
                   var t = this.point,
                     i = this.pixelRadius,
                     n = this.truePixelRadius,
-                    r = this.pixelInnerRadius,
-                    a = Math.min(this.startAngle, this.endAngle),
+                    a = this.pixelInnerRadius,
+                    r = Math.min(this.startAngle, this.endAngle),
                     o = Math.max(this.startAngle, this.endAngle),
-                    s = u.fitAngleToRange(u.getAngle(e), a, o),
-                    l = u.fitAngleToRange(u.getAngle(t), a, o),
+                    s = u.fitAngleToRange(u.getAngle(e), r, o),
+                    l = u.fitAngleToRange(u.getAngle(t), r, o),
                     c = u.getDistance(e);
                   if (c < n) {
                     var p = u.fitToRange(u.getDistance(t), 0, n);
                     this._prevAngle = l;
                     var d = h.moveTo({ x: 0, y: 0 }),
-                      y = u.sin(s),
-                      g = u.cos(s),
+                      g = u.sin(s),
+                      y = u.cos(s),
                       f = u.sin(l),
                       m = u.cos(l),
                       v = this.behavior;
                     'zoomX' == v || 'selectX' == v
                       ? (d +=
-                          h.lineTo({ x: i * g, y: i * y }) +
+                          h.lineTo({ x: i * y, y: i * g }) +
                           h.arcTo(s, l - s, i) +
-                          h.lineTo({ x: r * m, y: r * f }) +
-                          h.arcTo(l, s - l, r))
+                          h.lineTo({ x: a * m, y: a * f }) +
+                          h.arcTo(l, s - l, a))
                       : 'zoomY' == v || 'selectY' == v
                       ? (d =
-                          h.moveTo({ x: p * u.cos(a), y: p * u.sin(a) }) +
-                          h.arcTo(a, o - a, p) +
+                          h.moveTo({ x: p * u.cos(r), y: p * u.sin(r) }) +
+                          h.arcTo(r, o - r, p) +
                           h.lineTo({ x: c * u.cos(o), y: c * u.sin(o) }) +
-                          h.arcTo(o, a - o, c) +
+                          h.arcTo(o, r - o, c) +
                           h.closePath())
                       : 'zoomXY' == v &&
                         (d =
@@ -7503,10 +7583,10 @@ am4internal_webpackJsonp(
                   t = this.truePixelRadius - e,
                   i = this.startAngle,
                   n = this.endAngle,
-                  r =
+                  a =
                     (u.fitAngleToRange(u.getAngle(this.point), i, n) - i) /
                     (n - i);
-                (this.xPosition = r),
+                (this.xPosition = a),
                   (this.yPosition = u.fitToRange(
                     (u.getDistance(this.point) - e) / t,
                     0,
@@ -7539,8 +7619,8 @@ am4internal_webpackJsonp(
                 if (this.chart) {
                   var i = this.pixelRadius,
                     n = this.startAngle,
-                    r = this.endAngle,
-                    a = u.fitAngleToRange(
+                    a = this.endAngle,
+                    r = u.fitAngleToRange(
                       u.getAngle(e),
                       this.startAngle,
                       this.endAngle
@@ -7556,21 +7636,21 @@ am4internal_webpackJsonp(
                     c = 1,
                     p = 0,
                     d = 1,
-                    y = this.behavior;
+                    g = this.behavior;
                   if (
-                    'zoomX' == y ||
-                    'selectX' == y ||
-                    'zoomXY' == y ||
-                    'selectXY' == y
+                    'zoomX' == g ||
+                    'selectX' == g ||
+                    'zoomXY' == g ||
+                    'selectXY' == g
                   ) {
-                    var g = r - n;
-                    (h = u.round((a - n) / g, 5)),
-                      (c = u.round((o - n) / g, 5));
+                    var y = a - n;
+                    (h = u.round((r - n) / y, 5)),
+                      (c = u.round((o - n) / y, 5));
                   }
-                  ('zoomY' != y &&
-                    'selectY' != y &&
-                    'zoomXY' != y &&
-                    'selectXY' != y) ||
+                  ('zoomY' != g &&
+                    'selectY' != g &&
+                    'zoomXY' != g &&
+                    'selectXY' != g) ||
                     ((p = u.round(s / i, 5)), (d = u.round(l / i, 5))),
                     (this.xRange = {
                       start: Math.min(h, c),
