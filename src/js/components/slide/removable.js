@@ -180,7 +180,6 @@ class Removables {
     _.each(this.removables, removable => {
       removable.hidden = !removableState[removable.key] || false;
     });
-    console.log({ removableState });
     this.onUpdate();
   };
 
