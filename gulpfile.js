@@ -16,6 +16,7 @@ deck_gulp(gulp, {
   autoprefixerOptions: { grid: true },
   logInjections: false,
   nunjucks: true,
+  impostor: true,
   notifications: {
     error: true,
     success: true,

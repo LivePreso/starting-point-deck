@@ -160,6 +160,9 @@ class Removables {
       this.state.update({
         removables: initialState
       });
+    } else {
+      // restore saved state
+      this.updateRemovables(state);
     }
 
     this.restoreButton.addEventListener('click', () => {
